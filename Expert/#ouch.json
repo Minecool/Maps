@@ -1,0 +1,992 @@
+{
+  "areas": [
+    {
+      "id": 1,
+      "polygon": {
+        "points": [
+          {
+            "x": -150.0,
+            "y": 116.0,
+            "Rotation": -52.2840233
+          },
+          {
+            "x": 150.0,
+            "y": 116.0,
+            "Rotation": 52.2840233
+          },
+          {
+            "x": 150.0,
+            "y": -116.0,
+            "Rotation": 127.715973
+          },
+          {
+            "x": -150.0,
+            "y": -116.0,
+            "Rotation": -127.715973
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 2,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "name": "AreaModel_BaseArea",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 2,
+      "polygon": {
+        "points": [
+          {
+            "x": 193.599991,
+            "y": -40.8,
+            "Rotation": 101.900589
+          },
+          {
+            "x": 193.599991,
+            "y": -32.9,
+            "Rotation": 99.64459
+          },
+          {
+            "x": -194.000015,
+            "y": -32.4,
+            "Rotation": -99.48148
+          },
+          {
+            "x": -194.8,
+            "y": -41.0,
+            "Rotation": -101.8857
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 0,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_PathEdge",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 3,
+      "polygon": {
+        "points": [
+          {
+            "x": -193.800018,
+            "y": 41.7,
+            "Rotation": -77.8568
+          },
+          {
+            "x": -194.200012,
+            "y": 34.0,
+            "Rotation": -80.06946
+          },
+          {
+            "x": 190.899963,
+            "y": 34.2,
+            "Rotation": 79.84313
+          },
+          {
+            "x": 190.899963,
+            "y": 42.3,
+            "Rotation": 77.50615
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 0,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_PathEdge (1)",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 4,
+      "polygon": {
+        "points": [
+          {
+            "x": -36.1000023,
+            "y": 150.6,
+            "Rotation": -13.4799042
+          },
+          {
+            "x": -47.4,
+            "y": 150.6,
+            "Rotation": -17.4709282
+          },
+          {
+            "x": -45.2999954,
+            "y": -153.1,
+            "Rotation": -163.517319
+          },
+          {
+            "x": -36.1,
+            "y": -153.0,
+            "Rotation": -166.724
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 0,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_PathEdge (2)",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 5,
+      "polygon": {
+        "points": [
+          {
+            "x": 50.5,
+            "y": 147.0,
+            "Rotation": 18.9595146
+          },
+          {
+            "x": 39.1000061,
+            "y": 147.0,
+            "Rotation": 14.8950243
+          },
+          {
+            "x": 40.1,
+            "y": -151.8,
+            "Rotation": 165.202576
+          },
+          {
+            "x": 49.5,
+            "y": -151.600021,
+            "Rotation": 161.917252
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 0,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_PathEdge (3)",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 6,
+      "polygon": {
+        "points": [
+          {
+            "x": -24.6,
+            "y": -20.81,
+            "Rotation": -130.22905
+          },
+          {
+            "x": -5.69999838,
+            "y": -24.49,
+            "Rotation": -166.8978
+          },
+          {
+            "x": 1.9,
+            "y": -21.04,
+            "Rotation": 174.839951
+          },
+          {
+            "x": 25.0,
+            "y": -20.01,
+            "Rotation": 128.673782
+          },
+          {
+            "x": 30.5999985,
+            "y": -11.57,
+            "Rotation": 110.711838
+          },
+          {
+            "x": 30.5999985,
+            "y": -5.20000458,
+            "Rotation": 99.64442
+          },
+          {
+            "x": 34.5,
+            "y": 3.79999638,
+            "Rotation": 83.7145
+          },
+          {
+            "x": 31.9000015,
+            "y": 14.0,
+            "Rotation": 66.3047
+          },
+          {
+            "x": 31.4000015,
+            "y": 21.0,
+            "Rotation": 56.2258
+          },
+          {
+            "x": 20.7,
+            "y": 21.0,
+            "Rotation": 44.58781
+          },
+          {
+            "x": 7.70000124,
+            "y": 24.0999985,
+            "Rotation": 17.7187939
+          },
+          {
+            "x": -3.29999876,
+            "y": 22.8999977,
+            "Rotation": -8.200144
+          },
+          {
+            "x": -12.6999989,
+            "y": 23.3999977,
+            "Rotation": -28.4902363
+          },
+          {
+            "x": -27.3000011,
+            "y": 18.3999977,
+            "Rotation": -56.0203247
+          },
+          {
+            "x": -29.0,
+            "y": 5.89999676,
+            "Rotation": -78.50023
+          },
+          {
+            "x": -29.9,
+            "y": -1.70000374,
+            "Rotation": -93.25413
+          },
+          {
+            "x": -23.9,
+            "y": -7.90000153,
+            "Rotation": -108.291
+          },
+          {
+            "x": -28.3000011,
+            "y": -11.6000023,
+            "Rotation": -112.288437
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 1,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_Water",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "blockers": [],
+  "coopAreaLayouts": [
+    {
+      "areaModels": [
+        {
+          "areaIndex": 0,
+          "marker": {
+            "x": 0.0,
+            "y": 0.0,
+            "Rotation": 180.0
+          },
+          "polygon": {
+            "points": [
+              {
+                "x": -176.0,
+                "y": -135.0,
+                "Rotation": -127.489853
+              },
+              {
+                "x": -176.0,
+                "y": 135.0,
+                "Rotation": -52.5101547
+              },
+              {
+                "x": 176.0,
+                "y": 135.0,
+                "Rotation": 52.5101547
+              },
+              {
+                "x": 176.0,
+                "y": -135.0,
+                "Rotation": 127.489853
+              },
+              {
+                "x": -176.0,
+                "y": -135.0,
+                "Rotation": -127.489853
+              }
+            ]
+          },
+          "name": "CoopAreaModel_"
+        }
+      ],
+      "areaLayoutType": 2,
+      "name": "CoopAreaLayoutModel_"
+    },
+    {
+      "areaModels": [
+        {
+          "areaIndex": 0,
+          "marker": {
+            "x": 0.0,
+            "y": 0.0,
+            "Rotation": 180.0
+          },
+          "polygon": {
+            "points": [
+              {
+                "x": -176.0,
+                "y": -135.0,
+                "Rotation": -127.489853
+              },
+              {
+                "x": -176.0,
+                "y": 135.0,
+                "Rotation": -52.5101547
+              },
+              {
+                "x": 176.0,
+                "y": 135.0,
+                "Rotation": 52.5101547
+              },
+              {
+                "x": 176.0,
+                "y": -135.0,
+                "Rotation": 127.489853
+              },
+              {
+                "x": -176.0,
+                "y": -135.0,
+                "Rotation": -127.489853
+              }
+            ]
+          },
+          "name": "CoopAreaModel_"
+        }
+      ],
+      "areaLayoutType": 2,
+      "name": "CoopAreaLayoutModel_"
+    }
+  ],
+  "removeables": [
+    {
+      "isActive": true,
+      "defaultType": 2,
+      "objecName": "RemovablePuddle",
+      "menuName": "Puddle",
+      "textKey": "Removable Cost",
+      "menuDescription": "Move that Puddle!",
+      "removealCost": 1000,
+      "position": {
+        "x": 1.64444554,
+        "y": 1.67666507,
+        "z": 0.0,
+        "MagnitudeSquared": 5.515407,
+        "Magnitude": 2.34849048,
+        "Rotation": 44.4441681,
+        "SimToDispRotation": 135.555832
+      },
+      "denySellIfStackedTowers": true,
+      "destroyArea": true,
+      "modPathId": "",
+      "ids": [
+        6
+      ],
+      "name": "RemoveableModel_RemovablePuddle",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Removeable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "regenRemovables": [],
+  "paths": [
+    {
+      "pathId": "Path1",
+      "points": [
+        {
+          "point": {
+            "x": -41.5,
+            "y": -243.2,
+            "z": 0.0,
+            "MagnitudeSquared": 60868.49,
+            "Magnitude": 246.7154,
+            "Rotation": -170.316254,
+            "SimToDispRotation": -9.683762
+          },
+          "rotation": 0.0,
+          "distance": 0.0,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": -41.5,
+            "y": 257.2,
+            "z": 0.0,
+            "MagnitudeSquared": 67874.09,
+            "Magnitude": 260.526581,
+            "Rotation": -9.165849,
+            "SimToDispRotation": -170.834152
+          },
+          "rotation": 0.0,
+          "distance": 500.400024,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        }
+      ],
+      "isActive": true,
+      "isHidden": false,
+      "spawnPoint": {
+        "x": -1000.0,
+        "y": -1000.0,
+        "z": -1000.0,
+        "MagnitudeSquared": 3000000.0,
+        "Magnitude": 1732.05078,
+        "Rotation": -135.0,
+        "SimToDispRotation": -45.0
+      },
+      "leakPoint": {
+        "x": -1000.0,
+        "y": -1000.0,
+        "z": -1000.0,
+        "MagnitudeSquared": 3000000.0,
+        "Magnitude": 1732.05078,
+        "Rotation": -135.0,
+        "SimToDispRotation": -45.0
+      },
+      "name": "PathModel_Path1"
+    },
+    {
+      "pathId": "Path2",
+      "points": [
+        {
+          "point": {
+            "x": 45.8,
+            "y": -245.4,
+            "z": 0.0,
+            "MagnitudeSquared": 62318.7969,
+            "Magnitude": 249.637329,
+            "Rotation": 169.428284,
+            "SimToDispRotation": 10.5717182
+          },
+          "rotation": 0.0,
+          "distance": 0.0,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 45.8,
+            "y": 257.1,
+            "z": 0.0,
+            "MagnitudeSquared": 68198.0547,
+            "Magnitude": 261.147583,
+            "Rotation": 10.1007586,
+            "SimToDispRotation": 169.899231
+          },
+          "rotation": 0.0,
+          "distance": 502.5,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        }
+      ],
+      "isActive": true,
+      "isHidden": false,
+      "spawnPoint": {
+        "x": -1000.0,
+        "y": -1000.0,
+        "z": -1000.0,
+        "MagnitudeSquared": 3000000.0,
+        "Magnitude": 1732.05078,
+        "Rotation": -135.0,
+        "SimToDispRotation": -45.0
+      },
+      "leakPoint": {
+        "x": -1000.0,
+        "y": -1000.0,
+        "z": -1000.0,
+        "MagnitudeSquared": 3000000.0,
+        "Magnitude": 1732.05078,
+        "Rotation": -135.0,
+        "SimToDispRotation": -45.0
+      },
+      "name": "PathModel_Path2"
+    },
+    {
+      "pathId": "Path3",
+      "points": [
+        {
+          "point": {
+            "x": -295.399963,
+            "y": -37.0,
+            "z": 0.0,
+            "MagnitudeSquared": 88630.14,
+            "Magnitude": 297.70816,
+            "Rotation": -97.13934,
+            "SimToDispRotation": -82.86066
+          },
+          "rotation": 0.0,
+          "distance": 0.0,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 281.0,
+            "y": -36.7,
+            "z": 0.0,
+            "MagnitudeSquared": 80307.89,
+            "Magnitude": 283.386475,
+            "Rotation": 97.4409943,
+            "SimToDispRotation": 82.5590057
+          },
+          "rotation": 0.0,
+          "distance": 576.4,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        }
+      ],
+      "isActive": true,
+      "isHidden": false,
+      "spawnPoint": {
+        "x": -1000.0,
+        "y": -1000.0,
+        "z": -1000.0,
+        "MagnitudeSquared": 3000000.0,
+        "Magnitude": 1732.05078,
+        "Rotation": -135.0,
+        "SimToDispRotation": -45.0
+      },
+      "leakPoint": {
+        "x": -1000.0,
+        "y": -1000.0,
+        "z": -1000.0,
+        "MagnitudeSquared": 3000000.0,
+        "Magnitude": 1732.05078,
+        "Rotation": -135.0,
+        "SimToDispRotation": -45.0
+      },
+      "name": "PathModel_Path3"
+    },
+    {
+      "pathId": "Path4",
+      "points": [
+        {
+          "point": {
+            "x": -297.3,
+            "y": 37.9,
+            "z": 0.0,
+            "MagnitudeSquared": 89823.69,
+            "Magnitude": 299.706,
+            "Rotation": -82.73508,
+            "SimToDispRotation": -97.26492
+          },
+          "rotation": 0.0,
+          "distance": 0.0,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 282.7,
+            "y": 37.9,
+            "z": 0.0,
+            "MagnitudeSquared": 81355.7,
+            "Magnitude": 285.229218,
+            "Rotation": 82.3642044,
+            "SimToDispRotation": 97.6357956
+          },
+          "rotation": 0.0,
+          "distance": 580.0,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        }
+      ],
+      "isActive": true,
+      "isHidden": false,
+      "spawnPoint": {
+        "x": -1000.0,
+        "y": -1000.0,
+        "z": -1000.0,
+        "MagnitudeSquared": 3000000.0,
+        "Magnitude": 1732.05078,
+        "Rotation": -135.0,
+        "SimToDispRotation": -45.0
+      },
+      "leakPoint": {
+        "x": -1000.0,
+        "y": -1000.0,
+        "z": -1000.0,
+        "MagnitudeSquared": 3000000.0,
+        "Magnitude": 1732.05078,
+        "Rotation": -135.0,
+        "SimToDispRotation": -45.0
+      },
+      "name": "PathModel_Path4"
+    }
+  ],
+  "spawner": {
+    "forwardSplitter": {
+      "paths": [
+        "Path1",
+        "Path2",
+        "Path3",
+        "Path4"
+      ],
+      "name": "AlternateBloonsSplitterModel_forwardDefault"
+    },
+    "reverseSplitter": {
+      "paths": [
+        "Path1",
+        "Path2",
+        "Path3",
+        "Path4"
+      ],
+      "name": "AlternateBloonsSplitterModel_reverseDefault"
+    },
+    "name": "PathSpawnerModel_spawnerDefault"
+  },
+  "mapDifficulty": 3,
+  "mapName": "#ouch",
+  "mapEvents": [
+    {
+      "saveId": "RemovablePuddle",
+      "oneTimeEvent": true,
+      "allTriggersRequired": false,
+      "inactiveByDefault": false,
+      "triggers": [
+        {
+          "removableName": "RemoveableModel_RemovablePuddle",
+          "saveId": "RemoveableSoldTriggerModel1",
+          "name": "RemoveableSoldTriggerModel_RemovablePuddleTrigger",
+          "ImplementationType": "Assets.Scripts.Simulation.Map.Triggers.RemoveableSoldTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "unityActions": [
+        {
+          "delay": 0.0,
+          "obj": {
+            "transform": [
+              [],
+              []
+            ],
+            "layer": 8,
+            "active": true,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -1065016,
+              "name": "#ouch",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -1065016
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "OuchPuddle",
+            "hideFlags": 0
+          },
+          "useGUILayout": true,
+          "enabled": true,
+          "isActiveAndEnabled": true,
+          "transform": [
+            [
+              [],
+              []
+            ]
+          ],
+          "gameObject": {
+            "transform": [
+              [
+                [],
+                []
+              ]
+            ],
+            "layer": 0,
+            "active": true,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -1065016,
+              "name": "#ouch",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -1065016
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "RemovablePuddle",
+            "hideFlags": 0
+          },
+          "tag": "Untagged",
+          "name": "RemovablePuddle",
+          "hideFlags": 0
+        },
+        {
+          "playInteractableAudio": {
+            "audioClips": [
+              {
+                "length": 2.5,
+                "samples": 110250,
+                "channels": 2,
+                "frequency": 44100,
+                "isReadyToPlay": true,
+                "loadType": 1,
+                "preloadAudioData": true,
+                "ambisonic": false,
+                "loadInBackground": false,
+                "loadState": 2,
+                "name": "RemovableWater",
+                "hideFlags": 0
+              }
+            ],
+            "audioDelays": [
+              0.0
+            ],
+            "groupLimit": 1,
+            "playOnStart": false,
+            "ignoreFastForward": false,
+            "useGUILayout": true,
+            "enabled": true,
+            "isActiveAndEnabled": true,
+            "transform": [
+              [
+                [],
+                []
+              ]
+            ],
+            "gameObject": {
+              "transform": [
+                [
+                  [],
+                  []
+                ]
+              ],
+              "layer": 0,
+              "active": true,
+              "activeSelf": true,
+              "activeInHierarchy": true,
+              "isStatic": false,
+              "tag": "Untagged",
+              "scene": {
+                "handle": -1065016,
+                "name": "#ouch",
+                "isLoaded": true,
+                "rootCount": 1,
+                "m_Handle": -1065016
+              },
+              "sceneCullingMask": 16140901064495857664,
+              "name": "RemovablePuddle",
+              "hideFlags": 0
+            },
+            "tag": "Untagged",
+            "name": "RemovablePuddle",
+            "hideFlags": 0
+          },
+          "useGUILayout": true,
+          "enabled": true,
+          "isActiveAndEnabled": true,
+          "transform": [
+            [
+              [],
+              []
+            ]
+          ],
+          "gameObject": {
+            "transform": [
+              [
+                [],
+                []
+              ]
+            ],
+            "layer": 0,
+            "active": true,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -1065016,
+              "name": "#ouch",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -1065016
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "RemovablePuddle",
+            "hideFlags": 0
+          },
+          "tag": "Untagged",
+          "name": "RemovablePuddle",
+          "hideFlags": 0
+        },
+        {
+          "triggerId": "",
+          "animationPrefab": {
+            "transform": [
+              [
+                []
+              ]
+            ],
+            "layer": 8,
+            "active": false,
+            "activeSelf": false,
+            "activeInHierarchy": false,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -1065016,
+              "name": "#ouch",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -1065016
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "OuchPuddleAnimation",
+            "hideFlags": 0
+          },
+          "useGameObjectPosition": false,
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "clipLength": 1.0,
+          "useGUILayout": true,
+          "enabled": true,
+          "isActiveAndEnabled": true,
+          "transform": [
+            [
+              [],
+              []
+            ]
+          ],
+          "gameObject": {
+            "transform": [
+              [
+                [],
+                []
+              ]
+            ],
+            "layer": 0,
+            "active": true,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -1065016,
+              "name": "#ouch",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -1065016
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "RemovablePuddle",
+            "hideFlags": 0
+          },
+          "tag": "Untagged",
+          "name": "RemovablePuddle",
+          "hideFlags": 0
+        }
+      ],
+      "name": "MapEventModel_RemovablePuddle",
+      "ImplementationType": "Assets.Scripts.Simulation.Map.Triggers.MapEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "mapWideBloonSpeed": 1.0,
+  "name": "MapModel_Map",
+  "ImplementationType": "Assets.Scripts.Simulation.Track.Map, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+}

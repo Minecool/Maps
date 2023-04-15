@@ -1,0 +1,4216 @@
+{
+  "areas": [
+    {
+      "id": 1,
+      "polygon": {
+        "points": [
+          {
+            "x": -150.0,
+            "y": 116.0,
+            "Rotation": -52.2840233
+          },
+          {
+            "x": 150.0,
+            "y": 116.0,
+            "Rotation": 52.2840233
+          },
+          {
+            "x": 150.0,
+            "y": -116.0,
+            "Rotation": 127.715973
+          },
+          {
+            "x": -150.0,
+            "y": -116.0,
+            "Rotation": -127.715973
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 2,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "name": "AreaModel_BaseArea",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 2,
+      "polygon": {
+        "points": [
+          {
+            "x": -84.7999954,
+            "y": 16.0999985,
+            "Rotation": -79.24986
+          },
+          {
+            "x": -120.1,
+            "y": 13.1,
+            "Rotation": -83.77503
+          },
+          {
+            "x": -127.0,
+            "y": 6.4,
+            "Rotation": -87.1151
+          },
+          {
+            "x": -125.8,
+            "y": -2.1,
+            "Rotation": -90.95636
+          },
+          {
+            "x": -126.7,
+            "y": -23.0,
+            "Rotation": -100.288933
+          },
+          {
+            "x": -121.4,
+            "y": -29.2,
+            "Rotation": -103.524292
+          },
+          {
+            "x": -85.1,
+            "y": -26.0,
+            "Rotation": -106.989113
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_LogUnplacableL",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 3,
+      "polygon": {
+        "points": [
+          {
+            "x": 120.6,
+            "y": -28.6000023,
+            "Rotation": 103.3411
+          },
+          {
+            "x": 80.2999954,
+            "y": -29.5000019,
+            "Rotation": 110.171944
+          },
+          {
+            "x": 80.7999954,
+            "y": -70.7,
+            "Rotation": 131.185928
+          },
+          {
+            "x": 121.299995,
+            "y": -70.7,
+            "Rotation": 120.235878
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_LogUnplacableTR",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 4,
+      "polygon": {
+        "points": [
+          {
+            "x": 119.8,
+            "y": 50.2,
+            "Rotation": 67.26477
+          },
+          {
+            "x": 80.7000046,
+            "y": 50.8000031,
+            "Rotation": 57.8099174
+          },
+          {
+            "x": 80.7000046,
+            "y": 22.8,
+            "Rotation": 74.22353
+          },
+          {
+            "x": 120.0,
+            "y": 22.0,
+            "Rotation": 79.611145
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_LogUnplacableBR",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 5,
+      "polygon": {
+        "points": [
+          {
+            "x": -84.8137,
+            "y": -62.19561,
+            "Rotation": -126.253357
+          },
+          {
+            "x": -189.940857,
+            "y": -61.908638,
+            "Rotation": -108.052681
+          },
+          {
+            "x": -190.437927,
+            "y": -75.97041,
+            "Rotation": -111.748283
+          },
+          {
+            "x": -82.10415,
+            "y": -75.52647,
+            "Rotation": -132.610535
+          },
+          {
+            "x": -75.61817,
+            "y": -68.79604,
+            "Rotation": -132.295349
+          },
+          {
+            "x": -74.3755341,
+            "y": -32.3502274,
+            "Rotation": -113.507011
+          },
+          {
+            "x": -30.634676,
+            "y": -32.6371956,
+            "Rotation": -136.812775
+          },
+          {
+            "x": -31.0602283,
+            "y": -37.8967552,
+            "Rotation": -140.661911
+          },
+          {
+            "x": -31.5796757,
+            "y": -71.85933,
+            "Rotation": -156.276184
+          },
+          {
+            "x": -27.9008732,
+            "y": -78.84017,
+            "Rotation": -160.511566
+          },
+          {
+            "x": 19.0708427,
+            "y": -79.98807,
+            "Rotation": 166.589828
+          },
+          {
+            "x": 26.52667,
+            "y": -71.09184,
+            "Rotation": 159.537827
+          },
+          {
+            "x": 26.0296154,
+            "y": -33.2111473,
+            "Rotation": 141.912018
+          },
+          {
+            "x": 33.4854431,
+            "y": -32.6371956,
+            "Rotation": 134.26503
+          },
+          {
+            "x": 70.019,
+            "y": -33.2111473,
+            "Rotation": 115.375748
+          },
+          {
+            "x": 70.019,
+            "y": -40.95947,
+            "Rotation": 120.326637
+          },
+          {
+            "x": 69.52194,
+            "y": -67.64814,
+            "Rotation": 134.217377
+          },
+          {
+            "x": 79.71158,
+            "y": -77.4053,
+            "Rotation": 134.159027
+          },
+          {
+            "x": 116.990715,
+            "y": -77.692276,
+            "Rotation": 123.587715
+          },
+          {
+            "x": 117.48777,
+            "y": -69.94394,
+            "Rotation": 120.766586
+          },
+          {
+            "x": 116.742188,
+            "y": -23.7409668,
+            "Rotation": 101.495056
+          },
+          {
+            "x": 106.552979,
+            "y": -23.5237122,
+            "Rotation": 102.4495
+          },
+          {
+            "x": 81.45127,
+            "y": -22.593071,
+            "Rotation": 105.503029
+          },
+          {
+            "x": 81.6998,
+            "y": 14.4267044,
+            "Rotation": 79.98584
+          },
+          {
+            "x": 108.540779,
+            "y": 15.5746,
+            "Rotation": 81.83432
+          },
+          {
+            "x": 115.002495,
+            "y": 23.6099014,
+            "Rotation": 78.39844
+          },
+          {
+            "x": 115.251022,
+            "y": 51.1594925,
+            "Rotation": 66.06375
+          },
+          {
+            "x": 109.164886,
+            "y": 57.83005,
+            "Rotation": 62.087616
+          },
+          {
+            "x": 81.48998,
+            "y": 57.6327972,
+            "Rotation": 54.7306061
+          },
+          {
+            "x": 81.6998,
+            "y": 80.1439743,
+            "Rotation": 45.5507736
+          },
+          {
+            "x": 74.9895554,
+            "y": 84.7355652,
+            "Rotation": 41.50829
+          },
+          {
+            "x": 23.54434,
+            "y": 84.4485855,
+            "Rotation": 15.5785179
+          },
+          {
+            "x": 16.834095,
+            "y": 77.5611954,
+            "Rotation": 12.2457027
+          },
+          {
+            "x": 17.0826225,
+            "y": 58.3338776,
+            "Rotation": 16.322258
+          },
+          {
+            "x": -20.19652,
+            "y": 58.3338776,
+            "Rotation": -19.0970211
+          },
+          {
+            "x": -19.4509335,
+            "y": 80.1439743,
+            "Rotation": -13.6419106
+          },
+          {
+            "x": -32.3743668,
+            "y": 86.4574356,
+            "Rotation": -20.528635
+          },
+          {
+            "x": -80.9493,
+            "y": 85.82708,
+            "Rotation": -43.3247223
+          },
+          {
+            "x": -85.06222,
+            "y": 80.43095,
+            "Rotation": -46.6029854
+          },
+          {
+            "x": -85.06222,
+            "y": 58.62085,
+            "Rotation": -55.42723
+          },
+          {
+            "x": -194.9114,
+            "y": 59.4817657,
+            "Rotation": -73.02921
+          },
+          {
+            "x": -194.701538,
+            "y": 49.4891968,
+            "Rotation": -75.73858
+          },
+          {
+            "x": -85.06222,
+            "y": 49.4376526,
+            "Rotation": -59.8351021
+          },
+          {
+            "x": -85.31075,
+            "y": 25.331749,
+            "Rotation": -73.4620056
+          },
+          {
+            "x": -111.406158,
+            "y": 24.7577972,
+            "Rotation": -77.4707642
+          },
+          {
+            "x": -116.376709,
+            "y": 19.0182953,
+            "Rotation": -80.71876
+          },
+          {
+            "x": -115.879639,
+            "y": -32.9241676,
+            "Rotation": -105.861107
+          },
+          {
+            "x": -105.441483,
+            "y": -33.2111473,
+            "Rotation": -107.482986
+          },
+          {
+            "x": -84.31664,
+            "y": -33.2111473,
+            "Rotation": -111.498787
+          }
+        ]
+      },
+      "holes": [
+        {
+          "points": [
+            {
+              "x": -103.204735,
+              "y": 14.7136765,
+              "Rotation": -81.88614
+            },
+            {
+              "x": -101.71357,
+              "y": -23.4539948,
+              "Rotation": -102.984795
+            },
+            {
+              "x": -84.8137,
+              "y": -23.4539948,
+              "Rotation": -105.458015
+            },
+            {
+              "x": -84.56516,
+              "y": 13.8527451,
+              "Rotation": -80.69692
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": -75.8667,
+              "y": -22.88005,
+              "Rotation": -106.782379
+            },
+            {
+              "x": -29.8890934,
+              "y": -23.7409668,
+              "Rotation": -128.46019
+            },
+            {
+              "x": -30.634676,
+              "y": 13.8527451,
+              "Rotation": -65.6679153
+            },
+            {
+              "x": -75.12112,
+              "y": 14.7136765,
+              "Rotation": -78.91799
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": -19.9479885,
+              "y": -32.9241676,
+              "Rotation": -148.7893
+            },
+            {
+              "x": -20.19652,
+              "y": -65.06538,
+              "Rotation": -162.755478
+            },
+            {
+              "x": 16.5855675,
+              "y": -65.06538,
+              "Rotation": 165.699509
+            },
+            {
+              "x": 17.0826225,
+              "y": -32.6371956,
+              "Rotation": 152.372009
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 81.9483261,
+              "y": -32.3502274,
+              "Rotation": 111.542313
+            },
+            {
+              "x": 81.6998,
+              "y": -68.50907,
+              "Rotation": 129.9814
+            },
+            {
+              "x": 100.339363,
+              "y": -68.79604,
+              "Rotation": 124.435844
+            },
+            {
+              "x": 100.339363,
+              "y": -33.2111473,
+              "Rotation": 108.313934
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 81.66088,
+              "y": 24.4073639,
+              "Rotation": 73.35928
+            },
+            {
+              "x": 100.110748,
+              "y": 24.098484,
+              "Rotation": 76.46536
+            },
+            {
+              "x": 100.452484,
+              "y": 49.656723,
+              "Rotation": 63.6954079
+            },
+            {
+              "x": 81.66088,
+              "y": 49.459465,
+              "Rotation": 58.79801
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 26.0296154,
+              "y": 24.1838455,
+              "Rotation": 47.10516
+            },
+            {
+              "x": 71.26164,
+              "y": 23.8968811,
+              "Rotation": 71.46163
+            },
+            {
+              "x": 71.01311,
+              "y": 48.8636932,
+              "Rotation": 55.4683723
+            },
+            {
+              "x": 26.775198,
+              "y": 48.8636932,
+              "Rotation": 28.7208443
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": -20.6935711,
+              "y": 49.1506729,
+              "Rotation": -22.83222
+            },
+            {
+              "x": -20.19652,
+              "y": 25.0447769,
+              "Rotation": -38.8832779
+            },
+            {
+              "x": 16.834095,
+              "y": 24.7577972,
+              "Rotation": 34.21379
+            },
+            {
+              "x": 17.0826225,
+              "y": 48.8636932,
+              "Rotation": 19.2694969
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": -74.12701,
+              "y": 49.1506729,
+              "Rotation": -56.4532242
+            },
+            {
+              "x": -75.12112,
+              "y": 25.331749,
+              "Rotation": -71.36527
+            },
+            {
+              "x": -28.8949833,
+              "y": 24.4708176,
+              "Rotation": -49.7391357
+            },
+            {
+              "x": -28.8949833,
+              "y": 49.4376526,
+              "Rotation": -30.3051434
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 26.52667,
+              "y": 14.7136765,
+              "Rotation": 60.9839745
+            },
+            {
+              "x": 26.52667,
+              "y": -23.16703,
+              "Rotation": 131.1323
+            },
+            {
+              "x": 70.76458,
+              "y": -22.593071,
+              "Rotation": 107.706772
+            },
+            {
+              "x": 70.76458,
+              "y": 14.7136765,
+              "Rotation": 78.25417
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": -20.4450474,
+              "y": 14.7136765,
+              "Rotation": -54.2585869
+            },
+            {
+              "x": -20.4450474,
+              "y": -22.593071,
+              "Rotation": -137.857254
+            },
+            {
+              "x": 17.5796776,
+              "y": -23.16703,
+              "Rotation": 142.807938
+            },
+            {
+              "x": 17.8282051,
+              "y": 14.1397247,
+              "Rotation": 51.5817223
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": -73.87848,
+              "y": 69.5258942,
+              "Rotation": -46.7385
+            },
+            {
+              "x": -74.87259,
+              "y": 59.1948,
+              "Rotation": -51.6698532
+            },
+            {
+              "x": -29.3920383,
+              "y": 58.907814,
+              "Rotation": -26.5168915
+            },
+            {
+              "x": -29.8890934,
+              "y": 66.94313,
+              "Rotation": -24.0600376
+            },
+            {
+              "x": -35.6052246,
+              "y": 70.38682,
+              "Rotation": -26.8326015
+            }
+          ]
+        },
+        {
+          "points": [
+            {
+              "x": 29.2604752,
+              "y": 73.54356,
+              "Rotation": 21.6959229
+            },
+            {
+              "x": 25.45691,
+              "y": 68.3964844,
+              "Rotation": 20.4150734
+            },
+            {
+              "x": 25.96941,
+              "y": 58.7307167,
+              "Rotation": 23.8539429
+            },
+            {
+              "x": 72.00722,
+              "y": 57.47294,
+              "Rotation": 51.4047
+            },
+            {
+              "x": 71.41092,
+              "y": 65.63484,
+              "Rotation": 47.41342
+            },
+            {
+              "x": 69.36092,
+              "y": 72.53897,
+              "Rotation": 43.7169952
+            }
+          ]
+        }
+      ],
+      "height": 0.0,
+      "type": 0,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_PathEdge",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 6,
+      "polygon": {
+        "points": [
+          {
+            "x": -15.8000011,
+            "y": -18.4000015,
+            "Rotation": -139.347458
+          },
+          {
+            "x": -4.6,
+            "y": -21.3,
+            "Rotation": -167.813416
+          },
+          {
+            "x": 6.59999847,
+            "y": -20.9000015,
+            "Rotation": 162.474442
+          },
+          {
+            "x": 12.0,
+            "y": -18.4000015,
+            "Rotation": 146.888657
+          },
+          {
+            "x": 15.499999,
+            "y": -5.5,
+            "Rotation": 109.536659
+          },
+          {
+            "x": 14.8999987,
+            "y": 8.6,
+            "Rotation": 60.0072632
+          },
+          {
+            "x": 10.9,
+            "y": 13.1999989,
+            "Rotation": 39.54845
+          },
+          {
+            "x": -1.20000076,
+            "y": 14.4,
+            "Rotation": -4.763645
+          },
+          {
+            "x": -14.4000015,
+            "y": 11.9,
+            "Rotation": -50.4300575
+          },
+          {
+            "x": -18.7,
+            "y": 4.70000124,
+            "Rotation": -75.8916855
+          },
+          {
+            "x": -19.0,
+            "y": -5.89999962,
+            "Rotation": -107.250946
+          },
+          {
+            "x": -19.3,
+            "y": -12.9000015,
+            "Rotation": -123.758522
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 1,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_Water",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 7,
+      "polygon": {
+        "points": [
+          {
+            "x": -95.1,
+            "y": -23.1300011,
+            "Rotation": -103.669922
+          },
+          {
+            "x": -84.97,
+            "y": -23.1300011,
+            "Rotation": -105.22773
+          },
+          {
+            "x": -85.1199951,
+            "y": 14.4500008,
+            "Rotation": -80.3652954
+          },
+          {
+            "x": -95.25,
+            "y": 14.5300007,
+            "Rotation": -81.32663
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 2,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [
+        "small"
+      ],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_SmallPlacementL",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 8,
+      "polygon": {
+        "points": [
+          {
+            "x": -118.3,
+            "y": -17.635025,
+            "Rotation": -98.47867
+          },
+          {
+            "x": -119.6,
+            "y": -5.03502655,
+            "Rotation": -92.41067
+          },
+          {
+            "x": -119.0,
+            "y": 7.864975,
+            "Rotation": -86.2187
+          },
+          {
+            "x": -115.799995,
+            "y": 13.0649719,
+            "Rotation": -83.5629044
+          },
+          {
+            "x": -118.1,
+            "y": 13.164978,
+            "Rotation": -83.63932
+          },
+          {
+            "x": -125.0,
+            "y": 6.46497345,
+            "Rotation": -87.0393143
+          },
+          {
+            "x": -123.8,
+            "y": -2.03502655,
+            "Rotation": -90.94174
+          },
+          {
+            "x": -124.7,
+            "y": -22.9350243,
+            "Rotation": -100.421463
+          },
+          {
+            "x": -119.4,
+            "y": -29.135025,
+            "Rotation": -103.712883
+          },
+          {
+            "x": -117.1,
+            "y": -25.135025,
+            "Rotation": -102.114487
+          }
+        ]
+      },
+      "height": 100.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": true,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [
+        {
+          "position": {
+            "x": -121.0,
+            "y": -21.135025,
+            "z": 0.0,
+            "MagnitudeSquared": 15087.6895,
+            "Magnitude": 122.831955,
+            "Rotation": -99.9078751,
+            "SimToDispRotation": -80.0921249
+          },
+          "radius": 3.21905684
+        },
+        {
+          "position": {
+            "x": -121.0,
+            "y": -17.135025,
+            "z": 0.0,
+            "MagnitudeSquared": 14934.6094,
+            "Magnitude": 122.207237,
+            "Rotation": -98.0601654,
+            "SimToDispRotation": -81.93984
+          },
+          "radius": 2.63442469
+        },
+        {
+          "position": {
+            "x": -121.0,
+            "y": -13.135025,
+            "z": 0.0,
+            "MagnitudeSquared": 14813.5293,
+            "Magnitude": 121.710846,
+            "Rotation": -96.19542,
+            "SimToDispRotation": -83.80458
+          },
+          "radius": 2.22390866
+        }
+      ],
+      "name": "AreaModel_LogBlocksL",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 9,
+      "polygon": {
+        "points": [
+          {
+            "x": -95.9,
+            "y": -17.2350235,
+            "Rotation": -100.188362
+          },
+          {
+            "x": -97.2,
+            "y": -4.635025,
+            "Rotation": -92.7301
+          },
+          {
+            "x": -96.6,
+            "y": 8.2649765,
+            "Rotation": -85.10975
+          },
+          {
+            "x": -99.4,
+            "y": 13.4649734,
+            "Rotation": -82.28553
+          },
+          {
+            "x": -103.9,
+            "y": 13.56498,
+            "Rotation": -82.5616455
+          },
+          {
+            "x": -100.6,
+            "y": 6.864975,
+            "Rotation": -86.0961761
+          },
+          {
+            "x": -99.4,
+            "y": -1.635025,
+            "Rotation": -90.9423752
+          },
+          {
+            "x": -99.7,
+            "y": -22.5350189,
+            "Rotation": -102.73645
+          },
+          {
+            "x": -99.1,
+            "y": -28.7350216,
+            "Rotation": -106.170036
+          },
+          {
+            "x": -97.2,
+            "y": -29.53502,
+            "Rotation": -106.90184
+          },
+          {
+            "x": -96.2,
+            "y": -24.7350235,
+            "Rotation": -104.419594
+          }
+        ]
+      },
+      "height": 100.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": true,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_LogBlocksL2",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 10,
+      "polygon": {
+        "points": [
+          {
+            "x": 81.7000046,
+            "y": -66.0,
+            "Rotation": 128.932449
+          },
+          {
+            "x": 91.73,
+            "y": -68.93,
+            "Rotation": 126.922829
+          },
+          {
+            "x": 91.58001,
+            "y": -31.3500023,
+            "Rotation": 108.897285
+          },
+          {
+            "x": 81.4500046,
+            "y": -31.27,
+            "Rotation": 111.002625
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 2,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [
+        "small"
+      ],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_SmallPlacementRT",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 11,
+      "polygon": {
+        "points": [
+          {
+            "x": 92.1,
+            "y": -34.03502,
+            "Rotation": 110.2815
+          },
+          {
+            "x": 93.1,
+            "y": -53.13502,
+            "Rotation": 119.714722
+          },
+          {
+            "x": 91.8,
+            "y": -61.335022,
+            "Rotation": 123.748375
+          },
+          {
+            "x": 93.4,
+            "y": -67.33502,
+            "Rotation": 125.789024
+          },
+          {
+            "x": 99.6,
+            "y": -72.13502,
+            "Rotation": 125.913826
+          },
+          {
+            "x": 98.19,
+            "y": -47.6150246,
+            "Rotation": 115.870018
+          },
+          {
+            "x": 100.36,
+            "y": -29.715023,
+            "Rotation": 106.493195
+          },
+          {
+            "x": 98.1,
+            "y": -29.93502,
+            "Rotation": 106.969467
+          }
+        ]
+      },
+      "height": 100.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": true,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [
+        {
+          "position": {
+            "x": 95.8,
+            "y": -36.1350174,
+            "z": 0.0,
+            "MagnitudeSquared": 10483.38,
+            "Magnitude": 102.388374,
+            "Rotation": 110.666084,
+            "SimToDispRotation": 69.3339157
+          },
+          "radius": 3.58514953
+        },
+        {
+          "position": {
+            "x": 95.8,
+            "y": -40.1350174,
+            "z": 0.0,
+            "MagnitudeSquared": 10788.46,
+            "Magnitude": 103.867508,
+            "Rotation": 112.731049,
+            "SimToDispRotation": 67.26896
+          },
+          "radius": 3.272834
+        },
+        {
+          "position": {
+            "x": 95.8,
+            "y": -62.1350174,
+            "z": 0.0,
+            "MagnitudeSquared": 13038.4014,
+            "Magnitude": 114.185822,
+            "Rotation": 122.967079,
+            "SimToDispRotation": 57.0329247
+          },
+          "radius": 3.219635
+        },
+        {
+          "position": {
+            "x": 95.8,
+            "y": -58.1350174,
+            "z": 0.0,
+            "MagnitudeSquared": 12557.32,
+            "Magnitude": 112.059448,
+            "Rotation": 121.250938,
+            "SimToDispRotation": 58.74906
+          },
+          "radius": 2.99000049
+        },
+        {
+          "position": {
+            "x": 95.8,
+            "y": -44.1350174,
+            "z": 0.0,
+            "MagnitudeSquared": 11125.54,
+            "Magnitude": 105.477676,
+            "Rotation": 114.7355,
+            "SimToDispRotation": 65.2645
+          },
+          "radius": 2.79143763
+        },
+        {
+          "position": {
+            "x": 95.8,
+            "y": -54.1350174,
+            "z": 0.0,
+            "MagnitudeSquared": 12108.24,
+            "Magnitude": 110.037453,
+            "Rotation": 119.470078,
+            "SimToDispRotation": 60.5299149
+          },
+          "radius": 2.7603662
+        },
+        {
+          "position": {
+            "x": 95.8,
+            "y": -50.1350174,
+            "z": 0.0,
+            "MagnitudeSquared": 11691.16,
+            "Magnitude": 108.125671,
+            "Rotation": 117.624413,
+            "SimToDispRotation": 62.37559
+          },
+          "radius": 2.53073168
+        },
+        {
+          "position": {
+            "x": 95.8,
+            "y": -66.13502,
+            "z": 0.0,
+            "MagnitudeSquared": 13551.48,
+            "Magnitude": 116.410828,
+            "Rotation": 124.619057,
+            "SimToDispRotation": 55.38095
+          },
+          "radius": 2.418087
+        }
+      ],
+      "name": "AreaModel_LogBlocksRT",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 12,
+      "polygon": {
+        "points": [
+          {
+            "x": 113.87,
+            "y": -72.13502,
+            "Rotation": 122.353676
+          },
+          {
+            "x": 119.2,
+            "y": -68.03502,
+            "Rotation": 119.716156
+          },
+          {
+            "x": 120.9,
+            "y": -61.835022,
+            "Rotation": 117.087746
+          },
+          {
+            "x": 119.2,
+            "y": -45.835022,
+            "Rotation": 111.032852
+          },
+          {
+            "x": 120.6,
+            "y": -31.73502,
+            "Rotation": 104.742752
+          },
+          {
+            "x": 117.6,
+            "y": -29.1350212,
+            "Rotation": 103.91468
+          },
+          {
+            "x": 114.41,
+            "y": -29.1350212,
+            "Rotation": 104.286964
+          },
+          {
+            "x": 115.73,
+            "y": -50.835022,
+            "Rotation": 113.713737
+          }
+        ]
+      },
+      "height": 100.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": true,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [
+        {
+          "position": {
+            "x": 117.87,
+            "y": -62.1350174,
+            "z": 0.0,
+            "MagnitudeSquared": 17754.0977,
+            "Magnitude": 133.2445,
+            "Rotation": 117.795906,
+            "SimToDispRotation": 62.2041054
+          },
+          "radius": 2.842816
+        },
+        {
+          "position": {
+            "x": 117.87,
+            "y": -58.1350174,
+            "z": 0.0,
+            "MagnitudeSquared": 17273.0176,
+            "Magnitude": 131.426849,
+            "Rotation": 116.253113,
+            "SimToDispRotation": 63.7468872
+          },
+          "radius": 2.622114
+        },
+        {
+          "position": {
+            "x": 117.87,
+            "y": -34.1350174,
+            "z": 0.0,
+            "MagnitudeSquared": 15058.5371,
+            "Magnitude": 122.713234,
+            "Rotation": 106.150955,
+            "SimToDispRotation": 73.8490448
+          },
+          "radius": 2.47950172
+        },
+        {
+          "position": {
+            "x": 117.87,
+            "y": -54.1350174,
+            "z": 0.0,
+            "MagnitudeSquared": 16823.9375,
+            "Magnitude": 129.707123,
+            "Rotation": 114.668251,
+            "SimToDispRotation": 65.33176
+          },
+          "radius": 2.19949055
+        },
+        {
+          "position": {
+            "x": 117.87,
+            "y": -38.1350174,
+            "z": 0.0,
+            "MagnitudeSquared": 15347.6172,
+            "Magnitude": 123.8855,
+            "Rotation": 107.928185,
+            "SimToDispRotation": 72.0718155
+          },
+          "radius": 2.08428764
+        }
+      ],
+      "name": "AreaModel_LogBlocksRT2",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 13,
+      "polygon": {
+        "points": [
+          {
+            "x": 81.7,
+            "y": 24.0,
+            "Rotation": 73.62945
+          },
+          {
+            "x": 92.99999,
+            "y": 24.3000011,
+            "Rotation": 75.35655
+          },
+          {
+            "x": 92.49999,
+            "y": 49.75,
+            "Rotation": 61.7269554
+          },
+          {
+            "x": 81.74999,
+            "y": 49.83,
+            "Rotation": 58.6359673
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 2,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [
+        "small"
+      ],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_SmallPlacementRB",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 14,
+      "polygon": {
+        "points": [
+          {
+            "x": 93.49,
+            "y": 47.88498,
+            "Rotation": 62.8787651
+          },
+          {
+            "x": 94.9,
+            "y": 35.4449844,
+            "Rotation": 69.51943
+          },
+          {
+            "x": 92.98,
+            "y": 28.9549789,
+            "Rotation": 72.70285
+          },
+          {
+            "x": 94.96,
+            "y": 21.0449753,
+            "Rotation": 77.50411
+          },
+          {
+            "x": 100.56,
+            "y": 16.4649734,
+            "Rotation": 80.70131
+          },
+          {
+            "x": 99.48,
+            "y": 36.4449768,
+            "Rotation": 69.87945
+          },
+          {
+            "x": 100.27,
+            "y": 50.42498,
+            "Rotation": 63.3025436
+          },
+          {
+            "x": 96.73,
+            "y": 50.42498,
+            "Rotation": 62.46714
+          }
+        ]
+      },
+      "height": 100.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": true,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [
+        {
+          "position": {
+            "x": 96.98,
+            "y": 46.4649734,
+            "z": 0.0,
+            "MagnitudeSquared": 11564.1152,
+            "Magnitude": 107.536575,
+            "Rotation": 64.40003,
+            "SimToDispRotation": 115.599968
+          },
+          "radius": 3.06133366
+        },
+        {
+          "position": {
+            "x": 96.98,
+            "y": 26.4649734,
+            "z": 0.0,
+            "MagnitudeSquared": 10105.5156,
+            "Magnitude": 100.526192,
+            "Rotation": 74.73615,
+            "SimToDispRotation": 105.263847
+          },
+          "radius": 3.0350256
+        },
+        {
+          "position": {
+            "x": 96.98,
+            "y": 42.4649734,
+            "z": 0.0,
+            "MagnitudeSquared": 11208.3945,
+            "Magnitude": 105.869705,
+            "Rotation": 66.35267,
+            "SimToDispRotation": 113.647339
+          },
+          "radius": 2.83565545
+        },
+        {
+          "position": {
+            "x": 96.98,
+            "y": 30.4649734,
+            "z": 0.0,
+            "MagnitudeSquared": 10333.2354,
+            "Magnitude": 101.652519,
+            "Rotation": 72.560585,
+            "SimToDispRotation": 107.439415
+          },
+          "radius": 2.81912732
+        },
+        {
+          "position": {
+            "x": 96.98,
+            "y": 38.4649734,
+            "z": 0.0,
+            "MagnitudeSquared": 10884.6758,
+            "Magnitude": 104.329651,
+            "Rotation": 68.36534,
+            "SimToDispRotation": 111.634659
+          },
+          "radius": 2.406892
+        },
+        {
+          "position": {
+            "x": 96.98,
+            "y": 22.4649734,
+            "z": 0.0,
+            "MagnitudeSquared": 9909.796,
+            "Magnitude": 99.54796,
+            "Rotation": 76.95773,
+            "SimToDispRotation": 103.042267
+          },
+          "radius": 2.30435777
+        },
+        {
+          "position": {
+            "x": 96.98,
+            "y": 34.4649734,
+            "z": 0.0,
+            "MagnitudeSquared": 10592.9551,
+            "Magnitude": 102.922081,
+            "Rotation": 70.43569,
+            "SimToDispRotation": 109.564308
+          },
+          "radius": 2.27256155
+        }
+      ],
+      "name": "AreaModel_LogBlocksRB",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 15,
+      "polygon": {
+        "points": [
+          {
+            "x": 121.71,
+            "y": 31.7349777,
+            "Rotation": 75.38594
+          },
+          {
+            "x": 121.89,
+            "y": 38.06498,
+            "Rotation": 72.65696
+          },
+          {
+            "x": 122.48,
+            "y": 42.9049759,
+            "Rotation": 70.69455
+          },
+          {
+            "x": 114.42,
+            "y": 49.4449844,
+            "Rotation": 66.6291
+          },
+          {
+            "x": 115.9,
+            "y": 35.92498,
+            "Rotation": 72.77838
+          },
+          {
+            "x": 114.46,
+            "y": 16.0149765,
+            "Rotation": 82.03502
+          },
+          {
+            "x": 121.37,
+            "y": 21.6949844,
+            "Rotation": 79.86537
+          }
+        ]
+      },
+      "height": 100.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": true,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [
+        {
+          "position": {
+            "x": 118.42,
+            "y": 42.0149765,
+            "z": 0.0,
+            "MagnitudeSquared": 15788.5547,
+            "Magnitude": 125.652519,
+            "Rotation": 70.46551,
+            "SimToDispRotation": 109.534492
+          },
+          "radius": 3.167729
+        },
+        {
+          "position": {
+            "x": 118.42,
+            "y": 26.0149765,
+            "z": 0.0,
+            "MagnitudeSquared": 14700.0752,
+            "Magnitude": 121.243866,
+            "Rotation": 77.6098557,
+            "SimToDispRotation": 102.390152
+          },
+          "radius": 3.09452343
+        },
+        {
+          "position": {
+            "x": 118.42,
+            "y": 30.0149765,
+            "z": 0.0,
+            "MagnitudeSquared": 14924.1943,
+            "Magnitude": 122.164619,
+            "Rotation": 75.7772141,
+            "SimToDispRotation": 104.222786
+          },
+          "radius": 2.939765
+        },
+        {
+          "position": {
+            "x": 118.42,
+            "y": 38.0149765,
+            "z": 0.0,
+            "MagnitudeSquared": 15468.4346,
+            "Magnitude": 124.372162,
+            "Rotation": 72.20242,
+            "SimToDispRotation": 107.797577
+          },
+          "radius": 2.73245835
+        },
+        {
+          "position": {
+            "x": 118.42,
+            "y": 34.0149765,
+            "z": 0.0,
+            "MagnitudeSquared": 15180.3145,
+            "Magnitude": 123.20842,
+            "Rotation": 73.97381,
+            "SimToDispRotation": 106.026192
+          },
+          "radius": 2.651217
+        },
+        {
+          "position": {
+            "x": 118.42,
+            "y": 22.0149765,
+            "z": 0.0,
+            "MagnitudeSquared": 14507.9551,
+            "Magnitude": 120.448975,
+            "Rotation": 79.468605,
+            "SimToDispRotation": 100.531395
+          },
+          "radius": 2.12045813
+        }
+      ],
+      "name": "AreaModel_LogBlocksRB2",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 16,
+      "polygon": {
+        "points": [
+          {
+            "x": 30.0,
+            "y": 87.27,
+            "Rotation": 18.97096
+          },
+          {
+            "x": 70.2,
+            "y": 87.4900055,
+            "Rotation": 38.7427673
+          },
+          {
+            "x": 71.5,
+            "y": 94.09,
+            "Rotation": 37.2315941
+          },
+          {
+            "x": 49.9,
+            "y": 92.59,
+            "Rotation": 28.3217869
+          },
+          {
+            "x": 28.1,
+            "y": 94.1899948,
+            "Rotation": 16.6115875
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_LogBlocks (14)",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 17,
+      "polygon": {
+        "points": [
+          {
+            "x": 28.0,
+            "y": 68.56498,
+            "Rotation": 22.2137165
+          },
+          {
+            "x": 30.6,
+            "y": 55.06498,
+            "Rotation": 29.06124
+          },
+          {
+            "x": 49.0,
+            "y": 57.06498,
+            "Rotation": 40.6517067
+          },
+          {
+            "x": 69.1,
+            "y": 55.9649734,
+            "Rotation": 50.9955444
+          },
+          {
+            "x": 71.7,
+            "y": 69.26498,
+            "Rotation": 45.989624
+          },
+          {
+            "x": 69.2,
+            "y": 72.66497,
+            "Rotation": 43.60086
+          },
+          {
+            "x": 30.0,
+            "y": 73.16497,
+            "Rotation": 22.2952137
+          }
+        ]
+      },
+      "height": 100.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": true,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [
+        {
+          "position": {
+            "x": 38.0,
+            "y": 65.06498,
+            "z": 0.0,
+            "MagnitudeSquared": 5677.45166,
+            "Magnitude": 75.34887,
+            "Rotation": 30.286274,
+            "SimToDispRotation": 149.71373
+          },
+          "radius": 7.997301
+        },
+        {
+          "position": {
+            "x": 48.0,
+            "y": 65.06498,
+            "z": 0.0,
+            "MagnitudeSquared": 6537.45166,
+            "Magnitude": 80.85451,
+            "Rotation": 36.41709,
+            "SimToDispRotation": 143.582916
+          },
+          "radius": 7.869758
+        },
+        {
+          "position": {
+            "x": 58.0,
+            "y": 65.06498,
+            "z": 0.0,
+            "MagnitudeSquared": 7597.45166,
+            "Magnitude": 87.16336,
+            "Rotation": 41.71434,
+            "SimToDispRotation": 138.28566
+          },
+          "radius": 7.74221468
+        },
+        {
+          "position": {
+            "x": 66.0,
+            "y": 67.06498,
+            "z": 0.0,
+            "MagnitudeSquared": 8853.711,
+            "Magnitude": 94.09416,
+            "Rotation": 44.5414467,
+            "SimToDispRotation": 135.458557
+          },
+          "radius": 5.172024
+        },
+        {
+          "position": {
+            "x": 66.0,
+            "y": 61.06498,
+            "z": 0.0,
+            "MagnitudeSquared": 8084.93164,
+            "Magnitude": 89.9162445,
+            "Rotation": 47.2241669,
+            "SimToDispRotation": 132.775833
+          },
+          "radius": 4.020879
+        },
+        {
+          "position": {
+            "x": 32.0,
+            "y": 59.06498,
+            "z": 0.0,
+            "MagnitudeSquared": 4512.672,
+            "Magnitude": 67.17642,
+            "Rotation": 28.44778,
+            "SimToDispRotation": 151.552231
+          },
+          "radius": 2.131205
+        },
+        {
+          "position": {
+            "x": 32.0,
+            "y": 71.06498,
+            "z": 0.0,
+            "MagnitudeSquared": 6074.23145,
+            "Magnitude": 77.937355,
+            "Rotation": 24.241663,
+            "SimToDispRotation": 155.758347
+          },
+          "radius": 2.07431126
+        }
+      ],
+      "name": "AreaModel_LogBlocks (2)",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 18,
+      "polygon": {
+        "points": [
+          {
+            "x": 30.0,
+            "y": 83.86498,
+            "Rotation": 19.6830368
+          },
+          {
+            "x": 70.2,
+            "y": 83.86498,
+            "Rotation": 39.9313431
+          },
+          {
+            "x": 71.5,
+            "y": 90.46497,
+            "Rotation": 38.3214722
+          },
+          {
+            "x": 49.9,
+            "y": 88.96497,
+            "Rotation": 29.2878456
+          },
+          {
+            "x": 28.1,
+            "y": 90.5649643,
+            "Rotation": 17.2377834
+          }
+        ]
+      },
+      "height": 100.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": true,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [
+        {
+          "position": {
+            "x": 32.1,
+            "y": 87.86498,
+            "z": 0.0,
+            "MagnitudeSquared": 8750.665,
+            "Magnitude": 93.54499,
+            "Rotation": 20.0689278,
+            "SimToDispRotation": 159.931061
+          },
+          "radius": 2.39994669
+        },
+        {
+          "position": {
+            "x": 68.1,
+            "y": 87.86498,
+            "z": 0.0,
+            "MagnitudeSquared": 12357.8652,
+            "Magnitude": 111.165939,
+            "Rotation": 37.7775764,
+            "SimToDispRotation": 142.222427
+          },
+          "radius": 2.358197
+        },
+        {
+          "position": {
+            "x": 36.1,
+            "y": 87.86498,
+            "z": 0.0,
+            "MagnitudeSquared": 9023.465,
+            "Magnitude": 94.99192,
+            "Rotation": 22.3356838,
+            "SimToDispRotation": 157.664322
+          },
+          "radius": 2.10716152
+        },
+        {
+          "position": {
+            "x": 64.1,
+            "y": 87.86498,
+            "z": 0.0,
+            "MagnitudeSquared": 11829.0645,
+            "Magnitude": 108.761505,
+            "Rotation": 36.1118126,
+            "SimToDispRotation": 143.8882
+          },
+          "radius": 2.08108783
+        }
+      ],
+      "name": "AreaModel_LogBlocks (9)",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 19,
+      "polygon": {
+        "points": [
+          {
+            "x": -30.92,
+            "y": 94.35,
+            "Rotation": -18.1447964
+          },
+          {
+            "x": -54.1,
+            "y": 92.42,
+            "Rotation": -30.3434734
+          },
+          {
+            "x": -74.67,
+            "y": 93.909996,
+            "Rotation": -38.4890175
+          },
+          {
+            "x": -72.9,
+            "y": 88.35999,
+            "Rotation": -39.5237923
+          },
+          {
+            "x": -34.32,
+            "y": 88.2999954,
+            "Rotation": -21.23986
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_LogBlocks (13)",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 20,
+      "polygon": {
+        "points": [
+          {
+            "x": -72.03,
+            "y": 53.06498,
+            "Rotation": -53.6206779
+          },
+          {
+            "x": -53.8927345,
+            "y": 54.38497,
+            "Rotation": -44.7395325
+          },
+          {
+            "x": -32.87,
+            "y": 54.9849777,
+            "Rotation": -30.870966
+          },
+          {
+            "x": -30.4,
+            "y": 67.01498,
+            "Rotation": -24.4004669
+          },
+          {
+            "x": -34.32,
+            "y": 70.52499,
+            "Rotation": -25.9492245
+          },
+          {
+            "x": -72.73,
+            "y": 70.36498,
+            "Rotation": -45.9468765
+          },
+          {
+            "x": -74.79,
+            "y": 67.19498,
+            "Rotation": -48.0619354
+          }
+        ]
+      },
+      "height": 100.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": true,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [
+        {
+          "position": {
+            "x": -64.79,
+            "y": 61.06498,
+            "z": 0.0,
+            "MagnitudeSquared": 7926.676,
+            "Magnitude": 89.03188,
+            "Rotation": -46.69533,
+            "SimToDispRotation": -133.304672
+          },
+          "radius": 7.453377
+        },
+        {
+          "position": {
+            "x": -40.79,
+            "y": 63.06498,
+            "z": 0.0,
+            "MagnitudeSquared": 5641.01563,
+            "Magnitude": 75.1067,
+            "Rotation": -32.894516,
+            "SimToDispRotation": -147.105484
+          },
+          "radius": 7.43298674
+        },
+        {
+          "position": {
+            "x": -50.79,
+            "y": 63.06498,
+            "z": 0.0,
+            "MagnitudeSquared": 6556.816,
+            "Magnitude": 80.97417,
+            "Rotation": -38.8465729,
+            "SimToDispRotation": -141.153427
+          },
+          "radius": 7.39133739
+        }
+      ],
+      "name": "AreaModel_LogBlocks (1)",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 21,
+      "polygon": {
+        "points": [
+          {
+            "x": -30.92,
+            "y": 90.31498,
+            "Rotation": -18.89902
+          },
+          {
+            "x": -54.1,
+            "y": 88.38497,
+            "Rotation": -31.4705925
+          },
+          {
+            "x": -74.67,
+            "y": 89.87498,
+            "Rotation": -39.72051
+          },
+          {
+            "x": -72.9,
+            "y": 84.3249741,
+            "Rotation": -40.84383
+          },
+          {
+            "x": -34.32,
+            "y": 84.26498,
+            "Rotation": -22.1604118
+          }
+        ]
+      },
+      "height": 100.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": true,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_LogBlocks (8)",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 22,
+      "polygon": {
+        "points": [
+          {
+            "x": 19.24,
+            "y": -55.35,
+            "Rotation": 160.832245
+          },
+          {
+            "x": -1.35727048,
+            "y": -56.35,
+            "Rotation": -178.620209
+          },
+          {
+            "x": -21.6,
+            "y": -55.05,
+            "Rotation": -158.576416
+          },
+          {
+            "x": -20.18,
+            "y": -61.17,
+            "Rotation": -161.742264
+          },
+          {
+            "x": 15.57,
+            "y": -61.72,
+            "Rotation": 165.8415
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_LogBlocksBase (13)",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 23,
+      "polygon": {
+        "points": [
+          {
+            "x": 19.24,
+            "y": -58.4850235,
+            "Rotation": 161.790192
+          },
+          {
+            "x": -1.35727048,
+            "y": -59.4850235,
+            "Rotation": -178.692917
+          },
+          {
+            "x": -21.6,
+            "y": -58.1850243,
+            "Rotation": -159.633591
+          },
+          {
+            "x": -20.18,
+            "y": -64.30502,
+            "Rotation": -162.577255
+          },
+          {
+            "x": 15.57,
+            "y": -64.85503,
+            "Rotation": 166.500259
+          }
+        ]
+      },
+      "height": 100.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": true,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [
+        {
+          "position": {
+            "x": -17.6,
+            "y": -60.8550262,
+            "z": 0.0,
+            "MagnitudeSquared": 4013.09424,
+            "Magnitude": 63.3489876,
+            "Rotation": -163.8695,
+            "SimToDispRotation": -16.1305
+          },
+          "radius": 2.40816045
+        },
+        {
+          "position": {
+            "x": -13.6,
+            "y": -60.8550262,
+            "z": 0.0,
+            "MagnitudeSquared": 3888.29419,
+            "Magnitude": 62.35619,
+            "Rotation": -167.402435,
+            "SimToDispRotation": -12.59757
+          },
+          "radius": 2.15180445
+        },
+        {
+          "position": {
+            "x": 14.4,
+            "y": -60.8550262,
+            "z": 0.0,
+            "MagnitudeSquared": 3910.69434,
+            "Magnitude": 62.5355453,
+            "Rotation": 166.687088,
+            "SimToDispRotation": 13.312912
+          },
+          "radius": 2.13251
+        }
+      ],
+      "name": "AreaModel_LogBlocks (5)",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 24,
+      "polygon": {
+        "points": [
+          {
+            "x": -20.06,
+            "y": -77.78503,
+            "Rotation": -165.539078
+          },
+          {
+            "x": -21.8,
+            "y": -82.04502,
+            "Rotation": -165.119888
+          },
+          {
+            "x": -19.1,
+            "y": -94.44502,
+            "Rotation": -168.567047
+          },
+          {
+            "x": -0.3,
+            "y": -93.24502,
+            "Rotation": -179.815659
+          },
+          {
+            "x": 16.6,
+            "y": -94.8450241,
+            "Rotation": 170.072525
+          },
+          {
+            "x": 19.37,
+            "y": -79.87502,
+            "Rotation": 166.3687
+          },
+          {
+            "x": 16.63,
+            "y": -76.9250259,
+            "Rotation": 167.80127
+          }
+        ]
+      },
+      "height": 100.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": true,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [
+        {
+          "position": {
+            "x": 10.2000008,
+            "y": -84.8450241,
+            "z": 0.0,
+            "MagnitudeSquared": 7302.71826,
+            "Magnitude": 85.45594,
+            "Rotation": 173.144852,
+            "SimToDispRotation": 6.855154
+          },
+          "radius": 7.76714754
+        },
+        {
+          "position": {
+            "x": 0.200000763,
+            "y": -84.8450241,
+            "z": 0.0,
+            "MagnitudeSquared": 7198.71826,
+            "Magnitude": 84.84526,
+            "Rotation": 179.864944,
+            "SimToDispRotation": 0.1350601
+          },
+          "radius": 7.532815
+        },
+        {
+          "position": {
+            "x": -9.799999,
+            "y": -84.8450241,
+            "z": 0.0,
+            "MagnitudeSquared": 7294.71826,
+            "Magnitude": 85.40913,
+            "Rotation": -173.41127,
+            "SimToDispRotation": -6.58873463
+          },
+          "radius": 7.29848242
+        },
+        {
+          "position": {
+            "x": -17.8,
+            "y": -82.8450241,
+            "z": 0.0,
+            "MagnitudeSquared": 7180.1377,
+            "Magnitude": 84.7356949,
+            "Rotation": -167.87384,
+            "SimToDispRotation": -12.1261587
+          },
+          "radius": 3.73821473
+        },
+        {
+          "position": {
+            "x": -15.7999992,
+            "y": -90.8450241,
+            "z": 0.0,
+            "MagnitudeSquared": 8502.458,
+            "Magnitude": 92.20877,
+            "Rotation": -170.133667,
+            "SimToDispRotation": -9.866337
+          },
+          "radius": 3.38247228
+        },
+        {
+          "position": {
+            "x": -17.8,
+            "y": -86.8450241,
+            "z": 0.0,
+            "MagnitudeSquared": 7858.898,
+            "Magnitude": 88.65043,
+            "Rotation": -168.416916,
+            "SimToDispRotation": -11.58308
+          },
+          "radius": 2.88718772
+        }
+      ],
+      "name": "AreaModel_LogBlocks (12)",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "blockers": [
+    {
+      "parentId": 8,
+      "circle": {
+        "position": {
+          "x": -121.0,
+          "y": -21.135025,
+          "z": 100.0,
+          "MagnitudeSquared": 25087.69,
+          "Magnitude": 158.390945,
+          "Rotation": -99.9078751,
+          "SimToDispRotation": -80.0921249
+        },
+        "radius": 3.21905684
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksL"
+    },
+    {
+      "parentId": 8,
+      "circle": {
+        "position": {
+          "x": -121.0,
+          "y": -17.135025,
+          "z": 100.0,
+          "MagnitudeSquared": 24934.61,
+          "Magnitude": 157.906967,
+          "Rotation": -98.0601654,
+          "SimToDispRotation": -81.93984
+        },
+        "radius": 2.63442469
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksL"
+    },
+    {
+      "parentId": 8,
+      "circle": {
+        "position": {
+          "x": -121.0,
+          "y": -13.135025,
+          "z": 100.0,
+          "MagnitudeSquared": 24813.53,
+          "Magnitude": 157.5231,
+          "Rotation": -96.19542,
+          "SimToDispRotation": -83.80458
+        },
+        "radius": 2.22390866
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksL"
+    },
+    {
+      "parentId": 11,
+      "circle": {
+        "position": {
+          "x": 95.8,
+          "y": -36.1350174,
+          "z": 100.0,
+          "MagnitudeSquared": 20483.3789,
+          "Magnitude": 143.120163,
+          "Rotation": 110.666084,
+          "SimToDispRotation": 69.3339157
+        },
+        "radius": 3.58514953
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksRT"
+    },
+    {
+      "parentId": 11,
+      "circle": {
+        "position": {
+          "x": 95.8,
+          "y": -40.1350174,
+          "z": 100.0,
+          "MagnitudeSquared": 20788.46,
+          "Magnitude": 144.182037,
+          "Rotation": 112.731049,
+          "SimToDispRotation": 67.26896
+        },
+        "radius": 3.272834
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksRT"
+    },
+    {
+      "parentId": 11,
+      "circle": {
+        "position": {
+          "x": 95.8,
+          "y": -62.1350174,
+          "z": 100.0,
+          "MagnitudeSquared": 23038.4023,
+          "Magnitude": 151.784058,
+          "Rotation": 122.967079,
+          "SimToDispRotation": 57.0329247
+        },
+        "radius": 3.219635
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksRT"
+    },
+    {
+      "parentId": 11,
+      "circle": {
+        "position": {
+          "x": 95.8,
+          "y": -58.1350174,
+          "z": 100.0,
+          "MagnitudeSquared": 22557.32,
+          "Magnitude": 150.190948,
+          "Rotation": 121.250938,
+          "SimToDispRotation": 58.74906
+        },
+        "radius": 2.99000049
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksRT"
+    },
+    {
+      "parentId": 11,
+      "circle": {
+        "position": {
+          "x": 95.8,
+          "y": -44.1350174,
+          "z": 100.0,
+          "MagnitudeSquared": 21125.54,
+          "Magnitude": 145.346268,
+          "Rotation": 114.7355,
+          "SimToDispRotation": 65.2645
+        },
+        "radius": 2.79143763
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksRT"
+    },
+    {
+      "parentId": 11,
+      "circle": {
+        "position": {
+          "x": 95.8,
+          "y": -54.1350174,
+          "z": 100.0,
+          "MagnitudeSquared": 22108.24,
+          "Magnitude": 148.6884,
+          "Rotation": 119.470078,
+          "SimToDispRotation": 60.5299149
+        },
+        "radius": 2.7603662
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksRT"
+    },
+    {
+      "parentId": 11,
+      "circle": {
+        "position": {
+          "x": 95.8,
+          "y": -50.1350174,
+          "z": 100.0,
+          "MagnitudeSquared": 21691.16,
+          "Magnitude": 147.27919,
+          "Rotation": 117.624413,
+          "SimToDispRotation": 62.37559
+        },
+        "radius": 2.53073168
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksRT"
+    },
+    {
+      "parentId": 11,
+      "circle": {
+        "position": {
+          "x": 95.8,
+          "y": -66.13502,
+          "z": 100.0,
+          "MagnitudeSquared": 23551.48,
+          "Magnitude": 153.46492,
+          "Rotation": 124.619057,
+          "SimToDispRotation": 55.38095
+        },
+        "radius": 2.418087
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksRT"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 117.87,
+          "y": -62.1350174,
+          "z": 100.0,
+          "MagnitudeSquared": 27754.0977,
+          "Magnitude": 166.595612,
+          "Rotation": 117.795906,
+          "SimToDispRotation": 62.2041054
+        },
+        "radius": 2.842816
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksRT2"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 117.87,
+          "y": -58.1350174,
+          "z": 100.0,
+          "MagnitudeSquared": 27273.0176,
+          "Magnitude": 165.145447,
+          "Rotation": 116.253113,
+          "SimToDispRotation": 63.7468872
+        },
+        "radius": 2.622114
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksRT2"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 117.87,
+          "y": -34.1350174,
+          "z": 100.0,
+          "MagnitudeSquared": 25058.5371,
+          "Magnitude": 158.298889,
+          "Rotation": 106.150955,
+          "SimToDispRotation": 73.8490448
+        },
+        "radius": 2.47950172
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksRT2"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 117.87,
+          "y": -54.1350174,
+          "z": 100.0,
+          "MagnitudeSquared": 26823.9375,
+          "Magnitude": 163.780151,
+          "Rotation": 114.668251,
+          "SimToDispRotation": 65.33176
+        },
+        "radius": 2.19949055
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksRT2"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 117.87,
+          "y": -38.1350174,
+          "z": 100.0,
+          "MagnitudeSquared": 25347.6172,
+          "Magnitude": 159.209351,
+          "Rotation": 107.928185,
+          "SimToDispRotation": 72.0718155
+        },
+        "radius": 2.08428764
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksRT2"
+    },
+    {
+      "parentId": 14,
+      "circle": {
+        "position": {
+          "x": 96.98,
+          "y": 46.4649734,
+          "z": 100.0,
+          "MagnitudeSquared": 21564.1152,
+          "Magnitude": 146.847244,
+          "Rotation": 64.40003,
+          "SimToDispRotation": 115.599968
+        },
+        "radius": 3.06133366
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksRB"
+    },
+    {
+      "parentId": 14,
+      "circle": {
+        "position": {
+          "x": 96.98,
+          "y": 26.4649734,
+          "z": 100.0,
+          "MagnitudeSquared": 20105.5156,
+          "Magnitude": 141.793915,
+          "Rotation": 74.73615,
+          "SimToDispRotation": 105.263847
+        },
+        "radius": 3.0350256
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksRB"
+    },
+    {
+      "parentId": 14,
+      "circle": {
+        "position": {
+          "x": 96.98,
+          "y": 42.4649734,
+          "z": 100.0,
+          "MagnitudeSquared": 21208.3945,
+          "Magnitude": 145.631027,
+          "Rotation": 66.35267,
+          "SimToDispRotation": 113.647339
+        },
+        "radius": 2.83565545
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksRB"
+    },
+    {
+      "parentId": 14,
+      "circle": {
+        "position": {
+          "x": 96.98,
+          "y": 30.4649734,
+          "z": 100.0,
+          "MagnitudeSquared": 20333.2344,
+          "Magnitude": 142.59465,
+          "Rotation": 72.560585,
+          "SimToDispRotation": 107.439415
+        },
+        "radius": 2.81912732
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksRB"
+    },
+    {
+      "parentId": 14,
+      "circle": {
+        "position": {
+          "x": 96.98,
+          "y": 38.4649734,
+          "z": 100.0,
+          "MagnitudeSquared": 20884.6758,
+          "Magnitude": 144.51532,
+          "Rotation": 68.36534,
+          "SimToDispRotation": 111.634659
+        },
+        "radius": 2.406892
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksRB"
+    },
+    {
+      "parentId": 14,
+      "circle": {
+        "position": {
+          "x": 96.98,
+          "y": 22.4649734,
+          "z": 100.0,
+          "MagnitudeSquared": 19909.7969,
+          "Magnitude": 141.102081,
+          "Rotation": 76.95773,
+          "SimToDispRotation": 103.042267
+        },
+        "radius": 2.30435777
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksRB"
+    },
+    {
+      "parentId": 14,
+      "circle": {
+        "position": {
+          "x": 96.98,
+          "y": 34.4649734,
+          "z": 100.0,
+          "MagnitudeSquared": 20592.9551,
+          "Magnitude": 143.502457,
+          "Rotation": 70.43569,
+          "SimToDispRotation": 109.564308
+        },
+        "radius": 2.27256155
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksRB"
+    },
+    {
+      "parentId": 15,
+      "circle": {
+        "position": {
+          "x": 118.42,
+          "y": 42.0149765,
+          "z": 100.0,
+          "MagnitudeSquared": 25788.5547,
+          "Magnitude": 160.58815,
+          "Rotation": 70.46551,
+          "SimToDispRotation": 109.534492
+        },
+        "radius": 3.167729
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksRB2"
+    },
+    {
+      "parentId": 15,
+      "circle": {
+        "position": {
+          "x": 118.42,
+          "y": 26.0149765,
+          "z": 100.0,
+          "MagnitudeSquared": 24700.0742,
+          "Magnitude": 157.162567,
+          "Rotation": 77.6098557,
+          "SimToDispRotation": 102.390152
+        },
+        "radius": 3.09452343
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksRB2"
+    },
+    {
+      "parentId": 15,
+      "circle": {
+        "position": {
+          "x": 118.42,
+          "y": 30.0149765,
+          "z": 100.0,
+          "MagnitudeSquared": 24924.1953,
+          "Magnitude": 157.874,
+          "Rotation": 75.7772141,
+          "SimToDispRotation": 104.222786
+        },
+        "radius": 2.939765
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksRB2"
+    },
+    {
+      "parentId": 15,
+      "circle": {
+        "position": {
+          "x": 118.42,
+          "y": 38.0149765,
+          "z": 100.0,
+          "MagnitudeSquared": 25468.4336,
+          "Magnitude": 159.588318,
+          "Rotation": 72.20242,
+          "SimToDispRotation": 107.797577
+        },
+        "radius": 2.73245835
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksRB2"
+    },
+    {
+      "parentId": 15,
+      "circle": {
+        "position": {
+          "x": 118.42,
+          "y": 34.0149765,
+          "z": 100.0,
+          "MagnitudeSquared": 25180.3145,
+          "Magnitude": 158.68306,
+          "Rotation": 73.97381,
+          "SimToDispRotation": 106.026192
+        },
+        "radius": 2.651217
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksRB2"
+    },
+    {
+      "parentId": 15,
+      "circle": {
+        "position": {
+          "x": 118.42,
+          "y": 22.0149765,
+          "z": 100.0,
+          "MagnitudeSquared": 24507.9551,
+          "Magnitude": 156.550171,
+          "Rotation": 79.468605,
+          "SimToDispRotation": 100.531395
+        },
+        "radius": 2.12045813
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocksRB2"
+    },
+    {
+      "parentId": 17,
+      "circle": {
+        "position": {
+          "x": 38.0,
+          "y": 65.06498,
+          "z": 100.0,
+          "MagnitudeSquared": 15677.4512,
+          "Magnitude": 125.209625,
+          "Rotation": 30.286274,
+          "SimToDispRotation": 149.71373
+        },
+        "radius": 7.997301
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocks (2)"
+    },
+    {
+      "parentId": 17,
+      "circle": {
+        "position": {
+          "x": 48.0,
+          "y": 65.06498,
+          "z": 100.0,
+          "MagnitudeSquared": 16537.4512,
+          "Magnitude": 128.598022,
+          "Rotation": 36.41709,
+          "SimToDispRotation": 143.582916
+        },
+        "radius": 7.869758
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocks (2)"
+    },
+    {
+      "parentId": 17,
+      "circle": {
+        "position": {
+          "x": 58.0,
+          "y": 65.06498,
+          "z": 100.0,
+          "MagnitudeSquared": 17597.4512,
+          "Magnitude": 132.65538,
+          "Rotation": 41.71434,
+          "SimToDispRotation": 138.28566
+        },
+        "radius": 7.74221468
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocks (2)"
+    },
+    {
+      "parentId": 17,
+      "circle": {
+        "position": {
+          "x": 66.0,
+          "y": 67.06498,
+          "z": 100.0,
+          "MagnitudeSquared": 18853.71,
+          "Magnitude": 137.308823,
+          "Rotation": 44.5414467,
+          "SimToDispRotation": 135.458557
+        },
+        "radius": 5.172024
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocks (2)"
+    },
+    {
+      "parentId": 17,
+      "circle": {
+        "position": {
+          "x": 66.0,
+          "y": 61.06498,
+          "z": 100.0,
+          "MagnitudeSquared": 18084.9316,
+          "Magnitude": 134.480225,
+          "Rotation": 47.2241669,
+          "SimToDispRotation": 132.775833
+        },
+        "radius": 4.020879
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocks (2)"
+    },
+    {
+      "parentId": 17,
+      "circle": {
+        "position": {
+          "x": 32.0,
+          "y": 59.06498,
+          "z": 100.0,
+          "MagnitudeSquared": 14512.6719,
+          "Magnitude": 120.468552,
+          "Rotation": 28.44778,
+          "SimToDispRotation": 151.552231
+        },
+        "radius": 2.131205
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocks (2)"
+    },
+    {
+      "parentId": 17,
+      "circle": {
+        "position": {
+          "x": 32.0,
+          "y": 71.06498,
+          "z": 100.0,
+          "MagnitudeSquared": 16074.2314,
+          "Magnitude": 126.784195,
+          "Rotation": 24.241663,
+          "SimToDispRotation": 155.758347
+        },
+        "radius": 2.07431126
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocks (2)"
+    },
+    {
+      "parentId": 18,
+      "circle": {
+        "position": {
+          "x": 32.1,
+          "y": 87.86498,
+          "z": 100.0,
+          "MagnitudeSquared": 18750.6641,
+          "Magnitude": 136.93306,
+          "Rotation": 20.0689278,
+          "SimToDispRotation": 159.931061
+        },
+        "radius": 2.39994669
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocks (9)"
+    },
+    {
+      "parentId": 18,
+      "circle": {
+        "position": {
+          "x": 68.1,
+          "y": 87.86498,
+          "z": 100.0,
+          "MagnitudeSquared": 22357.8652,
+          "Magnitude": 149.525467,
+          "Rotation": 37.7775764,
+          "SimToDispRotation": 142.222427
+        },
+        "radius": 2.358197
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocks (9)"
+    },
+    {
+      "parentId": 18,
+      "circle": {
+        "position": {
+          "x": 36.1,
+          "y": 87.86498,
+          "z": 100.0,
+          "MagnitudeSquared": 19023.4648,
+          "Magnitude": 137.925583,
+          "Rotation": 22.3356838,
+          "SimToDispRotation": 157.664322
+        },
+        "radius": 2.10716152
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocks (9)"
+    },
+    {
+      "parentId": 18,
+      "circle": {
+        "position": {
+          "x": 64.1,
+          "y": 87.86498,
+          "z": 100.0,
+          "MagnitudeSquared": 21829.0645,
+          "Magnitude": 147.746628,
+          "Rotation": 36.1118126,
+          "SimToDispRotation": 143.8882
+        },
+        "radius": 2.08108783
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocks (9)"
+    },
+    {
+      "parentId": 20,
+      "circle": {
+        "position": {
+          "x": -64.79,
+          "y": 61.06498,
+          "z": 100.0,
+          "MagnitudeSquared": 17926.6758,
+          "Magnitude": 133.890533,
+          "Rotation": -46.69533,
+          "SimToDispRotation": -133.304672
+        },
+        "radius": 7.453377
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocks (1)"
+    },
+    {
+      "parentId": 20,
+      "circle": {
+        "position": {
+          "x": -40.79,
+          "y": 63.06498,
+          "z": 100.0,
+          "MagnitudeSquared": 15641.0156,
+          "Magnitude": 125.064049,
+          "Rotation": -32.894516,
+          "SimToDispRotation": -147.105484
+        },
+        "radius": 7.43298674
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocks (1)"
+    },
+    {
+      "parentId": 20,
+      "circle": {
+        "position": {
+          "x": -50.79,
+          "y": 63.06498,
+          "z": 100.0,
+          "MagnitudeSquared": 16556.8164,
+          "Magnitude": 128.6733,
+          "Rotation": -38.8465729,
+          "SimToDispRotation": -141.153427
+        },
+        "radius": 7.39133739
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocks (1)"
+    },
+    {
+      "parentId": 23,
+      "circle": {
+        "position": {
+          "x": -17.6,
+          "y": -60.8550262,
+          "z": 100.0,
+          "MagnitudeSquared": 14013.0938,
+          "Magnitude": 118.376915,
+          "Rotation": -163.8695,
+          "SimToDispRotation": -16.1305
+        },
+        "radius": 2.40816045
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocks (5)"
+    },
+    {
+      "parentId": 23,
+      "circle": {
+        "position": {
+          "x": -13.6,
+          "y": -60.8550262,
+          "z": 100.0,
+          "MagnitudeSquared": 13888.2939,
+          "Magnitude": 117.8486,
+          "Rotation": -167.402435,
+          "SimToDispRotation": -12.59757
+        },
+        "radius": 2.15180445
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocks (5)"
+    },
+    {
+      "parentId": 23,
+      "circle": {
+        "position": {
+          "x": 14.4,
+          "y": -60.8550262,
+          "z": 100.0,
+          "MagnitudeSquared": 13910.6943,
+          "Magnitude": 117.9436,
+          "Rotation": 166.687088,
+          "SimToDispRotation": 13.312912
+        },
+        "radius": 2.13251
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocks (5)"
+    },
+    {
+      "parentId": 24,
+      "circle": {
+        "position": {
+          "x": 10.2000008,
+          "y": -84.8450241,
+          "z": 100.0,
+          "MagnitudeSquared": 17302.7188,
+          "Magnitude": 131.5398,
+          "Rotation": 173.144852,
+          "SimToDispRotation": 6.855154
+        },
+        "radius": 7.76714754
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocks (12)"
+    },
+    {
+      "parentId": 24,
+      "circle": {
+        "position": {
+          "x": 0.200000763,
+          "y": -84.8450241,
+          "z": 100.0,
+          "MagnitudeSquared": 17198.7188,
+          "Magnitude": 131.14389,
+          "Rotation": 179.864944,
+          "SimToDispRotation": 0.1350601
+        },
+        "radius": 7.532815
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocks (12)"
+    },
+    {
+      "parentId": 24,
+      "circle": {
+        "position": {
+          "x": -9.799999,
+          "y": -84.8450241,
+          "z": 100.0,
+          "MagnitudeSquared": 17294.7188,
+          "Magnitude": 131.509384,
+          "Rotation": -173.41127,
+          "SimToDispRotation": -6.58873463
+        },
+        "radius": 7.29848242
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocks (12)"
+    },
+    {
+      "parentId": 24,
+      "circle": {
+        "position": {
+          "x": -17.8,
+          "y": -82.8450241,
+          "z": 100.0,
+          "MagnitudeSquared": 17180.1367,
+          "Magnitude": 131.073013,
+          "Rotation": -167.87384,
+          "SimToDispRotation": -12.1261587
+        },
+        "radius": 3.73821473
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocks (12)"
+    },
+    {
+      "parentId": 24,
+      "circle": {
+        "position": {
+          "x": -15.7999992,
+          "y": -90.8450241,
+          "z": 100.0,
+          "MagnitudeSquared": 18502.457,
+          "Magnitude": 136.023743,
+          "Rotation": -170.133667,
+          "SimToDispRotation": -9.866337
+        },
+        "radius": 3.38247228
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocks (12)"
+    },
+    {
+      "parentId": 24,
+      "circle": {
+        "position": {
+          "x": -17.8,
+          "y": -86.8450241,
+          "z": 100.0,
+          "MagnitudeSquared": 17858.8984,
+          "Magnitude": 133.637192,
+          "Rotation": -168.416916,
+          "SimToDispRotation": -11.58308
+        },
+        "radius": 2.88718772
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_LogBlocks (12)"
+    }
+  ],
+  "coopAreaLayouts": [
+    {
+      "areaModels": [
+        {
+          "areaIndex": 0,
+          "marker": {
+            "x": 0.0,
+            "y": 0.0,
+            "Rotation": 180.0
+          },
+          "polygon": {
+            "points": [
+              {
+                "x": -176.0,
+                "y": -135.0,
+                "Rotation": -127.489853
+              },
+              {
+                "x": -176.0,
+                "y": 135.0,
+                "Rotation": -52.5101547
+              },
+              {
+                "x": 176.0,
+                "y": 135.0,
+                "Rotation": 52.5101547
+              },
+              {
+                "x": 176.0,
+                "y": -135.0,
+                "Rotation": 127.489853
+              },
+              {
+                "x": -176.0,
+                "y": -135.0,
+                "Rotation": -127.489853
+              }
+            ]
+          },
+          "name": "CoopAreaModel_"
+        }
+      ],
+      "areaLayoutType": 2,
+      "name": "CoopAreaLayoutModel_"
+    },
+    {
+      "areaModels": [
+        {
+          "areaIndex": 0,
+          "marker": {
+            "x": 0.0,
+            "y": 0.0,
+            "Rotation": 180.0
+          },
+          "polygon": {
+            "points": [
+              {
+                "x": -176.0,
+                "y": -135.0,
+                "Rotation": -127.489853
+              },
+              {
+                "x": -176.0,
+                "y": 135.0,
+                "Rotation": -52.5101547
+              },
+              {
+                "x": 176.0,
+                "y": 135.0,
+                "Rotation": 52.5101547
+              },
+              {
+                "x": 176.0,
+                "y": -135.0,
+                "Rotation": 127.489853
+              },
+              {
+                "x": -176.0,
+                "y": -135.0,
+                "Rotation": -127.489853
+              }
+            ]
+          },
+          "name": "CoopAreaModel_"
+        }
+      ],
+      "areaLayoutType": 2,
+      "name": "CoopAreaLayoutModel_"
+    }
+  ],
+  "removeables": [],
+  "regenRemovables": [],
+  "paths": [
+    {
+      "pathId": "Path",
+      "points": [
+        {
+          "point": {
+            "x": -303.3,
+            "y": -69.9,
+            "z": 0.0,
+            "MagnitudeSquared": 96876.89,
+            "Magnitude": 311.250519,
+            "Rotation": -102.978058,
+            "SimToDispRotation": -77.02194
+          },
+          "rotation": 0.0,
+          "distance": 0.0,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": -91.2999954,
+            "y": -69.9,
+            "z": 0.0,
+            "MagnitudeSquared": 13221.6992,
+            "Magnitude": 114.985649,
+            "Rotation": -127.437958,
+            "SimToDispRotation": -52.5620461
+          },
+          "rotation": 0.0,
+          "distance": 212.0,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": -84.2999954,
+            "y": -67.93,
+            "z": 0.0,
+            "MagnitudeSquared": 11720.9746,
+            "Magnitude": 108.263451,
+            "Rotation": -128.8623,
+            "SimToDispRotation": -51.1376953
+          },
+          "rotation": 0.0,
+          "distance": 219.271927,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": -80.2999954,
+            "y": -61.7300034,
+            "z": 0.0,
+            "MagnitudeSquared": 10258.6826,
+            "Magnitude": 101.285156,
+            "Rotation": -127.55101,
+            "SimToDispRotation": -52.4489975
+          },
+          "rotation": 0.0,
+          "distance": 226.650269,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": -80.2999954,
+            "y": 70.17,
+            "z": 0.0,
+            "MagnitudeSquared": 11371.918,
+            "Magnitude": 106.6392,
+            "Rotation": -48.85148,
+            "SimToDispRotation": -131.148529
+          },
+          "rotation": 0.0,
+          "distance": 358.550262,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": -79.0499954,
+            "y": 73.8599854,
+            "z": 0.0,
+            "MagnitudeSquared": 11704.1992,
+            "Magnitude": 108.185944,
+            "Rotation": -46.9439659,
+            "SimToDispRotation": -133.05603
+          },
+          "rotation": 0.0,
+          "distance": 362.446228,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": -70.8999939,
+            "y": 77.09,
+            "z": 0.0,
+            "MagnitudeSquared": 10969.6768,
+            "Magnitude": 104.736221,
+            "Rotation": -42.6048775,
+            "SimToDispRotation": -137.395126
+          },
+          "rotation": 0.0,
+          "distance": 371.212952,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": -30.8,
+            "y": 77.09,
+            "z": 0.0,
+            "MagnitudeSquared": 6891.508,
+            "Magnitude": 83.01511,
+            "Rotation": -21.77834,
+            "SimToDispRotation": -158.221664
+          },
+          "rotation": 0.0,
+          "distance": 411.312958,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": -27.0999985,
+            "y": 72.67,
+            "z": 0.0,
+            "MagnitudeSquared": 6015.339,
+            "Magnitude": 77.55862,
+            "Rotation": -20.4514236,
+            "SimToDispRotation": -159.548569
+          },
+          "rotation": 0.0,
+          "distance": 417.077179,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": -26.8999977,
+            "y": -65.7,
+            "z": 0.0,
+            "MagnitudeSquared": 5040.09961,
+            "Magnitude": 70.99366,
+            "Rotation": -157.734,
+            "SimToDispRotation": -22.266
+          },
+          "rotation": 0.0,
+          "distance": 555.4473,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": -21.6999969,
+            "y": -70.8,
+            "z": 0.0,
+            "MagnitudeSquared": 5483.53027,
+            "Magnitude": 74.0508652,
+            "Rotation": -162.959839,
+            "SimToDispRotation": -17.0401516
+          },
+          "rotation": 0.0,
+          "distance": 562.7309,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 19.2000027,
+            "y": -70.8,
+            "z": 0.0,
+            "MagnitudeSquared": 5381.281,
+            "Magnitude": 73.3572159,
+            "Rotation": 164.827087,
+            "SimToDispRotation": 15.1729174
+          },
+          "rotation": 0.0,
+          "distance": 603.6309,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 21.8000031,
+            "y": -65.1,
+            "z": 0.0,
+            "MagnitudeSquared": 4713.25,
+            "Magnitude": 68.6531143,
+            "Rotation": 161.48587,
+            "SimToDispRotation": 18.5141258
+          },
+          "rotation": 0.0,
+          "distance": 609.895935,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 21.5000038,
+            "y": 72.8699951,
+            "z": 0.0,
+            "MagnitudeSquared": 5772.286,
+            "Magnitude": 75.97556,
+            "Rotation": 16.4384861,
+            "SimToDispRotation": 163.561523
+          },
+          "rotation": 0.0,
+          "distance": 747.8663,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 25.5000038,
+            "y": 78.8699951,
+            "z": 0.0,
+            "MagnitudeSquared": 6870.726,
+            "Magnitude": 82.88985,
+            "Rotation": 17.9168987,
+            "SimToDispRotation": 162.083115
+          },
+          "rotation": 0.0,
+          "distance": 755.0774,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 69.00001,
+            "y": 78.8699951,
+            "z": 0.0,
+            "MagnitudeSquared": 10981.4766,
+            "Magnitude": 104.792542,
+            "Rotation": 41.1813,
+            "SimToDispRotation": 138.81871
+          },
+          "rotation": 0.0,
+          "distance": 798.5774,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 75.2000046,
+            "y": 76.3699951,
+            "z": 0.0,
+            "MagnitudeSquared": 11487.416,
+            "Magnitude": 107.179367,
+            "Rotation": 44.55773,
+            "SimToDispRotation": 135.442276
+          },
+          "rotation": 0.0,
+          "distance": 805.262451,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 77.3,
+            "y": 71.26999,
+            "z": 0.0,
+            "MagnitudeSquared": 11054.7012,
+            "Magnitude": 105.141342,
+            "Rotation": 47.32419,
+            "SimToDispRotation": 132.675812
+          },
+          "rotation": 0.0,
+          "distance": 810.7779,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 77.3,
+            "y": -65.2,
+            "z": 0.0,
+            "MagnitudeSquared": 10226.33,
+            "Magnitude": 101.12532,
+            "Rotation": 130.14653,
+            "SimToDispRotation": 49.8534775
+          },
+          "rotation": 0.0,
+          "distance": 947.247864,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 79.4,
+            "y": -69.9,
+            "z": 0.0,
+            "MagnitudeSquared": 11190.3711,
+            "Magnitude": 105.784554,
+            "Rotation": 131.359177,
+            "SimToDispRotation": 48.64084
+          },
+          "rotation": 0.0,
+          "distance": 952.3957,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 86.50001,
+            "y": -72.0,
+            "z": 0.0,
+            "MagnitudeSquared": 12666.252,
+            "Magnitude": 112.544441,
+            "Rotation": 129.77298,
+            "SimToDispRotation": 50.2270241
+          },
+          "rotation": 0.0,
+          "distance": 959.799744,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 102.8,
+            "y": -72.0,
+            "z": 0.0,
+            "MagnitudeSquared": 15751.8408,
+            "Magnitude": 125.50634,
+            "Rotation": 125.006981,
+            "SimToDispRotation": 54.9930229
+          },
+          "rotation": 0.0,
+          "distance": 976.099731,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 106.200005,
+            "y": -68.4,
+            "z": 0.0,
+            "MagnitudeSquared": 15957.002,
+            "Magnitude": 126.32103,
+            "Rotation": 122.784279,
+            "SimToDispRotation": 57.21572
+          },
+          "rotation": 0.0,
+          "distance": 981.0515,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 106.200005,
+            "y": -29.7,
+            "z": 0.0,
+            "MagnitudeSquared": 12160.5313,
+            "Magnitude": 110.274796,
+            "Rotation": 105.624229,
+            "SimToDispRotation": 74.37577
+          },
+          "rotation": 0.0,
+          "distance": 1019.75153,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 103.990005,
+            "y": -26.1,
+            "z": 0.0,
+            "MagnitudeSquared": 11495.1309,
+            "Magnitude": 107.215347,
+            "Rotation": 104.089386,
+            "SimToDispRotation": 75.91062
+          },
+          "rotation": 0.0,
+          "distance": 1023.97577,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 46.2000046,
+            "y": -25.03,
+            "z": 0.0,
+            "MagnitudeSquared": 2760.94141,
+            "Magnitude": 52.5446625,
+            "Rotation": 118.447723,
+            "SimToDispRotation": 61.55228
+          },
+          "rotation": 0.0,
+          "distance": 1081.77563,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": -88.09999,
+            "y": -29.869997,
+            "z": 0.0,
+            "MagnitudeSquared": 8653.825,
+            "Magnitude": 93.02594,
+            "Rotation": -108.72905,
+            "SimToDispRotation": -71.27095
+          },
+          "rotation": 0.0,
+          "distance": 1216.16284,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": -100.100006,
+            "y": -29.5,
+            "z": 0.0,
+            "MagnitudeSquared": 10890.2607,
+            "Magnitude": 104.356415,
+            "Rotation": -106.420525,
+            "SimToDispRotation": -73.5794754
+          },
+          "rotation": 0.0,
+          "distance": 1228.16858,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": -109.7,
+            "y": -29.1699982,
+            "z": 0.0,
+            "MagnitudeSquared": 12884.9775,
+            "Magnitude": 113.512016,
+            "Rotation": -104.89077,
+            "SimToDispRotation": -75.10923
+          },
+          "rotation": 0.0,
+          "distance": 1237.77429,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": -109.7,
+            "y": 18.2,
+            "z": 0.0,
+            "MagnitudeSquared": 12365.3291,
+            "Magnitude": 111.1995,
+            "Rotation": -80.58003,
+            "SimToDispRotation": -99.41997
+          },
+          "rotation": 0.0,
+          "distance": 1285.14429,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": -103.3,
+            "y": 21.2,
+            "z": 0.0,
+            "MagnitudeSquared": 11120.3311,
+            "Magnitude": 105.45298,
+            "Rotation": -78.40237,
+            "SimToDispRotation": -101.597641
+          },
+          "rotation": 0.0,
+          "distance": 1292.21252,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": -34.9999962,
+            "y": 21.4,
+            "z": 0.0,
+            "MagnitudeSquared": 1682.95972,
+            "Magnitude": 41.02389,
+            "Rotation": -58.5571938,
+            "SimToDispRotation": -121.442818
+          },
+          "rotation": 0.0,
+          "distance": 1360.51282,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 99.6000061,
+            "y": 17.7,
+            "z": 0.0,
+            "MagnitudeSquared": 10233.4512,
+            "Magnitude": 101.160522,
+            "Rotation": 79.92312,
+            "SimToDispRotation": 100.076881
+          },
+          "rotation": 0.0,
+          "distance": 1495.1637,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 106.400009,
+            "y": 18.1,
+            "z": 0.0,
+            "MagnitudeSquared": 11648.5723,
+            "Magnitude": 107.928551,
+            "Rotation": 80.34567,
+            "SimToDispRotation": 99.65433
+          },
+          "rotation": 0.0,
+          "distance": 1501.97546,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 106.400009,
+            "y": 53.4,
+            "z": 0.0,
+            "MagnitudeSquared": 14172.5215,
+            "Magnitude": 119.0484,
+            "Rotation": 63.3488579,
+            "SimToDispRotation": 116.651146
+          },
+          "rotation": 0.0,
+          "distance": 1537.27551,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 96.8,
+            "y": 53.7,
+            "z": 0.0,
+            "MagnitudeSquared": 12253.9307,
+            "Magnitude": 110.697472,
+            "Rotation": 60.980587,
+            "SimToDispRotation": 119.019409
+          },
+          "rotation": 0.0,
+          "distance": 1546.88025,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": -305.6,
+            "y": 53.0,
+            "z": 0.0,
+            "MagnitudeSquared": 96200.37,
+            "Magnitude": 310.161835,
+            "Rotation": -80.1610947,
+            "SimToDispRotation": -99.8389053
+          },
+          "rotation": 0.0,
+          "distance": 1949.28088,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        }
+      ],
+      "isActive": true,
+      "isHidden": false,
+      "spawnPoint": {
+        "x": -1000.0,
+        "y": -1000.0,
+        "z": -1000.0,
+        "MagnitudeSquared": 3000000.0,
+        "Magnitude": 1732.05078,
+        "Rotation": -135.0,
+        "SimToDispRotation": -45.0
+      },
+      "leakPoint": {
+        "x": -1000.0,
+        "y": -1000.0,
+        "z": -1000.0,
+        "MagnitudeSquared": 3000000.0,
+        "Magnitude": 1732.05078,
+        "Rotation": -135.0,
+        "SimToDispRotation": -45.0
+      },
+      "name": "PathModel_Path"
+    }
+  ],
+  "spawner": {
+    "forwardSplitter": {
+      "paths": [
+        "Path"
+      ],
+      "name": "AlternateBloonsSplitterModel_forwardDefault"
+    },
+    "reverseSplitter": {
+      "paths": [
+        "Path"
+      ],
+      "name": "AlternateBloonsSplitterModel_reverseDefault"
+    },
+    "name": "PathSpawnerModel_spawnerDefault"
+  },
+  "mapDifficulty": 0,
+  "mapName": "Logs",
+  "mapEvents": [],
+  "mapWideBloonSpeed": 1.0,
+  "name": "MapModel_Map",
+  "ImplementationType": "Assets.Scripts.Simulation.Track.Map, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+}

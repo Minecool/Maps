@@ -1,0 +1,4202 @@
+{
+  "areas": [
+    {
+      "id": 1,
+      "polygon": {
+        "points": [
+          {
+            "x": -150.0,
+            "y": 116.0,
+            "Rotation": -52.2840233
+          },
+          {
+            "x": 150.0,
+            "y": 116.0,
+            "Rotation": 52.2840233
+          },
+          {
+            "x": 150.0,
+            "y": -116.0,
+            "Rotation": 127.715973
+          },
+          {
+            "x": -150.0,
+            "y": -116.0,
+            "Rotation": -127.715973
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 2,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "name": "AreaModel_BaseArea",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 2,
+      "polygon": {
+        "points": [
+          {
+            "x": -81.98001,
+            "y": -136.9,
+            "Rotation": -149.08551
+          },
+          {
+            "x": -53.5000038,
+            "y": -136.9,
+            "Rotation": -158.654633
+          },
+          {
+            "x": -53.5000038,
+            "y": -36.21,
+            "Rotation": -124.091026
+          },
+          {
+            "x": 122.31,
+            "y": -36.2100029,
+            "Rotation": 106.49144
+          },
+          {
+            "x": 126.789993,
+            "y": -35.090004,
+            "Rotation": 105.469795
+          },
+          {
+            "x": 130.2,
+            "y": -32.8999977,
+            "Rotation": 104.181114
+          },
+          {
+            "x": 132.23999,
+            "y": -30.0500011,
+            "Rotation": 102.802391
+          },
+          {
+            "x": 132.23999,
+            "y": 16.1000023,
+            "Rotation": 83.0584946
+          },
+          {
+            "x": 131.569992,
+            "y": 18.29,
+            "Rotation": 82.08584
+          },
+          {
+            "x": 127.679993,
+            "y": 21.7600021,
+            "Rotation": 80.32823
+          },
+          {
+            "x": 123.42,
+            "y": 23.2799988,
+            "Rotation": 79.31813
+          },
+          {
+            "x": -51.9600029,
+            "y": 23.2799988,
+            "Rotation": -65.86586
+          },
+          {
+            "x": -54.6000023,
+            "y": 24.8900032,
+            "Rotation": -65.49362
+          },
+          {
+            "x": -54.5699959,
+            "y": 137.700012,
+            "Rotation": -21.6182365
+          },
+          {
+            "x": -81.40001,
+            "y": 137.700012,
+            "Rotation": -30.58904
+          },
+          {
+            "x": -81.40001,
+            "y": -0.5999985,
+            "Rotation": -90.42232
+          },
+          {
+            "x": 109.399994,
+            "y": -0.5999985,
+            "Rotation": 90.31423
+          },
+          {
+            "x": 109.399994,
+            "y": -14.2999983,
+            "Rotation": 97.44708
+          },
+          {
+            "x": -83.5,
+            "y": -14.2999983,
+            "Rotation": -99.7180557
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 0,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_PathEdge",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 3,
+      "polygon": {
+        "points": [
+          {
+            "x": -45.29,
+            "y": 73.36,
+            "Rotation": -31.68979
+          },
+          {
+            "x": -44.2700043,
+            "y": 66.88,
+            "Rotation": -33.5018463
+          },
+          {
+            "x": -45.65,
+            "y": 62.0,
+            "Rotation": -36.36386
+          },
+          {
+            "x": -43.03,
+            "y": 54.86,
+            "Rotation": -38.1092262
+          },
+          {
+            "x": -44.1200027,
+            "y": 50.5599976,
+            "Rotation": -41.1088181
+          },
+          {
+            "x": -42.15,
+            "y": 46.8399963,
+            "Rotation": -41.9831619
+          },
+          {
+            "x": -41.71,
+            "y": 36.5,
+            "Rotation": -48.8111572
+          },
+          {
+            "x": -36.1,
+            "y": 30.2399979,
+            "Rotation": -50.0479965
+          },
+          {
+            "x": -24.0600052,
+            "y": 33.92,
+            "Rotation": -35.3486977
+          },
+          {
+            "x": -21.9000015,
+            "y": 37.3099976,
+            "Rotation": -30.41183
+          },
+          {
+            "x": -15.2200012,
+            "y": 37.11,
+            "Rotation": -22.300106
+          },
+          {
+            "x": -8.639999,
+            "y": 40.25,
+            "Rotation": -12.1151705
+          },
+          {
+            "x": -5.989998,
+            "y": 47.7699966,
+            "Rotation": -7.14715624
+          },
+          {
+            "x": -8.200005,
+            "y": 53.3699951,
+            "Rotation": -8.734874
+          },
+          {
+            "x": -6.73000336,
+            "y": 63.5899963,
+            "Rotation": -6.04137039
+          },
+          {
+            "x": -8.940002,
+            "y": 71.2999954,
+            "Rotation": -7.14677668
+          },
+          {
+            "x": -8.790001,
+            "y": 76.2599945,
+            "Rotation": -6.575102
+          },
+          {
+            "x": -12.18,
+            "y": 82.2,
+            "Rotation": -8.428485
+          },
+          {
+            "x": -17.68,
+            "y": 85.59,
+            "Rotation": -11.671217
+          },
+          {
+            "x": -24.7000046,
+            "y": 85.05,
+            "Rotation": -16.19422
+          },
+          {
+            "x": -31.6300049,
+            "y": 86.37999,
+            "Rotation": -20.1113567
+          },
+          {
+            "x": -38.7000046,
+            "y": 80.9799957,
+            "Rotation": -25.542942
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 1,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_Water",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 4,
+      "polygon": {
+        "points": [
+          {
+            "x": 45.2800064,
+            "y": -47.79,
+            "Rotation": 136.54483
+          },
+          {
+            "x": 47.0600052,
+            "y": -59.9499969,
+            "Rotation": 141.868515
+          },
+          {
+            "x": 50.86,
+            "y": -63.2699966,
+            "Rotation": 141.2057
+          },
+          {
+            "x": 51.93,
+            "y": -70.27,
+            "Rotation": 143.535355
+          },
+          {
+            "x": 57.8000031,
+            "y": -74.3,
+            "Rotation": 142.119675
+          },
+          {
+            "x": 77.79,
+            "y": -79.29,
+            "Rotation": 135.547119
+          },
+          {
+            "x": 88.58,
+            "y": -77.63,
+            "Rotation": 131.230774
+          },
+          {
+            "x": 91.96001,
+            "y": -79.23,
+            "Rotation": 130.747208
+          },
+          {
+            "x": 102.100006,
+            "y": -75.26,
+            "Rotation": 126.394684
+          },
+          {
+            "x": 102.630005,
+            "y": -69.21,
+            "Rotation": 123.994316
+          },
+          {
+            "x": 104.590004,
+            "y": -63.4,
+            "Rotation": 121.223267
+          },
+          {
+            "x": 102.930008,
+            "y": -58.42,
+            "Rotation": 119.577957
+          },
+          {
+            "x": 102.930008,
+            "y": -51.07,
+            "Rotation": 116.388885
+          },
+          {
+            "x": 92.66,
+            "y": -43.1199951,
+            "Rotation": 114.955254
+          },
+          {
+            "x": 82.1000061,
+            "y": -46.14,
+            "Rotation": 119.335876
+          },
+          {
+            "x": 79.19,
+            "y": -44.54,
+            "Rotation": 119.355347
+          },
+          {
+            "x": 63.590004,
+            "y": -44.65,
+            "Rotation": 125.074783
+          },
+          {
+            "x": 59.4400024,
+            "y": -41.8000031,
+            "Rotation": 125.116051
+          },
+          {
+            "x": 50.6600037,
+            "y": -43.3999939,
+            "Rotation": 130.5864
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 1,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_Water2",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 5,
+      "polygon": {
+        "points": [
+          {
+            "x": -100.7,
+            "y": -143.535049,
+            "Rotation": -144.947632
+          },
+          {
+            "x": -86.5,
+            "y": -143.535034,
+            "Rotation": -148.92514
+          },
+          {
+            "x": -78.2,
+            "y": -141.13504,
+            "Rotation": -151.010071
+          },
+          {
+            "x": -78.2,
+            "y": -15.035038,
+            "Rotation": -100.88311
+          },
+          {
+            "x": 107.2,
+            "y": -15.035038,
+            "Rotation": 97.98379
+          },
+          {
+            "x": 107.2,
+            "y": 0.364959717,
+            "Rotation": 89.80494
+          },
+          {
+            "x": -78.4,
+            "y": 0.364959717,
+            "Rotation": -89.733284
+          },
+          {
+            "x": -78.4,
+            "y": 146.964966,
+            "Rotation": -28.07816
+          },
+          {
+            "x": -100.6,
+            "y": 146.964966,
+            "Rotation": -34.3923
+          }
+        ]
+      },
+      "height": 100.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": true,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [
+        {
+          "position": {
+            "x": -88.7,
+            "y": -7.53504944,
+            "z": 0.0,
+            "MagnitudeSquared": 7924.46631,
+            "Magnitude": 89.01947,
+            "Rotation": -94.85561,
+            "SimToDispRotation": -85.1443939
+          },
+          "radius": 11.953187
+        },
+        {
+          "position": {
+            "x": -88.7,
+            "y": -81.53505,
+            "z": 0.0,
+            "MagnitudeSquared": 14515.6543,
+            "Magnitude": 120.480927,
+            "Rotation": -132.589935,
+            "SimToDispRotation": -47.4100761
+          },
+          "radius": 10.5
+        },
+        {
+          "position": {
+            "x": -88.7,
+            "y": -31.53505,
+            "z": 0.0,
+            "MagnitudeSquared": 8862.148,
+            "Magnitude": 94.1389847,
+            "Rotation": -109.571564,
+            "SimToDispRotation": -70.42844
+          },
+          "radius": 10.5
+        },
+        {
+          "position": {
+            "x": -88.7,
+            "y": -129.535049,
+            "z": 0.0,
+            "MagnitudeSquared": 24647.0176,
+            "Magnitude": 156.993683,
+            "Rotation": -145.598358,
+            "SimToDispRotation": -34.4016533
+          },
+          "radius": 10.5
+        },
+        {
+          "position": {
+            "x": -88.7,
+            "y": -49.53505,
+            "z": 0.0,
+            "MagnitudeSquared": 10321.41,
+            "Magnitude": 101.594337,
+            "Rotation": -119.181435,
+            "SimToDispRotation": -60.8185577
+          },
+          "radius": 10.5
+        },
+        {
+          "position": {
+            "x": -88.7,
+            "y": -103.535049,
+            "z": 0.0,
+            "MagnitudeSquared": 18587.1953,
+            "Magnitude": 136.334869,
+            "Rotation": -139.412857,
+            "SimToDispRotation": -40.58715
+          },
+          "radius": 10.5
+        },
+        {
+          "position": {
+            "x": -88.7,
+            "y": -61.53505,
+            "z": 0.0,
+            "MagnitudeSquared": 11654.252,
+            "Magnitude": 107.954865,
+            "Rotation": -124.750732,
+            "SimToDispRotation": -55.24927
+          },
+          "radius": 10.5
+        },
+        {
+          "position": {
+            "x": -88.7,
+            "y": -115.535049,
+            "z": 0.0,
+            "MagnitudeSquared": 21216.0371,
+            "Magnitude": 145.657257,
+            "Rotation": -142.485382,
+            "SimToDispRotation": -37.5146179
+          },
+          "radius": 10.5
+        },
+        {
+          "position": {
+            "x": -88.7,
+            "y": 134.464951,
+            "z": 0.0,
+            "MagnitudeSquared": 25948.5117,
+            "Magnitude": 161.085419,
+            "Rotation": -33.4109,
+            "SimToDispRotation": -146.5891
+          },
+          "radius": 10.2999954
+        },
+        {
+          "position": {
+            "x": -88.7,
+            "y": 8.464951,
+            "z": 0.0,
+            "MagnitudeSquared": 7939.34473,
+            "Magnitude": 89.1030045,
+            "Rotation": -84.54858,
+            "SimToDispRotation": -95.45143
+          },
+          "radius": 10.2999954
+        },
+        {
+          "position": {
+            "x": -88.7,
+            "y": 48.46495,
+            "z": 0.0,
+            "MagnitudeSquared": 10216.541,
+            "Magnitude": 101.076904,
+            "Rotation": -61.34817,
+            "SimToDispRotation": -118.651833
+          },
+          "radius": 10.2999954
+        },
+        {
+          "position": {
+            "x": -88.7,
+            "y": 114.464951,
+            "z": 0.0,
+            "MagnitudeSquared": 20969.9141,
+            "Magnitude": 144.809921,
+            "Rotation": -37.7724533,
+            "SimToDispRotation": -142.227539
+          },
+          "radius": 10.2999954
+        },
+        {
+          "position": {
+            "x": -88.7,
+            "y": 96.46495,
+            "z": 0.0,
+            "MagnitudeSquared": 17173.1758,
+            "Magnitude": 131.046463,
+            "Rotation": -42.59869,
+            "SimToDispRotation": -137.401321
+          },
+          "radius": 10.2999954
+        },
+        {
+          "position": {
+            "x": -88.7,
+            "y": 68.46495,
+            "z": 0.0,
+            "MagnitudeSquared": 12555.1387,
+            "Magnitude": 112.049713,
+            "Rotation": -52.33649,
+            "SimToDispRotation": -127.663506
+          },
+          "radius": 10.2999954
+        },
+        {
+          "position": {
+            "x": -88.7,
+            "y": 82.46495,
+            "z": 0.0,
+            "MagnitudeSquared": 14668.1582,
+            "Magnitude": 121.112175,
+            "Rotation": -47.0861969,
+            "SimToDispRotation": -132.9138
+          },
+          "radius": 10.2999954
+        },
+        {
+          "position": {
+            "x": -88.7,
+            "y": 28.46495,
+            "z": 0.0,
+            "MagnitudeSquared": 8677.943,
+            "Magnitude": 93.15548,
+            "Rotation": -72.20791,
+            "SimToDispRotation": -107.792091
+          },
+          "radius": 10.2999954
+        },
+        {
+          "position": {
+            "x": -92.7,
+            "y": -19.53505,
+            "z": 0.0,
+            "MagnitudeSquared": 8974.907,
+            "Magnitude": 94.7359848,
+            "Rotation": -101.900055,
+            "SimToDispRotation": -78.0999451
+          },
+          "radius": 7.957314
+        },
+        {
+          "position": {
+            "x": 49.3000031,
+            "y": -7.53504944,
+            "z": 0.0,
+            "MagnitudeSquared": 2487.267,
+            "Magnitude": 49.87251,
+            "Rotation": 98.68988,
+            "SimToDispRotation": 81.31012
+          },
+          "radius": 7.49998951
+        },
+        {
+          "position": {
+            "x": 59.3000031,
+            "y": -7.53504944,
+            "z": 0.0,
+            "MagnitudeSquared": 3573.26733,
+            "Magnitude": 59.7768135,
+            "Rotation": 97.24158,
+            "SimToDispRotation": 82.75843
+          },
+          "radius": 7.49998951
+        },
+        {
+          "position": {
+            "x": 81.3,
+            "y": -7.53504944,
+            "z": 0.0,
+            "MagnitudeSquared": 6666.46729,
+            "Magnitude": 81.64844,
+            "Rotation": 95.295166,
+            "SimToDispRotation": 84.70484
+          },
+          "radius": 7.49998951
+        },
+        {
+          "position": {
+            "x": 99.3,
+            "y": -7.53504944,
+            "z": 0.0,
+            "MagnitudeSquared": 9917.268,
+            "Magnitude": 99.58548,
+            "Rotation": 94.339386,
+            "SimToDispRotation": 85.66062
+          },
+          "radius": 7.49998951
+        },
+        {
+          "position": {
+            "x": 71.3,
+            "y": -7.53504944,
+            "z": 0.0,
+            "MagnitudeSquared": 5140.46729,
+            "Magnitude": 71.69705,
+            "Rotation": 96.03268,
+            "SimToDispRotation": 83.96732
+          },
+          "radius": 7.49998951
+        },
+        {
+          "position": {
+            "x": 35.3000031,
+            "y": -7.53504944,
+            "z": 0.0,
+            "MagnitudeSquared": 1302.86719,
+            "Magnitude": 36.095253,
+            "Rotation": 102.049377,
+            "SimToDispRotation": 77.95062
+          },
+          "radius": 7.49998951
+        },
+        {
+          "position": {
+            "x": -54.6999969,
+            "y": -7.53504944,
+            "z": 0.0,
+            "MagnitudeSquared": 3048.86646,
+            "Magnitude": 55.21654,
+            "Rotation": -97.84327,
+            "SimToDispRotation": -82.15674
+          },
+          "radius": 7.49998951
+        },
+        {
+          "position": {
+            "x": -2.699997,
+            "y": -7.53504944,
+            "z": 0.0,
+            "MagnitudeSquared": 64.0669556,
+            "Magnitude": 8.004184,
+            "Rotation": -160.286133,
+            "SimToDispRotation": -19.7138748
+          },
+          "radius": 7.49998951
+        },
+        {
+          "position": {
+            "x": -12.6999969,
+            "y": -7.53504944,
+            "z": 0.0,
+            "MagnitudeSquared": 218.0669,
+            "Magnitude": 14.7670879,
+            "Rotation": -120.681122,
+            "SimToDispRotation": -59.3188744
+          },
+          "radius": 7.49998951
+        },
+        {
+          "position": {
+            "x": -44.6999969,
+            "y": -7.53504944,
+            "z": 0.0,
+            "MagnitudeSquared": 2054.8667,
+            "Magnitude": 45.33064,
+            "Rotation": -99.56836,
+            "SimToDispRotation": -80.43164
+          },
+          "radius": 7.49998951
+        },
+        {
+          "position": {
+            "x": -22.6999969,
+            "y": -7.53504944,
+            "z": 0.0,
+            "MagnitudeSquared": 572.066833,
+            "Magnitude": 23.91792,
+            "Rotation": -108.3631,
+            "SimToDispRotation": -71.6369
+          },
+          "radius": 7.49998951
+        },
+        {
+          "position": {
+            "x": -34.6999969,
+            "y": -7.53504944,
+            "z": 0.0,
+            "MagnitudeSquared": 1260.86682,
+            "Magnitude": 35.5086861,
+            "Rotation": -102.251488,
+            "SimToDispRotation": -77.74851
+          },
+          "radius": 7.49998951
+        },
+        {
+          "position": {
+            "x": 25.3000031,
+            "y": -7.53504944,
+            "z": 0.0,
+            "MagnitudeSquared": 696.8671,
+            "Magnitude": 26.398241,
+            "Rotation": 106.585007,
+            "SimToDispRotation": 73.41499
+          },
+          "radius": 7.49998951
+        },
+        {
+          "position": {
+            "x": -74.7,
+            "y": -7.53504944,
+            "z": 0.0,
+            "MagnitudeSquared": 5636.866,
+            "Magnitude": 75.07906,
+            "Rotation": -95.7599945,
+            "SimToDispRotation": -84.24001
+          },
+          "radius": 7.49998951
+        },
+        {
+          "position": {
+            "x": 15.3000031,
+            "y": -7.53504944,
+            "z": 0.0,
+            "MagnitudeSquared": 290.867065,
+            "Magnitude": 17.0548248,
+            "Rotation": 116.219643,
+            "SimToDispRotation": 63.78036
+          },
+          "radius": 7.49998951
+        },
+        {
+          "position": {
+            "x": -64.7,
+            "y": -7.53504944,
+            "z": 0.0,
+            "MagnitudeSquared": 4242.8667,
+            "Magnitude": 65.13729,
+            "Rotation": -96.64282,
+            "SimToDispRotation": -83.35718
+          },
+          "radius": 7.49998951
+        },
+        {
+          "position": {
+            "x": -84.7,
+            "y": 58.46495,
+            "z": 0.0,
+            "MagnitudeSquared": 10592.24,
+            "Magnitude": 102.91861,
+            "Rotation": -55.3842659,
+            "SimToDispRotation": -124.615738
+          },
+          "radius": 6.29999542
+        },
+        {
+          "position": {
+            "x": -84.7,
+            "y": 38.46495,
+            "z": 0.0,
+            "MagnitudeSquared": 8653.642,
+            "Magnitude": 93.02495,
+            "Rotation": -65.5757,
+            "SimToDispRotation": -114.4243
+          },
+          "radius": 6.29999542
+        },
+        {
+          "position": {
+            "x": -84.7,
+            "y": 124.464951,
+            "z": 0.0,
+            "MagnitudeSquared": 22665.6133,
+            "Magnitude": 150.551025,
+            "Rotation": -34.23579,
+            "SimToDispRotation": -145.764221
+          },
+          "radius": 6.29999542
+        },
+        {
+          "position": {
+            "x": -84.7,
+            "y": 18.46495,
+            "z": 0.0,
+            "MagnitudeSquared": 7515.044,
+            "Magnitude": 86.6893539,
+            "Rotation": -77.7017,
+            "SimToDispRotation": -102.2983
+          },
+          "radius": 6.29999542
+        },
+        {
+          "position": {
+            "x": -94.7,
+            "y": -93.53505,
+            "z": 0.0,
+            "MagnitudeSquared": 17716.8945,
+            "Magnitude": 133.104828,
+            "Rotation": -134.645416,
+            "SimToDispRotation": -45.3545876
+          },
+          "radius": 5.98278856
+        },
+        {
+          "position": {
+            "x": -94.7,
+            "y": -71.53505,
+            "z": 0.0,
+            "MagnitudeSquared": 14085.3535,
+            "Magnitude": 118.681732,
+            "Rotation": -127.066887,
+            "SimToDispRotation": -52.9331131
+          },
+          "radius": 5.97521257
+        },
+        {
+          "position": {
+            "x": -94.7,
+            "y": 18.46495,
+            "z": 0.0,
+            "MagnitudeSquared": 9309.044,
+            "Magnitude": 96.48338,
+            "Rotation": -78.96669,
+            "SimToDispRotation": -101.03331
+          },
+          "radius": 5.944237
+        },
+        {
+          "position": {
+            "x": -94.7,
+            "y": 38.46495,
+            "z": 0.0,
+            "MagnitudeSquared": 10447.6426,
+            "Magnitude": 102.213707,
+            "Rotation": -67.89415,
+            "SimToDispRotation": -112.105858
+          },
+          "radius": 5.937348
+        },
+        {
+          "position": {
+            "x": -94.7,
+            "y": 58.46495,
+            "z": 0.0,
+            "MagnitudeSquared": 12386.24,
+            "Magnitude": 111.293488,
+            "Rotation": -58.3100548,
+            "SimToDispRotation": -121.689941
+          },
+          "radius": 5.930466
+        },
+        {
+          "position": {
+            "x": -94.7,
+            "y": 124.464951,
+            "z": 0.0,
+            "MagnitudeSquared": 24459.6133,
+            "Magnitude": 156.395691,
+            "Rotation": -37.2659378,
+            "SimToDispRotation": -142.73407
+          },
+          "radius": 5.907746
+        },
+        {
+          "position": {
+            "x": 89.3,
+            "y": -5.53504944,
+            "z": 0.0,
+            "MagnitudeSquared": 8005.12744,
+            "Magnitude": 89.4713745,
+            "Rotation": 93.54681,
+            "SimToDispRotation": 86.45319
+          },
+          "radius": 5.90000868
+        },
+        {
+          "position": {
+            "x": 5.300003,
+            "y": -5.53504944,
+            "z": 0.0,
+            "MagnitudeSquared": 58.7268066,
+            "Magnitude": 7.66334152,
+            "Rotation": 136.242722,
+            "SimToDispRotation": 43.75727
+          },
+          "radius": 5.90000868
+        },
+        {
+          "position": {
+            "x": -82.7,
+            "y": -71.53505,
+            "z": 0.0,
+            "MagnitudeSquared": 11956.5527,
+            "Magnitude": 109.346024,
+            "Rotation": -130.859619,
+            "SimToDispRotation": -49.1403732
+          },
+          "radius": 4.5
+        },
+        {
+          "position": {
+            "x": -82.7,
+            "y": -21.53505,
+            "z": 0.0,
+            "MagnitudeSquared": 7303.048,
+            "Magnitude": 85.45787,
+            "Rotation": -104.595657,
+            "SimToDispRotation": -75.40434
+          },
+          "radius": 4.5
+        },
+        {
+          "position": {
+            "x": -82.7,
+            "y": -93.53505,
+            "z": 0.0,
+            "MagnitudeSquared": 15588.0957,
+            "Magnitude": 124.852295,
+            "Rotation": -138.518158,
+            "SimToDispRotation": -41.481842
+          },
+          "radius": 4.5
+        },
+        {
+          "position": {
+            "x": -94.7,
+            "y": -139.535049,
+            "z": 0.0,
+            "MagnitudeSquared": 28438.12,
+            "Magnitude": 168.636063,
+            "Rotation": -145.835953,
+            "SimToDispRotation": -34.1640549
+          },
+          "radius": 4.0
+        },
+        {
+          "position": {
+            "x": -96.7,
+            "y": -41.53505,
+            "z": 0.0,
+            "MagnitudeSquared": 11076.05,
+            "Magnitude": 105.242813,
+            "Rotation": -113.24472,
+            "SimToDispRotation": -66.75528
+          },
+          "radius": 3.96488976
+        },
+        {
+          "position": {
+            "x": -96.7,
+            "y": 104.464951,
+            "z": 0.0,
+            "MagnitudeSquared": 20263.8164,
+            "Magnitude": 142.351028,
+            "Rotation": -42.7894859,
+            "SimToDispRotation": -137.21051
+          },
+          "radius": 3.91462731
+        },
+        {
+          "position": {
+            "x": -96.7,
+            "y": 142.464951,
+            "z": 0.0,
+            "MagnitudeSquared": 29647.1523,
+            "Magnitude": 172.183487,
+            "Rotation": -34.1672249,
+            "SimToDispRotation": -145.832779
+          },
+          "radius": 3.90155053
+        },
+        {
+          "position": {
+            "x": 91.3,
+            "y": -11.5350494,
+            "z": 0.0,
+            "MagnitudeSquared": 8468.748,
+            "Magnitude": 92.0258,
+            "Rotation": 97.20073,
+            "SimToDispRotation": 82.79928
+          },
+          "radius": 3.49998951
+        },
+        {
+          "position": {
+            "x": 7.300003,
+            "y": -11.5350494,
+            "z": 0.0,
+            "MagnitudeSquared": 186.347412,
+            "Magnitude": 13.6509123,
+            "Rotation": 147.672165,
+            "SimToDispRotation": 32.3278427
+          },
+          "radius": 3.49998951
+        },
+        {
+          "position": {
+            "x": -84.7,
+            "y": -139.535049,
+            "z": 0.0,
+            "MagnitudeSquared": 26644.12,
+            "Magnitude": 163.23027,
+            "Rotation": -148.741577,
+            "SimToDispRotation": -31.258419
+          },
+          "radius": 3.34257412
+        },
+        {
+          "position": {
+            "x": -82.7,
+            "y": 144.464951,
+            "z": 0.0,
+            "MagnitudeSquared": 27709.41,
+            "Magnitude": 166.461441,
+            "Rotation": -29.78929,
+            "SimToDispRotation": -150.210709
+          },
+          "radius": 2.5
+        },
+        {
+          "position": {
+            "x": -80.7,
+            "y": -137.535049,
+            "z": 0.0,
+            "MagnitudeSquared": 25428.38,
+            "Magnitude": 159.462784,
+            "Rotation": -149.597321,
+            "SimToDispRotation": -30.4026852
+          },
+          "radius": 2.5
+        },
+        {
+          "position": {
+            "x": -92.7,
+            "y": 144.464951,
+            "z": 0.0,
+            "MagnitudeSquared": 29463.41,
+            "Magnitude": 171.6491,
+            "Rotation": -32.6874,
+            "SimToDispRotation": -147.3126
+          },
+          "radius": 2.5
+        },
+        {
+          "position": {
+            "x": -80.7,
+            "y": -41.53505,
+            "z": 0.0,
+            "MagnitudeSquared": 8237.65,
+            "Magnitude": 90.7615051,
+            "Rotation": -117.234184,
+            "SimToDispRotation": -62.76582
+          },
+          "radius": 2.5
+        },
+        {
+          "position": {
+            "x": -80.7,
+            "y": 142.464951,
+            "z": 0.0,
+            "MagnitudeSquared": 26808.752,
+            "Magnitude": 163.73378,
+            "Rotation": -29.5296059,
+            "SimToDispRotation": -150.4704
+          },
+          "radius": 2.29999542
+        },
+        {
+          "position": {
+            "x": -80.7,
+            "y": 104.464951,
+            "z": 0.0,
+            "MagnitudeSquared": 17425.416,
+            "Magnitude": 132.005371,
+            "Rotation": -37.686367,
+            "SimToDispRotation": -142.313629
+          },
+          "radius": 2.29999542
+        }
+      ],
+      "name": "AreaModel_WallBlocker",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 6,
+      "polygon": {
+        "points": [
+          {
+            "x": -100.7,
+            "y": -157.928,
+            "Rotation": -147.477112
+          },
+          {
+            "x": -86.5,
+            "y": -157.927979,
+            "Rotation": -151.289688
+          },
+          {
+            "x": -78.2,
+            "y": -155.527985,
+            "Rotation": -153.30661
+          },
+          {
+            "x": -78.2,
+            "y": -29.4279823,
+            "Rotation": -110.622169
+          },
+          {
+            "x": 107.2,
+            "y": -29.4279823,
+            "Rotation": 105.3504
+          },
+          {
+            "x": 107.2,
+            "y": -14.0279808,
+            "Rotation": 97.45525
+          },
+          {
+            "x": -78.4,
+            "y": -14.0279808,
+            "Rotation": -100.144485
+          },
+          {
+            "x": -78.4,
+            "y": 132.572021,
+            "Rotation": -30.599081
+          },
+          {
+            "x": -100.6,
+            "y": 132.572021,
+            "Rotation": -37.19242
+          }
+        ]
+      },
+      "height": 38.5,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_Wall",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 7,
+      "polygon": {
+        "points": [
+          {
+            "x": -210.5,
+            "y": 33.2649765,
+            "Rotation": -81.0199051
+          },
+          {
+            "x": -189.2,
+            "y": -16.6350212,
+            "Rotation": -95.0247
+          },
+          {
+            "x": -175.27,
+            "y": -8.56502151,
+            "Rotation": -92.79768
+          },
+          {
+            "x": -168.12,
+            "y": -9.75502,
+            "Rotation": -93.320816
+          },
+          {
+            "x": -164.0,
+            "y": -14.0350189,
+            "Rotation": -94.8914261
+          },
+          {
+            "x": -156.4,
+            "y": -8.835022,
+            "Rotation": -93.2332
+          },
+          {
+            "x": -144.7,
+            "y": -13.23502,
+            "Rotation": -95.2260361
+          },
+          {
+            "x": -140.2,
+            "y": -21.6350212,
+            "Rotation": -98.77242
+          },
+          {
+            "x": -133.2,
+            "y": -17.6350212,
+            "Rotation": -97.54182
+          },
+          {
+            "x": -137.0,
+            "y": -10.0350189,
+            "Rotation": -94.18934
+          },
+          {
+            "x": -133.5,
+            "y": 3.36497879,
+            "Rotation": -88.55612
+          },
+          {
+            "x": -129.7,
+            "y": 3.36497879,
+            "Rotation": -88.51384
+          },
+          {
+            "x": -126.9,
+            "y": -1.835022,
+            "Rotation": -90.82847
+          },
+          {
+            "x": -121.9,
+            "y": -1.835022,
+            "Rotation": -90.8624344
+          },
+          {
+            "x": -110.2,
+            "y": -14.0350189,
+            "Rotation": -97.25809
+          },
+          {
+            "x": -105.1,
+            "y": -14.2350235,
+            "Rotation": -97.713356
+          },
+          {
+            "x": -98.4,
+            "y": -14.23502,
+            "Rotation": -98.231575
+          },
+          {
+            "x": -99.4,
+            "y": 142.064972,
+            "Rotation": -34.97971
+          },
+          {
+            "x": -121.8,
+            "y": 142.064972,
+            "Rotation": -40.6082764
+          },
+          {
+            "x": -121.8,
+            "y": 154.564972,
+            "Rotation": -38.2387543
+          },
+          {
+            "x": -176.9,
+            "y": 154.564972,
+            "Rotation": -48.85492
+          },
+          {
+            "x": -176.9,
+            "y": 140.36499,
+            "Rotation": -51.5690269
+          },
+          {
+            "x": -210.6,
+            "y": 140.36499,
+            "Rotation": -56.31653
+          }
+        ]
+      },
+      "height": 100.0,
+      "type": 3,
+      "renderHeightOffset": 30.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_BricksRemovableLarge",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 8,
+      "polygon": {
+        "points": [
+          {
+            "x": -190.3,
+            "y": -141.535019,
+            "Rotation": -126.639908
+          },
+          {
+            "x": -97.5,
+            "y": -141.535,
+            "Rotation": -145.437988
+          },
+          {
+            "x": -97.5,
+            "y": -21.0350266,
+            "Rotation": -102.174614
+          },
+          {
+            "x": -96.7,
+            "y": -8.635025,
+            "Rotation": -95.10281
+          },
+          {
+            "x": -106.0,
+            "y": -7.03502655,
+            "Rotation": -93.79705
+          },
+          {
+            "x": -116.0,
+            "y": -14.835022,
+            "Rotation": -97.28789
+          },
+          {
+            "x": -119.7,
+            "y": -23.5350266,
+            "Rotation": -101.123421
+          },
+          {
+            "x": -128.6,
+            "y": -29.0350246,
+            "Rotation": -102.722794
+          },
+          {
+            "x": -138.9,
+            "y": -25.335022,
+            "Rotation": -100.336975
+          },
+          {
+            "x": -141.0,
+            "y": -33.135025,
+            "Rotation": -103.224564
+          },
+          {
+            "x": -145.0,
+            "y": -17.93502,
+            "Rotation": -97.05109
+          },
+          {
+            "x": -151.9,
+            "y": -20.2350235,
+            "Rotation": -97.58786
+          },
+          {
+            "x": -149.4,
+            "y": -34.2350235,
+            "Rotation": -102.906509
+          },
+          {
+            "x": -190.8,
+            "y": -34.2350235,
+            "Rotation": -100.172272
+          }
+        ]
+      },
+      "height": 100.0,
+      "type": 3,
+      "renderHeightOffset": 30.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_BricksRemovableMed",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "blockers": [
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -88.7,
+          "y": -7.53504944,
+          "z": 100.0,
+          "MagnitudeSquared": 17924.4668,
+          "Magnitude": 133.8823,
+          "Rotation": -94.85561,
+          "SimToDispRotation": -85.1443939
+        },
+        "radius": 11.953187
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -88.7,
+          "y": -81.53505,
+          "z": 100.0,
+          "MagnitudeSquared": 24515.6543,
+          "Magnitude": 156.574753,
+          "Rotation": -132.589935,
+          "SimToDispRotation": -47.4100761
+        },
+        "radius": 10.5
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -88.7,
+          "y": -31.53505,
+          "z": 100.0,
+          "MagnitudeSquared": 18862.1484,
+          "Magnitude": 137.339539,
+          "Rotation": -109.571564,
+          "SimToDispRotation": -70.42844
+        },
+        "radius": 10.5
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -88.7,
+          "y": -129.535049,
+          "z": 100.0,
+          "MagnitudeSquared": 34647.0156,
+          "Magnitude": 186.137085,
+          "Rotation": -145.598358,
+          "SimToDispRotation": -34.4016533
+        },
+        "radius": 10.5
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -88.7,
+          "y": -49.53505,
+          "z": 100.0,
+          "MagnitudeSquared": 20321.41,
+          "Magnitude": 142.553177,
+          "Rotation": -119.181435,
+          "SimToDispRotation": -60.8185577
+        },
+        "radius": 10.5
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -88.7,
+          "y": -103.535049,
+          "z": 100.0,
+          "MagnitudeSquared": 28587.1953,
+          "Magnitude": 169.077484,
+          "Rotation": -139.412857,
+          "SimToDispRotation": -40.58715
+        },
+        "radius": 10.5
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -88.7,
+          "y": -61.53505,
+          "z": 100.0,
+          "MagnitudeSquared": 21654.252,
+          "Magnitude": 147.153839,
+          "Rotation": -124.750732,
+          "SimToDispRotation": -55.24927
+        },
+        "radius": 10.5
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -88.7,
+          "y": -115.535049,
+          "z": 100.0,
+          "MagnitudeSquared": 31216.0371,
+          "Magnitude": 176.6806,
+          "Rotation": -142.485382,
+          "SimToDispRotation": -37.5146179
+        },
+        "radius": 10.5
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -88.7,
+          "y": 134.464951,
+          "z": 100.0,
+          "MagnitudeSquared": 35948.51,
+          "Magnitude": 189.600922,
+          "Rotation": -33.4109,
+          "SimToDispRotation": -146.5891
+        },
+        "radius": 10.2999954
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -88.7,
+          "y": 8.464951,
+          "z": 100.0,
+          "MagnitudeSquared": 17939.3438,
+          "Magnitude": 133.937836,
+          "Rotation": -84.54858,
+          "SimToDispRotation": -95.45143
+        },
+        "radius": 10.2999954
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -88.7,
+          "y": 48.46495,
+          "z": 100.0,
+          "MagnitudeSquared": 20216.541,
+          "Magnitude": 142.184891,
+          "Rotation": -61.34817,
+          "SimToDispRotation": -118.651833
+        },
+        "radius": 10.2999954
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -88.7,
+          "y": 114.464951,
+          "z": 100.0,
+          "MagnitudeSquared": 30969.9141,
+          "Magnitude": 175.982712,
+          "Rotation": -37.7724533,
+          "SimToDispRotation": -142.227539
+        },
+        "radius": 10.2999954
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -88.7,
+          "y": 96.46495,
+          "z": 100.0,
+          "MagnitudeSquared": 27173.1758,
+          "Magnitude": 164.84288,
+          "Rotation": -42.59869,
+          "SimToDispRotation": -137.401321
+        },
+        "radius": 10.2999954
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -88.7,
+          "y": 68.46495,
+          "z": 100.0,
+          "MagnitudeSquared": 22555.1387,
+          "Magnitude": 150.183685,
+          "Rotation": -52.33649,
+          "SimToDispRotation": -127.663506
+        },
+        "radius": 10.2999954
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -88.7,
+          "y": 82.46495,
+          "z": 100.0,
+          "MagnitudeSquared": 24668.1582,
+          "Magnitude": 157.061,
+          "Rotation": -47.0861969,
+          "SimToDispRotation": -132.9138
+        },
+        "radius": 10.2999954
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -88.7,
+          "y": 28.46495,
+          "z": 100.0,
+          "MagnitudeSquared": 18677.9434,
+          "Magnitude": 136.667267,
+          "Rotation": -72.20791,
+          "SimToDispRotation": -107.792091
+        },
+        "radius": 10.2999954
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -92.7,
+          "y": -19.53505,
+          "z": 100.0,
+          "MagnitudeSquared": 18974.9063,
+          "Magnitude": 137.749435,
+          "Rotation": -101.900055,
+          "SimToDispRotation": -78.0999451
+        },
+        "radius": 7.957314
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": 49.3000031,
+          "y": -7.53504944,
+          "z": 100.0,
+          "MagnitudeSquared": 12487.2676,
+          "Magnitude": 111.746445,
+          "Rotation": 98.68988,
+          "SimToDispRotation": 81.31012
+        },
+        "radius": 7.49998951
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": 59.3000031,
+          "y": -7.53504944,
+          "z": 100.0,
+          "MagnitudeSquared": 13573.2676,
+          "Magnitude": 116.504364,
+          "Rotation": 97.24158,
+          "SimToDispRotation": 82.75843
+        },
+        "radius": 7.49998951
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": 81.3,
+          "y": -7.53504944,
+          "z": 100.0,
+          "MagnitudeSquared": 16666.4668,
+          "Magnitude": 129.098663,
+          "Rotation": 95.295166,
+          "SimToDispRotation": 84.70484
+        },
+        "radius": 7.49998951
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": 99.3,
+          "y": -7.53504944,
+          "z": 100.0,
+          "MagnitudeSquared": 19917.2676,
+          "Magnitude": 141.128555,
+          "Rotation": 94.339386,
+          "SimToDispRotation": 85.66062
+        },
+        "radius": 7.49998951
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": 71.3,
+          "y": -7.53504944,
+          "z": 100.0,
+          "MagnitudeSquared": 15140.4668,
+          "Magnitude": 123.046608,
+          "Rotation": 96.03268,
+          "SimToDispRotation": 83.96732
+        },
+        "radius": 7.49998951
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": 35.3000031,
+          "y": -7.53504944,
+          "z": 100.0,
+          "MagnitudeSquared": 11302.8672,
+          "Magnitude": 106.314941,
+          "Rotation": 102.049377,
+          "SimToDispRotation": 77.95062
+        },
+        "radius": 7.49998951
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -54.6999969,
+          "y": -7.53504944,
+          "z": 100.0,
+          "MagnitudeSquared": 13048.8662,
+          "Magnitude": 114.231636,
+          "Rotation": -97.84327,
+          "SimToDispRotation": -82.15674
+        },
+        "radius": 7.49998951
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -2.699997,
+          "y": -7.53504944,
+          "z": 100.0,
+          "MagnitudeSquared": 10064.0674,
+          "Magnitude": 100.319824,
+          "Rotation": -160.286133,
+          "SimToDispRotation": -19.7138748
+        },
+        "radius": 7.49998951
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -12.6999969,
+          "y": -7.53504944,
+          "z": 100.0,
+          "MagnitudeSquared": 10218.0664,
+          "Magnitude": 101.08445,
+          "Rotation": -120.681122,
+          "SimToDispRotation": -59.3188744
+        },
+        "radius": 7.49998951
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -44.6999969,
+          "y": -7.53504944,
+          "z": 100.0,
+          "MagnitudeSquared": 12054.8672,
+          "Magnitude": 109.794662,
+          "Rotation": -99.56836,
+          "SimToDispRotation": -80.43164
+        },
+        "radius": 7.49998951
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -22.6999969,
+          "y": -7.53504944,
+          "z": 100.0,
+          "MagnitudeSquared": 10572.0664,
+          "Magnitude": 102.820557,
+          "Rotation": -108.3631,
+          "SimToDispRotation": -71.6369
+        },
+        "radius": 7.49998951
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -34.6999969,
+          "y": -7.53504944,
+          "z": 100.0,
+          "MagnitudeSquared": 11260.8672,
+          "Magnitude": 106.117233,
+          "Rotation": -102.251488,
+          "SimToDispRotation": -77.74851
+        },
+        "radius": 7.49998951
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": 25.3000031,
+          "y": -7.53504944,
+          "z": 100.0,
+          "MagnitudeSquared": 10696.8672,
+          "Magnitude": 103.425659,
+          "Rotation": 106.585007,
+          "SimToDispRotation": 73.41499
+        },
+        "radius": 7.49998951
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -74.7,
+          "y": -7.53504944,
+          "z": 100.0,
+          "MagnitudeSquared": 15636.8662,
+          "Magnitude": 125.047455,
+          "Rotation": -95.7599945,
+          "SimToDispRotation": -84.24001
+        },
+        "radius": 7.49998951
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": 15.3000031,
+          "y": -7.53504944,
+          "z": 100.0,
+          "MagnitudeSquared": 10290.8672,
+          "Magnitude": 101.443909,
+          "Rotation": 116.219643,
+          "SimToDispRotation": 63.78036
+        },
+        "radius": 7.49998951
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -64.7,
+          "y": -7.53504944,
+          "z": 100.0,
+          "MagnitudeSquared": 14242.8672,
+          "Magnitude": 119.343483,
+          "Rotation": -96.64282,
+          "SimToDispRotation": -83.35718
+        },
+        "radius": 7.49998951
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -84.7,
+          "y": 58.46495,
+          "z": 100.0,
+          "MagnitudeSquared": 20592.24,
+          "Magnitude": 143.499969,
+          "Rotation": -55.3842659,
+          "SimToDispRotation": -124.615738
+        },
+        "radius": 6.29999542
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -84.7,
+          "y": 38.46495,
+          "z": 100.0,
+          "MagnitudeSquared": 18653.64,
+          "Magnitude": 136.578339,
+          "Rotation": -65.5757,
+          "SimToDispRotation": -114.4243
+        },
+        "radius": 6.29999542
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -84.7,
+          "y": 124.464951,
+          "z": 100.0,
+          "MagnitudeSquared": 32665.6133,
+          "Magnitude": 180.736313,
+          "Rotation": -34.23579,
+          "SimToDispRotation": -145.764221
+        },
+        "radius": 6.29999542
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -84.7,
+          "y": 18.46495,
+          "z": 100.0,
+          "MagnitudeSquared": 17515.043,
+          "Magnitude": 132.3444,
+          "Rotation": -77.7017,
+          "SimToDispRotation": -102.2983
+        },
+        "radius": 6.29999542
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -94.7,
+          "y": -93.53505,
+          "z": 100.0,
+          "MagnitudeSquared": 27716.8945,
+          "Magnitude": 166.483917,
+          "Rotation": -134.645416,
+          "SimToDispRotation": -45.3545876
+        },
+        "radius": 5.98278856
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -94.7,
+          "y": -71.53505,
+          "z": 100.0,
+          "MagnitudeSquared": 24085.3535,
+          "Magnitude": 155.194565,
+          "Rotation": -127.066887,
+          "SimToDispRotation": -52.9331131
+        },
+        "radius": 5.97521257
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -94.7,
+          "y": 18.46495,
+          "z": 100.0,
+          "MagnitudeSquared": 19309.043,
+          "Magnitude": 138.956985,
+          "Rotation": -78.96669,
+          "SimToDispRotation": -101.03331
+        },
+        "radius": 5.944237
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -94.7,
+          "y": 38.46495,
+          "z": 100.0,
+          "MagnitudeSquared": 20447.6426,
+          "Magnitude": 142.995255,
+          "Rotation": -67.89415,
+          "SimToDispRotation": -112.105858
+        },
+        "radius": 5.937348
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -94.7,
+          "y": 58.46495,
+          "z": 100.0,
+          "MagnitudeSquared": 22386.24,
+          "Magnitude": 149.620316,
+          "Rotation": -58.3100548,
+          "SimToDispRotation": -121.689941
+        },
+        "radius": 5.930466
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -94.7,
+          "y": 124.464951,
+          "z": 100.0,
+          "MagnitudeSquared": 34459.6133,
+          "Magnitude": 185.633011,
+          "Rotation": -37.2659378,
+          "SimToDispRotation": -142.73407
+        },
+        "radius": 5.907746
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": 89.3,
+          "y": -5.53504944,
+          "z": 100.0,
+          "MagnitudeSquared": 18005.127,
+          "Magnitude": 134.183182,
+          "Rotation": 93.54681,
+          "SimToDispRotation": 86.45319
+        },
+        "radius": 5.90000868
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": 5.300003,
+          "y": -5.53504944,
+          "z": 100.0,
+          "MagnitudeSquared": 10058.7266,
+          "Magnitude": 100.293205,
+          "Rotation": 136.242722,
+          "SimToDispRotation": 43.75727
+        },
+        "radius": 5.90000868
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -82.7,
+          "y": -71.53505,
+          "z": 100.0,
+          "MagnitudeSquared": 21956.5527,
+          "Magnitude": 148.177429,
+          "Rotation": -130.859619,
+          "SimToDispRotation": -49.1403732
+        },
+        "radius": 4.5
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -82.7,
+          "y": -21.53505,
+          "z": 100.0,
+          "MagnitudeSquared": 17303.0469,
+          "Magnitude": 131.541046,
+          "Rotation": -104.595657,
+          "SimToDispRotation": -75.40434
+        },
+        "radius": 4.5
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -82.7,
+          "y": -93.53505,
+          "z": 100.0,
+          "MagnitudeSquared": 25588.0957,
+          "Magnitude": 159.9628,
+          "Rotation": -138.518158,
+          "SimToDispRotation": -41.481842
+        },
+        "radius": 4.5
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -94.7,
+          "y": -139.535049,
+          "z": 100.0,
+          "MagnitudeSquared": 38438.1172,
+          "Magnitude": 196.056412,
+          "Rotation": -145.835953,
+          "SimToDispRotation": -34.1640549
+        },
+        "radius": 4.0
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -96.7,
+          "y": -41.53505,
+          "z": 100.0,
+          "MagnitudeSquared": 21076.05,
+          "Magnitude": 145.175934,
+          "Rotation": -113.24472,
+          "SimToDispRotation": -66.75528
+        },
+        "radius": 3.96488976
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -96.7,
+          "y": 104.464951,
+          "z": 100.0,
+          "MagnitudeSquared": 30263.8164,
+          "Magnitude": 173.964981,
+          "Rotation": -42.7894859,
+          "SimToDispRotation": -137.21051
+        },
+        "radius": 3.91462731
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -96.7,
+          "y": 142.464951,
+          "z": 100.0,
+          "MagnitudeSquared": 39647.1523,
+          "Magnitude": 199.115921,
+          "Rotation": -34.1672249,
+          "SimToDispRotation": -145.832779
+        },
+        "radius": 3.90155053
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": 91.3,
+          "y": -11.5350494,
+          "z": 100.0,
+          "MagnitudeSquared": 18468.748,
+          "Magnitude": 135.899765,
+          "Rotation": 97.20073,
+          "SimToDispRotation": 82.79928
+        },
+        "radius": 3.49998951
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": 7.300003,
+          "y": -11.5350494,
+          "z": 100.0,
+          "MagnitudeSquared": 10186.3477,
+          "Magnitude": 100.927437,
+          "Rotation": 147.672165,
+          "SimToDispRotation": 32.3278427
+        },
+        "radius": 3.49998951
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -84.7,
+          "y": -139.535049,
+          "z": 100.0,
+          "MagnitudeSquared": 36644.1172,
+          "Magnitude": 191.426529,
+          "Rotation": -148.741577,
+          "SimToDispRotation": -31.258419
+        },
+        "radius": 3.34257412
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -82.7,
+          "y": 144.464951,
+          "z": 100.0,
+          "MagnitudeSquared": 37709.41,
+          "Magnitude": 194.1891,
+          "Rotation": -29.78929,
+          "SimToDispRotation": -150.210709
+        },
+        "radius": 2.5
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -80.7,
+          "y": -137.535049,
+          "z": 100.0,
+          "MagnitudeSquared": 35428.3828,
+          "Magnitude": 188.224289,
+          "Rotation": -149.597321,
+          "SimToDispRotation": -30.4026852
+        },
+        "radius": 2.5
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -92.7,
+          "y": 144.464951,
+          "z": 100.0,
+          "MagnitudeSquared": 39463.41,
+          "Magnitude": 198.653992,
+          "Rotation": -32.6874,
+          "SimToDispRotation": -147.3126
+        },
+        "radius": 2.5
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -80.7,
+          "y": -41.53505,
+          "z": 100.0,
+          "MagnitudeSquared": 18237.65,
+          "Magnitude": 135.046844,
+          "Rotation": -117.234184,
+          "SimToDispRotation": -62.76582
+        },
+        "radius": 2.5
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -80.7,
+          "y": 142.464951,
+          "z": 100.0,
+          "MagnitudeSquared": 36808.75,
+          "Magnitude": 191.856064,
+          "Rotation": -29.5296059,
+          "SimToDispRotation": -150.4704
+        },
+        "radius": 2.29999542
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    },
+    {
+      "parentId": 5,
+      "circle": {
+        "position": {
+          "x": -80.7,
+          "y": 104.464951,
+          "z": 100.0,
+          "MagnitudeSquared": 27425.416,
+          "Magnitude": 165.6062,
+          "Rotation": -37.686367,
+          "SimToDispRotation": -142.313629
+        },
+        "radius": 2.29999542
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_WallBlocker"
+    }
+  ],
+  "coopAreaLayouts": [
+    {
+      "areaModels": [
+        {
+          "areaIndex": 0,
+          "marker": {
+            "x": 0.0,
+            "y": 0.0,
+            "Rotation": 180.0
+          },
+          "polygon": {
+            "points": [
+              {
+                "x": -176.0,
+                "y": -135.0,
+                "Rotation": -127.489853
+              },
+              {
+                "x": -176.0,
+                "y": 135.0,
+                "Rotation": -52.5101547
+              },
+              {
+                "x": 176.0,
+                "y": 135.0,
+                "Rotation": 52.5101547
+              },
+              {
+                "x": 176.0,
+                "y": -135.0,
+                "Rotation": 127.489853
+              },
+              {
+                "x": -176.0,
+                "y": -135.0,
+                "Rotation": -127.489853
+              }
+            ]
+          },
+          "name": "CoopAreaModel_"
+        }
+      ],
+      "areaLayoutType": 2,
+      "name": "CoopAreaLayoutModel_"
+    },
+    {
+      "areaModels": [
+        {
+          "areaIndex": 0,
+          "marker": {
+            "x": 0.0,
+            "y": 0.0,
+            "Rotation": 180.0
+          },
+          "polygon": {
+            "points": [
+              {
+                "x": -176.0,
+                "y": -135.0,
+                "Rotation": -127.489853
+              },
+              {
+                "x": -176.0,
+                "y": 135.0,
+                "Rotation": -52.5101547
+              },
+              {
+                "x": 176.0,
+                "y": 135.0,
+                "Rotation": 52.5101547
+              },
+              {
+                "x": 176.0,
+                "y": -135.0,
+                "Rotation": 127.489853
+              },
+              {
+                "x": -176.0,
+                "y": -135.0,
+                "Rotation": -127.489853
+              }
+            ]
+          },
+          "name": "CoopAreaModel_"
+        }
+      ],
+      "areaLayoutType": 2,
+      "name": "CoopAreaLayoutModel_"
+    }
+  ],
+  "removeables": [
+    {
+      "isActive": true,
+      "defaultType": 2,
+      "objecName": "LargeBricks",
+      "menuName": "BricksLarge",
+      "textKey": "Removable Cost",
+      "menuDescription": "Move those bricks!",
+      "removealCost": 1000,
+      "position": {
+        "x": -145.725647,
+        "y": 90.23261,
+        "z": 100.0,
+        "MagnitudeSquared": 39377.89,
+        "Magnitude": 198.438629,
+        "Rotation": -58.2344131,
+        "SimToDispRotation": -121.765594
+      },
+      "denySellIfStackedTowers": false,
+      "destroyArea": true,
+      "modPathId": "",
+      "ids": [
+        7
+      ],
+      "name": "RemoveableModel_LargeBricks",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Removeable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "isActive": true,
+      "defaultType": 2,
+      "objecName": "MediumBricks",
+      "menuName": "BricksMed",
+      "textKey": "Removable Cost",
+      "menuDescription": "Move those bricks!",
+      "removealCost": 1000,
+      "position": {
+        "x": -133.521423,
+        "y": 18.2857151,
+        "z": 100.0,
+        "MagnitudeSquared": 28162.3379,
+        "Magnitude": 167.816376,
+        "Rotation": -82.20187,
+        "SimToDispRotation": -97.79813
+      },
+      "denySellIfStackedTowers": false,
+      "destroyArea": true,
+      "modPathId": "",
+      "ids": [
+        8
+      ],
+      "name": "RemoveableModel_MediumBricks",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Removeable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "regenRemovables": [],
+  "paths": [
+    {
+      "pathId": "Path",
+      "points": [
+        {
+          "point": {
+            "x": -65.6,
+            "y": -153.6,
+            "z": 0.0,
+            "MagnitudeSquared": 27896.32,
+            "Magnitude": 167.021912,
+            "Rotation": -156.873474,
+            "SimToDispRotation": -23.1265182
+          },
+          "rotation": 0.0,
+          "distance": 0.0,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": -65.6,
+            "y": -26.0,
+            "z": 0.0,
+            "MagnitudeSquared": 4979.36,
+            "Magnitude": 70.56458,
+            "Rotation": -111.620476,
+            "SimToDispRotation": -68.3795242
+          },
+          "rotation": 0.0,
+          "distance": 127.600006,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 113.700005,
+            "y": -26.0,
+            "z": 0.0,
+            "MagnitudeSquared": 13603.6914,
+            "Magnitude": 116.634865,
+            "Rotation": 102.880478,
+            "SimToDispRotation": 77.11953
+          },
+          "rotation": 0.0,
+          "distance": 306.900024,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 121.4,
+            "y": -20.7,
+            "z": 0.0,
+            "MagnitudeSquared": 15166.45,
+            "Magnitude": 123.152145,
+            "Rotation": 99.67648,
+            "SimToDispRotation": 80.32352
+          },
+          "rotation": 0.0,
+          "distance": 316.247742,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 122.4,
+            "y": -11.2000008,
+            "z": 0.0,
+            "MagnitudeSquared": 15107.2012,
+            "Magnitude": 122.911354,
+            "Rotation": 95.2281952,
+            "SimToDispRotation": 84.7718048
+          },
+          "rotation": 0.0,
+          "distance": 325.800232,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 120.8,
+            "y": 7.79999161,
+            "z": 0.0,
+            "MagnitudeSquared": 14653.48,
+            "Magnitude": 121.051559,
+            "Rotation": 86.30557,
+            "SimToDispRotation": 93.6944351
+          },
+          "rotation": 0.0,
+          "distance": 344.867462,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 110.100006,
+            "y": 11.1999931,
+            "z": 0.0,
+            "MagnitudeSquared": 12247.4512,
+            "Magnitude": 110.668205,
+            "Rotation": 84.19153,
+            "SimToDispRotation": 95.80847
+          },
+          "rotation": 0.0,
+          "distance": 356.094666,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": -53.7999954,
+            "y": 11.1999931,
+            "z": 0.0,
+            "MagnitudeSquared": 3019.87939,
+            "Magnitude": 54.95343,
+            "Rotation": -78.24022,
+            "SimToDispRotation": -101.759781
+          },
+          "rotation": 0.0,
+          "distance": 519.9946,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": -62.96,
+            "y": 13.5999908,
+            "z": 0.0,
+            "MagnitudeSquared": 4148.92139,
+            "Magnitude": 64.4121246,
+            "Rotation": -77.81082,
+            "SimToDispRotation": -102.189178
+          },
+          "rotation": 0.0,
+          "distance": 529.4638,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": -64.7999954,
+            "y": 22.6999931,
+            "z": 0.0,
+            "MagnitudeSquared": 4714.329,
+            "Magnitude": 68.66097,
+            "Rotation": -70.69421,
+            "SimToDispRotation": -109.305794
+          },
+          "rotation": 0.0,
+          "distance": 538.748,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": -64.7999954,
+            "y": 135.5,
+            "z": 0.0,
+            "MagnitudeSquared": 22559.29,
+            "Magnitude": 150.1975,
+            "Rotation": -25.5584679,
+            "SimToDispRotation": -154.441528
+          },
+          "rotation": 0.0,
+          "distance": 651.548,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        }
+      ],
+      "isActive": true,
+      "isHidden": false,
+      "spawnPoint": {
+        "x": -1000.0,
+        "y": -1000.0,
+        "z": -1000.0,
+        "MagnitudeSquared": 3000000.0,
+        "Magnitude": 1732.05078,
+        "Rotation": -135.0,
+        "SimToDispRotation": -45.0
+      },
+      "leakPoint": {
+        "x": -1000.0,
+        "y": -1000.0,
+        "z": -1000.0,
+        "MagnitudeSquared": 3000000.0,
+        "Magnitude": 1732.05078,
+        "Rotation": -135.0,
+        "SimToDispRotation": -45.0
+      },
+      "name": "PathModel_Path"
+    }
+  ],
+  "spawner": {
+    "forwardSplitter": {
+      "paths": [
+        "Path"
+      ],
+      "name": "AlternateBloonsSplitterModel_forwardDefault"
+    },
+    "reverseSplitter": {
+      "paths": [
+        "Path"
+      ],
+      "name": "AlternateBloonsSplitterModel_reverseDefault"
+    },
+    "name": "PathSpawnerModel_spawnerDefault"
+  },
+  "mapDifficulty": 2,
+  "mapName": "AnotherBrick",
+  "mapEvents": [
+    {
+      "saveId": "LargeBricks",
+      "oneTimeEvent": true,
+      "allTriggersRequired": false,
+      "inactiveByDefault": false,
+      "triggers": [
+        {
+          "removableName": "RemoveableModel_LargeBricks",
+          "saveId": "RemoveableSoldTriggerModel1",
+          "name": "RemoveableSoldTriggerModel_LargeBricksTrigger",
+          "ImplementationType": "Assets.Scripts.Simulation.Map.Triggers.RemoveableSoldTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "unityActions": [
+        {
+          "delay": 2.0,
+          "obj": {
+            "transform": [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [
+                []
+              ],
+              [],
+              [
+                []
+              ],
+              []
+            ],
+            "layer": 0,
+            "active": true,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -826460,
+              "name": "AnotherBrick",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -826460
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "RemovableBricksLarge",
+            "hideFlags": 0
+          },
+          "useGUILayout": true,
+          "enabled": true,
+          "isActiveAndEnabled": true,
+          "transform": [
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [
+                []
+              ],
+              [],
+              [
+                []
+              ],
+              []
+            ]
+          ],
+          "gameObject": {
+            "transform": [
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [
+                  []
+                ],
+                [],
+                [
+                  []
+                ],
+                []
+              ]
+            ],
+            "layer": 0,
+            "active": true,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -826460,
+              "name": "AnotherBrick",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -826460
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "LargeBricks",
+            "hideFlags": 0
+          },
+          "tag": "Untagged",
+          "name": "LargeBricks",
+          "hideFlags": 0
+        },
+        {
+          "playInteractableAudio": {
+            "audioClips": [
+              {
+                "length": 0.107120179,
+                "samples": 4724,
+                "channels": 2,
+                "frequency": 44100,
+                "isReadyToPlay": true,
+                "loadType": 1,
+                "preloadAudioData": true,
+                "ambisonic": false,
+                "loadInBackground": false,
+                "loadState": 2,
+                "name": "UIClick01",
+                "hideFlags": 0
+              },
+              {
+                "length": 0.3193424,
+                "samples": 14083,
+                "channels": 2,
+                "frequency": 44100,
+                "isReadyToPlay": true,
+                "loadType": 1,
+                "preloadAudioData": true,
+                "ambisonic": false,
+                "loadInBackground": false,
+                "loadState": 2,
+                "name": "UIPick",
+                "hideFlags": 0
+              },
+              {
+                "length": 0.3193424,
+                "samples": 14083,
+                "channels": 2,
+                "frequency": 44100,
+                "isReadyToPlay": true,
+                "loadType": 1,
+                "preloadAudioData": true,
+                "ambisonic": false,
+                "loadInBackground": false,
+                "loadState": 2,
+                "name": "UIPick",
+                "hideFlags": 0
+              },
+              {
+                "length": 0.3193424,
+                "samples": 14083,
+                "channels": 2,
+                "frequency": 44100,
+                "isReadyToPlay": true,
+                "loadType": 1,
+                "preloadAudioData": true,
+                "ambisonic": false,
+                "loadInBackground": false,
+                "loadState": 2,
+                "name": "UIPick",
+                "hideFlags": 0
+              },
+              {
+                "length": 2.012812,
+                "samples": 88765,
+                "channels": 2,
+                "frequency": 44100,
+                "isReadyToPlay": true,
+                "loadType": 1,
+                "preloadAudioData": true,
+                "ambisonic": false,
+                "loadInBackground": false,
+                "loadState": 2,
+                "name": "RemovableEarth",
+                "hideFlags": 0
+              }
+            ],
+            "audioDelays": [
+              0.0,
+              0.5,
+              1.0,
+              1.5,
+              2.0
+            ],
+            "groupLimit": 1,
+            "playOnStart": false,
+            "ignoreFastForward": false,
+            "useGUILayout": true,
+            "enabled": true,
+            "isActiveAndEnabled": true,
+            "transform": [
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [
+                  []
+                ],
+                [],
+                [
+                  []
+                ],
+                []
+              ]
+            ],
+            "gameObject": {
+              "transform": [
+                [
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [
+                    []
+                  ],
+                  [],
+                  [
+                    []
+                  ],
+                  []
+                ]
+              ],
+              "layer": 0,
+              "active": true,
+              "activeSelf": true,
+              "activeInHierarchy": true,
+              "isStatic": false,
+              "tag": "Untagged",
+              "scene": {
+                "handle": -826460,
+                "name": "AnotherBrick",
+                "isLoaded": true,
+                "rootCount": 1,
+                "m_Handle": -826460
+              },
+              "sceneCullingMask": 16140901064495857664,
+              "name": "LargeBricks",
+              "hideFlags": 0
+            },
+            "tag": "Untagged",
+            "name": "LargeBricks",
+            "hideFlags": 0
+          },
+          "useGUILayout": true,
+          "enabled": true,
+          "isActiveAndEnabled": true,
+          "transform": [
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [
+                []
+              ],
+              [],
+              [
+                []
+              ],
+              []
+            ]
+          ],
+          "gameObject": {
+            "transform": [
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [
+                  []
+                ],
+                [],
+                [
+                  []
+                ],
+                []
+              ]
+            ],
+            "layer": 0,
+            "active": true,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -826460,
+              "name": "AnotherBrick",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -826460
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "LargeBricks",
+            "hideFlags": 0
+          },
+          "tag": "Untagged",
+          "name": "LargeBricks",
+          "hideFlags": 0
+        },
+        {
+          "triggerId": "",
+          "animationPrefab": {
+            "transform": [
+              [
+                [
+                  [
+                    [],
+                    [],
+                    []
+                  ],
+                  []
+                ],
+                [
+                  [
+                    [
+                      [
+                        [
+                          [],
+                          [
+                            [
+                              [
+                                [],
+                                []
+                              ]
+                            ]
+                          ],
+                          [
+                            [
+                              [
+                                [],
+                                []
+                              ]
+                            ]
+                          ]
+                        ]
+                      ],
+                      [
+                        [
+                          [
+                            []
+                          ]
+                        ]
+                      ],
+                      [
+                        [
+                          [
+                            []
+                          ]
+                        ]
+                      ],
+                      [
+                        [
+                          [
+                            []
+                          ]
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    [
+                      [
+                        [
+                          [],
+                          []
+                        ],
+                        []
+                      ],
+                      [
+                        [
+                          [],
+                          []
+                        ],
+                        []
+                      ],
+                      [
+                        [
+                          [
+                            [],
+                            [
+                              [
+                                [
+                                  [
+                                    [],
+                                    []
+                                  ]
+                                ]
+                              ]
+                            ],
+                            [
+                              [
+                                [
+                                  [
+                                    [],
+                                    []
+                                  ]
+                                ]
+                              ]
+                            ]
+                          ]
+                        ],
+                        [
+                          [
+                            [
+                              []
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "layer": 0,
+            "active": false,
+            "activeSelf": false,
+            "activeInHierarchy": false,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -826460,
+              "name": "AnotherBrick",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -826460
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "RemovablePickAxe",
+            "hideFlags": 0
+          },
+          "useGameObjectPosition": false,
+          "position": {
+            "x": -120.9,
+            "y": 24.4,
+            "z": -36.5
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": 12.286,
+            "z": 0.0
+          },
+          "clipLength": 2.0,
+          "useGUILayout": true,
+          "enabled": true,
+          "isActiveAndEnabled": true,
+          "transform": [
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [
+                []
+              ],
+              [],
+              [
+                []
+              ],
+              []
+            ]
+          ],
+          "gameObject": {
+            "transform": [
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [
+                  []
+                ],
+                [],
+                [
+                  []
+                ],
+                []
+              ]
+            ],
+            "layer": 0,
+            "active": true,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -826460,
+              "name": "AnotherBrick",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -826460
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "LargeBricks",
+            "hideFlags": 0
+          },
+          "tag": "Untagged",
+          "name": "LargeBricks",
+          "hideFlags": 0
+        },
+        {
+          "effectPrefab": {
+            "transform": [
+              [
+                [],
+                []
+              ],
+              []
+            ],
+            "layer": 0,
+            "active": false,
+            "activeSelf": true,
+            "activeInHierarchy": false,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": 0,
+              "isLoaded": false,
+              "rootCount": 0,
+              "m_Handle": 0
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "RemoveableLargeBrickExplosion",
+            "hideFlags": 0
+          },
+          "useGameObjectPosition": false,
+          "position": {
+            "x": -132.3,
+            "y": 8.2,
+            "z": -20.4
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "delay": 2.0,
+          "duration": 0.0,
+          "useGUILayout": true,
+          "enabled": true,
+          "isActiveAndEnabled": true,
+          "transform": [
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [
+                []
+              ],
+              [],
+              [
+                []
+              ],
+              []
+            ]
+          ],
+          "gameObject": {
+            "transform": [
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [
+                  []
+                ],
+                [],
+                [
+                  []
+                ],
+                []
+              ]
+            ],
+            "layer": 0,
+            "active": true,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -826460,
+              "name": "AnotherBrick",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -826460
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "LargeBricks",
+            "hideFlags": 0
+          },
+          "tag": "Untagged",
+          "name": "LargeBricks",
+          "hideFlags": 0
+        }
+      ],
+      "name": "MapEventModel_LargeBricks",
+      "ImplementationType": "Assets.Scripts.Simulation.Map.Triggers.MapEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "saveId": "MediumBricks",
+      "oneTimeEvent": true,
+      "allTriggersRequired": false,
+      "inactiveByDefault": false,
+      "triggers": [
+        {
+          "removableName": "RemoveableModel_MediumBricks",
+          "saveId": "RemoveableSoldTriggerModel1",
+          "name": "RemoveableSoldTriggerModel_MediumBricksTrigger",
+          "ImplementationType": "Assets.Scripts.Simulation.Map.Triggers.RemoveableSoldTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "unityActions": [
+        {
+          "delay": 2.0,
+          "obj": {
+            "transform": [
+              [],
+              [],
+              [
+                []
+              ],
+              [
+                []
+              ],
+              [
+                []
+              ],
+              [],
+              [],
+              []
+            ],
+            "layer": 0,
+            "active": true,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -826460,
+              "name": "AnotherBrick",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -826460
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "RemovableBricksMed",
+            "hideFlags": 0
+          },
+          "useGUILayout": true,
+          "enabled": true,
+          "isActiveAndEnabled": true,
+          "transform": [
+            [
+              [],
+              [],
+              [
+                []
+              ],
+              [
+                []
+              ],
+              [
+                []
+              ],
+              [],
+              [],
+              []
+            ]
+          ],
+          "gameObject": {
+            "transform": [
+              [
+                [],
+                [],
+                [
+                  []
+                ],
+                [
+                  []
+                ],
+                [
+                  []
+                ],
+                [],
+                [],
+                []
+              ]
+            ],
+            "layer": 0,
+            "active": true,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -826460,
+              "name": "AnotherBrick",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -826460
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "MediumBricks",
+            "hideFlags": 0
+          },
+          "tag": "Untagged",
+          "name": "MediumBricks",
+          "hideFlags": 0
+        },
+        {
+          "playInteractableAudio": {
+            "audioClips": [
+              {
+                "length": 0.107120179,
+                "samples": 4724,
+                "channels": 2,
+                "frequency": 44100,
+                "isReadyToPlay": true,
+                "loadType": 1,
+                "preloadAudioData": true,
+                "ambisonic": false,
+                "loadInBackground": false,
+                "loadState": 2,
+                "name": "UIClick01",
+                "hideFlags": 0
+              },
+              {
+                "length": 0.3193424,
+                "samples": 14083,
+                "channels": 2,
+                "frequency": 44100,
+                "isReadyToPlay": true,
+                "loadType": 1,
+                "preloadAudioData": true,
+                "ambisonic": false,
+                "loadInBackground": false,
+                "loadState": 2,
+                "name": "UIPick",
+                "hideFlags": 0
+              },
+              {
+                "length": 0.3193424,
+                "samples": 14083,
+                "channels": 2,
+                "frequency": 44100,
+                "isReadyToPlay": true,
+                "loadType": 1,
+                "preloadAudioData": true,
+                "ambisonic": false,
+                "loadInBackground": false,
+                "loadState": 2,
+                "name": "UIPick",
+                "hideFlags": 0
+              },
+              {
+                "length": 0.3193424,
+                "samples": 14083,
+                "channels": 2,
+                "frequency": 44100,
+                "isReadyToPlay": true,
+                "loadType": 1,
+                "preloadAudioData": true,
+                "ambisonic": false,
+                "loadInBackground": false,
+                "loadState": 2,
+                "name": "UIPick",
+                "hideFlags": 0
+              },
+              {
+                "length": 2.012812,
+                "samples": 88765,
+                "channels": 2,
+                "frequency": 44100,
+                "isReadyToPlay": true,
+                "loadType": 1,
+                "preloadAudioData": true,
+                "ambisonic": false,
+                "loadInBackground": false,
+                "loadState": 2,
+                "name": "RemovableEarth",
+                "hideFlags": 0
+              }
+            ],
+            "audioDelays": [
+              0.0,
+              0.5,
+              1.0,
+              1.5,
+              2.0
+            ],
+            "groupLimit": 1,
+            "playOnStart": false,
+            "ignoreFastForward": false,
+            "useGUILayout": true,
+            "enabled": true,
+            "isActiveAndEnabled": true,
+            "transform": [
+              [
+                [],
+                [],
+                [
+                  []
+                ],
+                [
+                  []
+                ],
+                [
+                  []
+                ],
+                [],
+                [],
+                []
+              ]
+            ],
+            "gameObject": {
+              "transform": [
+                [
+                  [],
+                  [],
+                  [
+                    []
+                  ],
+                  [
+                    []
+                  ],
+                  [
+                    []
+                  ],
+                  [],
+                  [],
+                  []
+                ]
+              ],
+              "layer": 0,
+              "active": true,
+              "activeSelf": true,
+              "activeInHierarchy": true,
+              "isStatic": false,
+              "tag": "Untagged",
+              "scene": {
+                "handle": -826460,
+                "name": "AnotherBrick",
+                "isLoaded": true,
+                "rootCount": 1,
+                "m_Handle": -826460
+              },
+              "sceneCullingMask": 16140901064495857664,
+              "name": "MediumBricks",
+              "hideFlags": 0
+            },
+            "tag": "Untagged",
+            "name": "MediumBricks",
+            "hideFlags": 0
+          },
+          "useGUILayout": true,
+          "enabled": true,
+          "isActiveAndEnabled": true,
+          "transform": [
+            [
+              [],
+              [],
+              [
+                []
+              ],
+              [
+                []
+              ],
+              [
+                []
+              ],
+              [],
+              [],
+              []
+            ]
+          ],
+          "gameObject": {
+            "transform": [
+              [
+                [],
+                [],
+                [
+                  []
+                ],
+                [
+                  []
+                ],
+                [
+                  []
+                ],
+                [],
+                [],
+                []
+              ]
+            ],
+            "layer": 0,
+            "active": true,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -826460,
+              "name": "AnotherBrick",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -826460
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "MediumBricks",
+            "hideFlags": 0
+          },
+          "tag": "Untagged",
+          "name": "MediumBricks",
+          "hideFlags": 0
+        },
+        {
+          "triggerId": "",
+          "animationPrefab": {
+            "transform": [
+              [
+                [
+                  [
+                    [],
+                    [],
+                    []
+                  ],
+                  []
+                ],
+                [
+                  [
+                    [
+                      [
+                        [
+                          [],
+                          [
+                            [
+                              [
+                                [],
+                                []
+                              ]
+                            ]
+                          ],
+                          [
+                            [
+                              [
+                                [],
+                                []
+                              ]
+                            ]
+                          ]
+                        ]
+                      ],
+                      [
+                        [
+                          [
+                            []
+                          ]
+                        ]
+                      ],
+                      [
+                        [
+                          [
+                            []
+                          ]
+                        ]
+                      ],
+                      [
+                        [
+                          [
+                            []
+                          ]
+                        ]
+                      ]
+                    ]
+                  ],
+                  [
+                    [
+                      [
+                        [
+                          [],
+                          []
+                        ],
+                        []
+                      ],
+                      [
+                        [
+                          [],
+                          []
+                        ],
+                        []
+                      ],
+                      [
+                        [
+                          [
+                            [],
+                            [
+                              [
+                                [
+                                  [
+                                    [],
+                                    []
+                                  ]
+                                ]
+                              ]
+                            ],
+                            [
+                              [
+                                [
+                                  [
+                                    [],
+                                    []
+                                  ]
+                                ]
+                              ]
+                            ]
+                          ]
+                        ],
+                        [
+                          [
+                            [
+                              []
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ],
+            "layer": 0,
+            "active": false,
+            "activeSelf": false,
+            "activeInHierarchy": false,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -826460,
+              "name": "AnotherBrick",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -826460
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "RemovablePickAxe",
+            "hideFlags": 0
+          },
+          "useGameObjectPosition": false,
+          "position": {
+            "x": -119.6,
+            "y": 24.4,
+            "z": 70.1
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": 44.538,
+            "z": 0.0
+          },
+          "clipLength": 2.0,
+          "useGUILayout": true,
+          "enabled": true,
+          "isActiveAndEnabled": true,
+          "transform": [
+            [
+              [],
+              [],
+              [
+                []
+              ],
+              [
+                []
+              ],
+              [
+                []
+              ],
+              [],
+              [],
+              []
+            ]
+          ],
+          "gameObject": {
+            "transform": [
+              [
+                [],
+                [],
+                [
+                  []
+                ],
+                [
+                  []
+                ],
+                [
+                  []
+                ],
+                [],
+                [],
+                []
+              ]
+            ],
+            "layer": 0,
+            "active": true,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -826460,
+              "name": "AnotherBrick",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -826460
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "MediumBricks",
+            "hideFlags": 0
+          },
+          "tag": "Untagged",
+          "name": "MediumBricks",
+          "hideFlags": 0
+        },
+        {
+          "effectPrefab": {
+            "transform": [
+              [
+                [],
+                []
+              ],
+              []
+            ],
+            "layer": 0,
+            "active": false,
+            "activeSelf": true,
+            "activeInHierarchy": false,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": 0,
+              "isLoaded": false,
+              "rootCount": 0,
+              "m_Handle": 0
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "RemoveableMediumBrickExplosion",
+            "hideFlags": 0
+          },
+          "useGameObjectPosition": false,
+          "position": {
+            "x": -128.4,
+            "y": 9.6,
+            "z": 143.1
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "delay": 2.0,
+          "duration": 0.0,
+          "useGUILayout": true,
+          "enabled": true,
+          "isActiveAndEnabled": true,
+          "transform": [
+            [
+              [],
+              [],
+              [
+                []
+              ],
+              [
+                []
+              ],
+              [
+                []
+              ],
+              [],
+              [],
+              []
+            ]
+          ],
+          "gameObject": {
+            "transform": [
+              [
+                [],
+                [],
+                [
+                  []
+                ],
+                [
+                  []
+                ],
+                [
+                  []
+                ],
+                [],
+                [],
+                []
+              ]
+            ],
+            "layer": 0,
+            "active": true,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -826460,
+              "name": "AnotherBrick",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -826460
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "MediumBricks",
+            "hideFlags": 0
+          },
+          "tag": "Untagged",
+          "name": "MediumBricks",
+          "hideFlags": 0
+        }
+      ],
+      "name": "MapEventModel_MediumBricks",
+      "ImplementationType": "Assets.Scripts.Simulation.Map.Triggers.MapEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "mapWideBloonSpeed": 1.0,
+  "name": "MapModel_Map",
+  "ImplementationType": "Assets.Scripts.Simulation.Track.Map, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+}

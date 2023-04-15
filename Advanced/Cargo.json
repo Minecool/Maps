@@ -1,0 +1,5916 @@
+{
+  "areas": [
+    {
+      "id": 1,
+      "polygon": {
+        "points": [
+          {
+            "x": -150.0,
+            "y": 116.0,
+            "Rotation": -52.2840233
+          },
+          {
+            "x": 150.0,
+            "y": 116.0,
+            "Rotation": 52.2840233
+          },
+          {
+            "x": 150.0,
+            "y": -116.0,
+            "Rotation": 127.715973
+          },
+          {
+            "x": -150.0,
+            "y": -116.0,
+            "Rotation": -127.715973
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 1,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "name": "AreaModel_BaseArea",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 2,
+      "polygon": {
+        "points": [
+          {
+            "x": -192.9,
+            "y": -61.11051,
+            "Rotation": -107.578148
+          },
+          {
+            "x": 90.8,
+            "y": -61.91051,
+            "Rotation": 124.287491
+          },
+          {
+            "x": 95.3,
+            "y": -60.61051,
+            "Rotation": 122.456238
+          },
+          {
+            "x": 98.8,
+            "y": -56.61051,
+            "Rotation": 119.81189
+          },
+          {
+            "x": 98.1,
+            "y": 55.6894875,
+            "Rotation": 60.41725
+          },
+          {
+            "x": 192.6,
+            "y": 55.6894875,
+            "Rotation": 73.873
+          },
+          {
+            "x": 192.6,
+            "y": 77.28949,
+            "Rotation": 68.1346359
+          },
+          {
+            "x": 79.0,
+            "y": 77.28949,
+            "Rotation": 45.6270523
+          },
+          {
+            "x": 79.0,
+            "y": -38.3105125,
+            "Rotation": 115.870743
+          },
+          {
+            "x": -192.9,
+            "y": -38.3105125,
+            "Rotation": -101.232948
+          }
+        ]
+      },
+      "height": 6.6,
+      "type": 0,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_PathEdgeStandard",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 3,
+      "polygon": {
+        "points": [
+          {
+            "x": -33.8000031,
+            "y": -126.7105,
+            "Rotation": -165.064133
+          },
+          {
+            "x": -33.9,
+            "y": -43.8105125,
+            "Rotation": -142.267761
+          },
+          {
+            "x": 51.5,
+            "y": -43.0105133,
+            "Rotation": 129.867142
+          },
+          {
+            "x": 49.6999969,
+            "y": 129.289474,
+            "Rotation": 21.0271931
+          },
+          {
+            "x": 31.6999989,
+            "y": 129.289474,
+            "Rotation": 13.7763662
+          },
+          {
+            "x": 32.7000046,
+            "y": -22.5105133,
+            "Rotation": 124.543327
+          },
+          {
+            "x": -51.8000031,
+            "y": -22.5105133,
+            "Rotation": -113.488121
+          },
+          {
+            "x": -51.8000031,
+            "y": -127.1105,
+            "Rotation": -157.82814
+          }
+        ]
+      },
+      "height": 6.6,
+      "type": 0,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_PathEdgeSpecial",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 4,
+      "polygon": {
+        "points": [
+          {
+            "x": -193.2,
+            "y": -55.2,
+            "Rotation": -105.9454
+          },
+          {
+            "x": 91.80001,
+            "y": -55.2,
+            "Rotation": 121.0188
+          },
+          {
+            "x": 91.80001,
+            "y": 81.8,
+            "Rotation": 48.2968063
+          },
+          {
+            "x": -93.0,
+            "y": 82.6,
+            "Rotation": -48.3894157
+          },
+          {
+            "x": -99.3,
+            "y": 77.4,
+            "Rotation": -52.0651474
+          },
+          {
+            "x": -99.3,
+            "y": -37.9,
+            "Rotation": -110.890442
+          },
+          {
+            "x": -193.2,
+            "y": -37.9,
+            "Rotation": -101.09877
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 2,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_Land",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 5,
+      "polygon": {
+        "points": [
+          {
+            "x": -193.2,
+            "y": -75.3,
+            "Rotation": -111.293427
+          },
+          {
+            "x": 102.5,
+            "y": -74.0,
+            "Rotation": 125.827454
+          },
+          {
+            "x": 107.8,
+            "y": -67.7,
+            "Rotation": 122.129425
+          },
+          {
+            "x": 108.0,
+            "y": 45.3,
+            "Rotation": 67.24466
+          },
+          {
+            "x": 192.6,
+            "y": 45.1,
+            "Rotation": 76.82085
+          },
+          {
+            "x": 192.6,
+            "y": 81.5,
+            "Rotation": 67.06402
+          },
+          {
+            "x": 82.6,
+            "y": 81.5,
+            "Rotation": 45.38406
+          },
+          {
+            "x": 82.6,
+            "y": -42.7,
+            "Rotation": 117.33667
+          },
+          {
+            "x": -193.2,
+            "y": -56.4,
+            "Rotation": -106.273872
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 2,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [
+        "small"
+      ],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_LandSmall",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 6,
+      "polygon": {
+        "points": [
+          {
+            "x": -94.08,
+            "y": -41.77502,
+            "Rotation": -113.943
+          },
+          {
+            "x": -66.51,
+            "y": -41.65502,
+            "Rotation": -122.0588
+          },
+          {
+            "x": -64.95,
+            "y": -33.3050232,
+            "Rotation": -117.147812
+          },
+          {
+            "x": -64.95,
+            "y": -28.3350239,
+            "Rotation": -113.569672
+          },
+          {
+            "x": -66.71,
+            "y": -22.2750244,
+            "Rotation": -108.464592
+          },
+          {
+            "x": -72.38,
+            "y": -20.2450218,
+            "Rotation": -105.626556
+          },
+          {
+            "x": -90.86,
+            "y": -20.2450218,
+            "Rotation": -102.5612
+          },
+          {
+            "x": -94.85,
+            "y": -22.7450218,
+            "Rotation": -103.484894
+          },
+          {
+            "x": -95.73,
+            "y": -28.505022,
+            "Rotation": -106.58168
+          },
+          {
+            "x": -95.73,
+            "y": -36.29502,
+            "Rotation": -110.763695
+          }
+        ]
+      },
+      "height": 100.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": true,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [
+        {
+          "position": {
+            "x": -85.73,
+            "y": -31.77502,
+            "z": 0.0,
+            "MagnitudeSquared": 8359.285,
+            "Magnitude": 91.42912,
+            "Rotation": -110.336754,
+            "SimToDispRotation": -69.66325
+          },
+          "radius": 9.963561
+        },
+        {
+          "position": {
+            "x": -73.73,
+            "y": -31.77502,
+            "z": 0.0,
+            "MagnitudeSquared": 6445.765,
+            "Magnitude": 80.28552,
+            "Rotation": -113.314339,
+            "SimToDispRotation": -66.68567
+          },
+          "radius": 8.780006
+        }
+      ],
+      "name": "AreaModel_Blocking",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 7,
+      "polygon": {
+        "points": [
+          {
+            "x": -98.3,
+            "y": -46.37735,
+            "Rotation": -115.257652
+          },
+          {
+            "x": -61.3,
+            "y": -46.37735,
+            "Rotation": -127.109825
+          },
+          {
+            "x": -61.4,
+            "y": -17.87735,
+            "Rotation": -106.233551
+          },
+          {
+            "x": -98.00001,
+            "y": -17.7773514,
+            "Rotation": -100.281738
+          }
+        ]
+      },
+      "height": 1.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_NonPlace",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 8,
+      "polygon": {
+        "points": [
+          {
+            "x": 51.19,
+            "y": 53.3663,
+            "Rotation": 43.8075829
+          },
+          {
+            "x": 79.27,
+            "y": 53.4262962,
+            "Rotation": 56.0208664
+          },
+          {
+            "x": 80.08,
+            "y": 60.9963036,
+            "Rotation": 52.7037621
+          },
+          {
+            "x": 80.08,
+            "y": 68.0063,
+            "Rotation": 49.6611023
+          },
+          {
+            "x": 79.68,
+            "y": 72.7763062,
+            "Rotation": 47.59276
+          },
+          {
+            "x": 76.6,
+            "y": 72.7763062,
+            "Rotation": 46.46632
+          },
+          {
+            "x": 75.14,
+            "y": 75.2063141,
+            "Rotation": 44.97473
+          },
+          {
+            "x": 72.31,
+            "y": 75.2063141,
+            "Rotation": 43.875206
+          },
+          {
+            "x": 69.72,
+            "y": 72.7763062,
+            "Rotation": 43.77129
+          },
+          {
+            "x": 62.27,
+            "y": 72.7763062,
+            "Rotation": 40.5514755
+          },
+          {
+            "x": 60.33,
+            "y": 75.29631,
+            "Rotation": 38.70291
+          },
+          {
+            "x": 57.58,
+            "y": 75.29631,
+            "Rotation": 37.4055824
+          },
+          {
+            "x": 54.99,
+            "y": 72.3963,
+            "Rotation": 37.21919
+          },
+          {
+            "x": 51.1,
+            "y": 72.3963,
+            "Rotation": 35.2158661
+          }
+        ]
+      },
+      "height": 100.5,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": true,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [
+        {
+          "position": {
+            "x": 61.1,
+            "y": 63.3663,
+            "z": 0.0,
+            "MagnitudeSquared": 7748.49756,
+            "Magnitude": 88.02555,
+            "Rotation": 43.9568634,
+            "SimToDispRotation": 136.043137
+          },
+          "radius": 9.482465
+        },
+        {
+          "position": {
+            "x": 71.1,
+            "y": 61.3663,
+            "z": 0.0,
+            "MagnitudeSquared": 8821.032,
+            "Magnitude": 93.92035,
+            "Rotation": 49.20257,
+            "SimToDispRotation": 130.797424
+          },
+          "radius": 7.95744228
+        },
+        {
+          "position": {
+            "x": 73.1,
+            "y": 69.3663,
+            "z": 0.0,
+            "MagnitudeSquared": 10155.2939,
+            "Magnitude": 100.773476,
+            "Rotation": 46.50124,
+            "SimToDispRotation": 133.498764
+          },
+          "radius": 4.79949427
+        }
+      ],
+      "name": "AreaModel_Blocking (1)",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 9,
+      "polygon": {
+        "points": [
+          {
+            "x": 50.7000046,
+            "y": 49.42265,
+            "Rotation": 45.7309341
+          },
+          {
+            "x": 81.7,
+            "y": 49.42265,
+            "Rotation": 58.8290634
+          },
+          {
+            "x": 81.6,
+            "y": 76.62265,
+            "Rotation": 46.8018074
+          },
+          {
+            "x": 51.0,
+            "y": 76.72264,
+            "Rotation": 33.61326
+          }
+        ]
+      },
+      "height": 1.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_NonPlace (1)",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 10,
+      "polygon": {
+        "points": [
+          {
+            "x": -58.8,
+            "y": -125.077347,
+            "Rotation": -154.821365
+          },
+          {
+            "x": -25.7,
+            "y": -125.077339,
+            "Rotation": -168.38887
+          },
+          {
+            "x": -25.7,
+            "y": -39.67735,
+            "Rotation": -147.067871
+          },
+          {
+            "x": -58.5,
+            "y": -39.67735,
+            "Rotation": -124.1469
+          }
+        ]
+      },
+      "height": 1.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_BouyNonPlace",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 11,
+      "polygon": {
+        "points": [
+          {
+            "x": 25.1,
+            "y": 75.52265,
+            "Rotation": 18.38426
+          },
+          {
+            "x": 58.3,
+            "y": 75.52267,
+            "Rotation": 37.6664772
+          },
+          {
+            "x": 58.3,
+            "y": 142.222656,
+            "Rotation": 22.2897358
+          },
+          {
+            "x": 25.4,
+            "y": 142.222656,
+            "Rotation": 10.1258812
+          }
+        ]
+      },
+      "height": 1.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_BouyNonPlace (1)",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 12,
+      "polygon": {
+        "points": [
+          {
+            "x": -49.0,
+            "y": -43.8150253,
+            "Rotation": -131.802582
+          },
+          {
+            "x": 43.4,
+            "y": -41.3150253,
+            "Rotation": 133.590149
+          },
+          {
+            "x": 43.4,
+            "y": -21.4150238,
+            "Rotation": 116.26329
+          },
+          {
+            "x": 49.1,
+            "y": -20.0150223,
+            "Rotation": 112.177673
+          },
+          {
+            "x": 50.0,
+            "y": 75.7849655,
+            "Rotation": 33.41529
+          },
+          {
+            "x": 34.6,
+            "y": 75.98498,
+            "Rotation": 24.482296
+          },
+          {
+            "x": 34.4,
+            "y": -23.3150253,
+            "Rotation": 124.127937
+          },
+          {
+            "x": 32.5000038,
+            "y": -24.5150223,
+            "Rotation": 127.027557
+          },
+          {
+            "x": -21.84,
+            "y": -25.635025,
+            "Rotation": -139.570358
+          },
+          {
+            "x": -29.54,
+            "y": -23.9250259,
+            "Rotation": -129.0047
+          },
+          {
+            "x": -44.14,
+            "y": -27.3450241,
+            "Rotation": -121.778488
+          },
+          {
+            "x": -50.5,
+            "y": -31.4150238,
+            "Rotation": -121.8849
+          }
+        ]
+      },
+      "height": 100.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": true,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [
+        {
+          "position": {
+            "x": -28.5,
+            "y": -33.8150253,
+            "z": 0.0,
+            "MagnitudeSquared": 1955.70593,
+            "Magnitude": 44.2233658,
+            "Rotation": -139.875122,
+            "SimToDispRotation": -40.1248779
+          },
+          "radius": 9.429317
+        },
+        {
+          "position": {
+            "x": 1.5,
+            "y": -33.8150253,
+            "z": 0.0,
+            "MagnitudeSquared": 1145.70593,
+            "Magnitude": 33.848278,
+            "Rotation": 177.460083,
+            "SimToDispRotation": 2.53991723
+          },
+          "radius": 8.6305
+        },
+        {
+          "position": {
+            "x": -8.5,
+            "y": -33.8150253,
+            "z": 0.0,
+            "MagnitudeSquared": 1215.70593,
+            "Magnitude": 34.8669739,
+            "Rotation": -165.890045,
+            "SimToDispRotation": -14.1099653
+          },
+          "radius": 8.45315552
+        },
+        {
+          "position": {
+            "x": 11.5,
+            "y": -33.8150253,
+            "z": 0.0,
+            "MagnitudeSquared": 1275.70593,
+            "Magnitude": 35.7170258,
+            "Rotation": 161.217575,
+            "SimToDispRotation": 18.7824249
+          },
+          "radius": 8.360038
+        },
+        {
+          "position": {
+            "x": 21.5,
+            "y": -33.8150253,
+            "z": 0.0,
+            "MagnitudeSquared": 1605.70593,
+            "Magnitude": 40.0712624,
+            "Rotation": 147.551315,
+            "SimToDispRotation": 32.4486923
+          },
+          "radius": 8.089572
+        },
+        {
+          "position": {
+            "x": 35.5,
+            "y": -31.8150253,
+            "z": 0.0,
+            "MagnitudeSquared": 2272.4458,
+            "Magnitude": 47.6701775,
+            "Rotation": 131.866623,
+            "SimToDispRotation": 48.1333733
+          },
+          "radius": 7.89240265
+        },
+        {
+          "position": {
+            "x": -40.5,
+            "y": -35.8150253,
+            "z": 0.0,
+            "MagnitudeSquared": 2922.966,
+            "Magnitude": 54.06446,
+            "Rotation": -131.48703,
+            "SimToDispRotation": -48.5129776
+          },
+          "radius": 7.767181
+        },
+        {
+          "position": {
+            "x": -18.5,
+            "y": -35.8150253,
+            "z": 0.0,
+            "MagnitudeSquared": 1624.96606,
+            "Magnitude": 40.3108673,
+            "Rotation": -152.6817,
+            "SimToDispRotation": -27.3182983
+          },
+          "radius": 7.17216
+        },
+        {
+          "position": {
+            "x": 41.5,
+            "y": -13.8150253,
+            "z": 0.0,
+            "MagnitudeSquared": 1913.105,
+            "Magnitude": 43.7390556,
+            "Rotation": 108.4122,
+            "SimToDispRotation": 71.5878
+          },
+          "radius": 7.08085155
+        },
+        {
+          "position": {
+            "x": 41.5,
+            "y": -5.81502533,
+            "z": 0.0,
+            "MagnitudeSquared": 1756.06458,
+            "Magnitude": 41.905426,
+            "Rotation": 97.97642,
+            "SimToDispRotation": 82.02358
+          },
+          "radius": 7.06473827
+        },
+        {
+          "position": {
+            "x": 41.5,
+            "y": 2.18497467,
+            "z": 0.0,
+            "MagnitudeSquared": 1727.02417,
+            "Magnitude": 41.55748,
+            "Rotation": 86.98616,
+            "SimToDispRotation": 93.01384
+          },
+          "radius": 7.048625
+        },
+        {
+          "position": {
+            "x": 41.5,
+            "y": 10.1849747,
+            "z": 0.0,
+            "MagnitudeSquared": 1825.98376,
+            "Magnitude": 42.7315331,
+            "Rotation": 76.2109451,
+            "SimToDispRotation": 103.789063
+          },
+          "radius": 7.03251171
+        },
+        {
+          "position": {
+            "x": 41.5,
+            "y": 18.1849747,
+            "z": 0.0,
+            "MagnitudeSquared": 2052.94336,
+            "Magnitude": 45.3094177,
+            "Rotation": 66.33735,
+            "SimToDispRotation": 113.662651
+          },
+          "radius": 7.01640224
+        },
+        {
+          "position": {
+            "x": 41.5,
+            "y": 26.1849747,
+            "z": 0.0,
+            "MagnitudeSquared": 2407.90283,
+            "Magnitude": 49.070385,
+            "Rotation": 57.7495766,
+            "SimToDispRotation": 122.250412
+          },
+          "radius": 7.000289
+        },
+        {
+          "position": {
+            "x": 41.5,
+            "y": 34.1849747,
+            "z": 0.0,
+            "MagnitudeSquared": 2890.86255,
+            "Magnitude": 53.7667427,
+            "Rotation": 50.520546,
+            "SimToDispRotation": 129.479462
+          },
+          "radius": 6.98417568
+        },
+        {
+          "position": {
+            "x": 41.5,
+            "y": 42.1849747,
+            "z": 0.0,
+            "MagnitudeSquared": 3501.82227,
+            "Magnitude": 59.1761971,
+            "Rotation": 44.5310364,
+            "SimToDispRotation": 135.468964
+          },
+          "radius": 6.968062
+        },
+        {
+          "position": {
+            "x": 41.5,
+            "y": 50.1849747,
+            "z": 0.0,
+            "MagnitudeSquared": 4240.78174,
+            "Magnitude": 65.1212845,
+            "Rotation": 39.5887337,
+            "SimToDispRotation": 140.41127
+          },
+          "radius": 6.951949
+        },
+        {
+          "position": {
+            "x": 41.5,
+            "y": 58.1849747,
+            "z": 0.0,
+            "MagnitudeSquared": 5107.741,
+            "Magnitude": 71.46846,
+            "Rotation": 35.49808,
+            "SimToDispRotation": 144.501923
+          },
+          "radius": 6.93583965
+        },
+        {
+          "position": {
+            "x": 41.5,
+            "y": 66.1849747,
+            "z": 0.0,
+            "MagnitudeSquared": 6102.70068,
+            "Magnitude": 78.11978,
+            "Rotation": 32.0889664,
+            "SimToDispRotation": 147.911041
+          },
+          "radius": 6.91972637
+        },
+        {
+          "position": {
+            "x": 39.5,
+            "y": -21.8150253,
+            "z": 0.0,
+            "MagnitudeSquared": 2036.14526,
+            "Magnitude": 45.1236649,
+            "Rotation": 118.910957,
+            "SimToDispRotation": 61.08905
+          },
+          "radius": 3.90000153
+        },
+        {
+          "position": {
+            "x": 29.5,
+            "y": -37.8150253,
+            "z": 0.0,
+            "MagnitudeSquared": 2300.226,
+            "Magnitude": 47.96067,
+            "Rotation": 142.041733,
+            "SimToDispRotation": 37.9582634
+          },
+          "radius": 3.87466264
+        },
+        {
+          "position": {
+            "x": 45.5,
+            "y": 72.1849747,
+            "z": 0.0,
+            "MagnitudeSquared": 7280.92041,
+            "Magnitude": 85.32831,
+            "Rotation": 32.22426,
+            "SimToDispRotation": 147.775742
+          },
+          "radius": 3.65813017
+        },
+        {
+          "position": {
+            "x": 27.5,
+            "y": -27.8150253,
+            "z": 0.0,
+            "MagnitudeSquared": 1529.92566,
+            "Magnitude": 39.1142654,
+            "Rotation": 135.326309,
+            "SimToDispRotation": 44.6737
+          },
+          "radius": 3.19626975
+        },
+        {
+          "position": {
+            "x": 37.5,
+            "y": 72.1849747,
+            "z": 0.0,
+            "MagnitudeSquared": 6616.92041,
+            "Magnitude": 81.34445,
+            "Rotation": 27.4518185,
+            "SimToDispRotation": 152.548172
+          },
+          "radius": 2.90764832
+        },
+        {
+          "position": {
+            "x": 47.5,
+            "y": 62.1849747,
+            "z": 0.0,
+            "MagnitudeSquared": 6123.221,
+            "Magnitude": 78.2510147,
+            "Rotation": 37.3744049,
+            "SimToDispRotation": 142.6256
+          },
+          "radius": 2.3721292
+        },
+        {
+          "position": {
+            "x": 47.5,
+            "y": 54.1849747,
+            "z": 0.0,
+            "MagnitudeSquared": 5192.26172,
+            "Magnitude": 72.05735,
+            "Rotation": 41.2386742,
+            "SimToDispRotation": 138.761337
+          },
+          "radius": 2.29697633
+        },
+        {
+          "position": {
+            "x": -16.5,
+            "y": -27.8150253,
+            "z": 0.0,
+            "MagnitudeSquared": 1045.92566,
+            "Magnitude": 32.3407745,
+            "Rotation": -149.32338,
+            "SimToDispRotation": -30.6766129
+          },
+          "radius": 2.28957748
+        },
+        {
+          "position": {
+            "x": 47.5,
+            "y": 46.1849747,
+            "z": 0.0,
+            "MagnitudeSquared": 4389.302,
+            "Magnitude": 66.25181,
+            "Rotation": 45.8041878,
+            "SimToDispRotation": 134.195816
+          },
+          "radius": 2.22182345
+        },
+        {
+          "position": {
+            "x": -20.5,
+            "y": -27.8150253,
+            "z": 0.0,
+            "MagnitudeSquared": 1193.92566,
+            "Magnitude": 34.55323,
+            "Rotation": -143.609344,
+            "SimToDispRotation": -36.39065
+          },
+          "radius": 2.207151
+        },
+        {
+          "position": {
+            "x": -36.5,
+            "y": -27.8150253,
+            "z": 0.0,
+            "MagnitudeSquared": 2105.92578,
+            "Magnitude": 45.8903656,
+            "Rotation": -127.30941,
+            "SimToDispRotation": -52.69059
+          },
+          "radius": 2.20008874
+        },
+        {
+          "position": {
+            "x": 47.5,
+            "y": 38.1849747,
+            "z": 0.0,
+            "MagnitudeSquared": 3714.34229,
+            "Magnitude": 60.9454041,
+            "Rotation": 51.2044029,
+            "SimToDispRotation": 128.7956
+          },
+          "radius": 2.14667058
+        },
+        {
+          "position": {
+            "x": 47.5,
+            "y": 30.1849747,
+            "z": 0.0,
+            "MagnitudeSquared": 3167.38281,
+            "Magnitude": 56.2795067,
+            "Rotation": 57.565136,
+            "SimToDispRotation": 122.43486
+          },
+          "radius": 2.071514
+        }
+      ],
+      "name": "AreaModel_CentreTrucksBlocking",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 13,
+      "polygon": {
+        "points": [
+          {
+            "x": -52.2,
+            "y": -43.27735,
+            "Rotation": -129.661041
+          },
+          {
+            "x": 50.4,
+            "y": -43.27735,
+            "Rotation": 130.651947
+          },
+          {
+            "x": 50.4,
+            "y": 78.62265,
+            "Rotation": 32.66136
+          },
+          {
+            "x": 32.1000023,
+            "y": 78.62265,
+            "Rotation": 22.2091789
+          },
+          {
+            "x": 32.5000038,
+            "y": -22.87735,
+            "Rotation": 125.14241
+          },
+          {
+            "x": -51.9000053,
+            "y": -22.7773514,
+            "Rotation": -113.695229
+          }
+        ]
+      },
+      "height": 1.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_CentreTrucksNonPlace",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 14,
+      "polygon": {
+        "points": [
+          {
+            "x": -57.84,
+            "y": -58.6,
+            "Rotation": -135.373962
+          },
+          {
+            "x": -63.7900047,
+            "y": -58.69999,
+            "Rotation": -132.620468
+          },
+          {
+            "x": -63.8,
+            "y": -72.83,
+            "Rotation": -138.781235
+          },
+          {
+            "x": -58.2100029,
+            "y": -73.11,
+            "Rotation": -141.473282
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_NonPlace (14)",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 15,
+      "polygon": {
+        "points": [
+          {
+            "x": -20.5099983,
+            "y": -58.6,
+            "Rotation": -160.709961
+          },
+          {
+            "x": -26.4600029,
+            "y": -58.69999,
+            "Rotation": -155.735733
+          },
+          {
+            "x": -26.47,
+            "y": -72.83,
+            "Rotation": -160.026382
+          },
+          {
+            "x": -20.8800011,
+            "y": -73.11,
+            "Rotation": -164.060822
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_NonPlace (15)",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 16,
+      "polygon": {
+        "points": [
+          {
+            "x": -66.8999939,
+            "y": 55.08949,
+            "Rotation": -50.5299
+          },
+          {
+            "x": -80.96001,
+            "y": 54.9895,
+            "Rotation": -55.81495
+          },
+          {
+            "x": -80.97,
+            "y": 45.5694847,
+            "Rotation": -60.629425
+          },
+          {
+            "x": -67.27,
+            "y": 45.2894859,
+            "Rotation": -56.049614
+          }
+        ]
+      },
+      "height": 6.6,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_NonPlace (8)",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 17,
+      "polygon": {
+        "points": [
+          {
+            "x": -39.03,
+            "y": 55.08949,
+            "Rotation": -35.3169441
+          },
+          {
+            "x": -53.090004,
+            "y": 54.9895,
+            "Rotation": -43.9931335
+          },
+          {
+            "x": -53.1,
+            "y": 45.5694847,
+            "Rotation": -49.3643875
+          },
+          {
+            "x": -39.4,
+            "y": 45.2894859,
+            "Rotation": -41.0219345
+          }
+        ]
+      },
+      "height": 6.6,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_NonPlace (9)",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 18,
+      "polygon": {
+        "points": [
+          {
+            "x": -12.3299971,
+            "y": 55.08949,
+            "Rotation": -12.6158857
+          },
+          {
+            "x": -26.3900051,
+            "y": 54.9895,
+            "Rotation": -25.6368122
+          },
+          {
+            "x": -26.4,
+            "y": 45.5694847,
+            "Rotation": -30.0852184
+          },
+          {
+            "x": -12.7,
+            "y": 45.2894859,
+            "Rotation": -15.6644669
+          }
+        ]
+      },
+      "height": 6.6,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_NonPlace (10)",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 19,
+      "polygon": {
+        "points": [
+          {
+            "x": 11.66001,
+            "y": 55.08949,
+            "Rotation": 11.950613
+          },
+          {
+            "x": -2.39999962,
+            "y": 54.9895,
+            "Rotation": -2.49907064
+          },
+          {
+            "x": -2.40999269,
+            "y": 45.5694847,
+            "Rotation": -3.0273304
+          },
+          {
+            "x": 11.2900076,
+            "y": 45.2894859,
+            "Rotation": 13.9977016
+          }
+        ]
+      },
+      "height": 6.6,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_NonPlace (11)",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 20,
+      "polygon": {
+        "points": [
+          {
+            "x": 34.4500046,
+            "y": 76.3999939,
+            "Rotation": 24.27139
+          },
+          {
+            "x": 26.4000015,
+            "y": 76.3,
+            "Rotation": 19.0857544
+          },
+          {
+            "x": 26.390007,
+            "y": -16.3,
+            "Rotation": 121.701881
+          },
+          {
+            "x": -61.8,
+            "y": -18.0,
+            "Rotation": -106.238838
+          },
+          {
+            "x": -61.8,
+            "y": -46.9,
+            "Rotation": -127.194855
+          },
+          {
+            "x": -51.6,
+            "y": -46.9,
+            "Rotation": -132.268158
+          },
+          {
+            "x": -51.6,
+            "y": -23.5,
+            "Rotation": -114.485771
+          },
+          {
+            "x": 34.08,
+            "y": -23.8,
+            "Rotation": 124.92878
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_NonPlace (12)",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 21,
+      "polygon": {
+        "points": [
+          {
+            "x": 55.5,
+            "y": 54.49999,
+            "Rotation": 45.5208626
+          },
+          {
+            "x": 47.5,
+            "y": 54.3999977,
+            "Rotation": 41.12622
+          },
+          {
+            "x": 48.7,
+            "y": -42.2,
+            "Rotation": 130.909912
+          },
+          {
+            "x": -30.4000015,
+            "y": -41.6,
+            "Rotation": -143.841812
+          },
+          {
+            "x": -30.4000015,
+            "y": -47.0,
+            "Rotation": -147.104874
+          },
+          {
+            "x": 56.3,
+            "y": -47.0,
+            "Rotation": 129.855591
+          }
+        ]
+      },
+      "height": 0.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_NonPlace (13)",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 22,
+      "polygon": {
+        "points": [
+          {
+            "x": 114.8,
+            "y": 50.58949,
+            "Rotation": 66.21811
+          },
+          {
+            "x": 102.3,
+            "y": 50.4895,
+            "Rotation": 63.7316551
+          },
+          {
+            "x": 102.290009,
+            "y": 34.0694847,
+            "Rotation": 71.57876
+          },
+          {
+            "x": 114.43,
+            "y": 33.7894859,
+            "Rotation": 73.54891
+          }
+        ]
+      },
+      "height": 6.6,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_NonPlace (16)",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 23,
+      "polygon": {
+        "points": [
+          {
+            "x": 114.8,
+            "y": 81.3894958,
+            "Rotation": 54.66459
+          },
+          {
+            "x": 102.3,
+            "y": 81.289505,
+            "Rotation": 51.5286865
+          },
+          {
+            "x": 102.290009,
+            "y": 64.86949,
+            "Rotation": 57.61826
+          },
+          {
+            "x": 114.43,
+            "y": 64.58949,
+            "Rotation": 60.5576477
+          }
+        ]
+      },
+      "height": 6.6,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_NonPlace (17)",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 24,
+      "polygon": {
+        "points": [
+          {
+            "x": -90.6,
+            "y": -64.61051,
+            "Rotation": -125.494194
+          },
+          {
+            "x": -103.099991,
+            "y": -64.710495,
+            "Rotation": -122.114357
+          },
+          {
+            "x": -103.109985,
+            "y": -81.13051,
+            "Rotation": -128.1969
+          },
+          {
+            "x": -90.96999,
+            "y": -81.41051,
+            "Rotation": -131.825882
+          }
+        ]
+      },
+      "height": 6.6,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_NonPlace (18)",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 25,
+      "polygon": {
+        "points": [
+          {
+            "x": -92.33,
+            "y": -33.11051,
+            "Rotation": -109.728371
+          },
+          {
+            "x": -104.829994,
+            "y": -33.2105,
+            "Rotation": -107.578384
+          },
+          {
+            "x": -104.839989,
+            "y": -49.6305122,
+            "Rotation": -115.332542
+          },
+          {
+            "x": -92.7,
+            "y": -49.91051,
+            "Rotation": -118.298424
+          }
+        ]
+      },
+      "height": 6.6,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_NonPlace (19)",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 26,
+      "polygon": {
+        "points": [
+          {
+            "x": -136.8,
+            "y": 5.96497726,
+            "Rotation": -87.50327
+          },
+          {
+            "x": -120.1,
+            "y": 5.46497726,
+            "Rotation": -87.39464
+          },
+          {
+            "x": -102.4,
+            "y": 4.46497726,
+            "Rotation": -87.5032959
+          },
+          {
+            "x": -102.6,
+            "y": 29.9649734,
+            "Rotation": -73.71922
+          },
+          {
+            "x": -135.4,
+            "y": 30.364975,
+            "Rotation": -77.35991
+          },
+          {
+            "x": -147.2,
+            "y": 25.7649765,
+            "Rotation": -80.07187
+          },
+          {
+            "x": -154.4,
+            "y": 16.9649734,
+            "Rotation": -83.7296753
+          },
+          {
+            "x": -147.0,
+            "y": 9.864975,
+            "Rotation": -86.16071
+          }
+        ]
+      },
+      "height": 100.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": true,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [
+        {
+          "position": {
+            "x": -132.4,
+            "y": 18.4649773,
+            "z": 0.0,
+            "MagnitudeSquared": 17870.7129,
+            "Magnitude": 133.681381,
+            "Rotation": -82.06054,
+            "SimToDispRotation": -97.93946
+          },
+          "radius": 11.8625307
+        },
+        {
+          "position": {
+            "x": -118.399994,
+            "y": 18.4649773,
+            "z": 0.0,
+            "MagnitudeSquared": 14359.5137,
+            "Magnitude": 119.831192,
+            "Rotation": -81.13589,
+            "SimToDispRotation": -98.86411
+          },
+          "radius": 11.6918106
+        }
+      ],
+      "name": "AreaModel_Blocking",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 27,
+      "polygon": {
+        "points": [
+          {
+            "x": -73.1,
+            "y": 85.76498,
+            "Rotation": -40.441925
+          },
+          {
+            "x": -56.68,
+            "y": 86.21499,
+            "Rotation": -33.32197
+          },
+          {
+            "x": -56.2,
+            "y": 100.884972,
+            "Rotation": -29.1208744
+          },
+          {
+            "x": -57.99,
+            "y": 105.91497,
+            "Rotation": -28.7013531
+          },
+          {
+            "x": -65.06,
+            "y": 113.024986,
+            "Rotation": -29.9258022
+          },
+          {
+            "x": -71.75,
+            "y": 105.804985,
+            "Rotation": -34.1425438
+          },
+          {
+            "x": -73.7,
+            "y": 101.224968,
+            "Rotation": -36.05766
+          }
+        ]
+      },
+      "height": 100.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": true,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [
+        {
+          "position": {
+            "x": -65.7,
+            "y": 99.76498,
+            "z": 0.0,
+            "MagnitudeSquared": 14269.541,
+            "Magnitude": 119.455185,
+            "Rotation": -33.36681,
+            "SimToDispRotation": -146.6332
+          },
+          "radius": 7.932558
+        },
+        {
+          "position": {
+            "x": -61.6999969,
+            "y": 91.76498,
+            "z": 0.0,
+            "MagnitudeSquared": 12227.7,
+            "Magnitude": 110.578934,
+            "Rotation": -33.9156952,
+            "SimToDispRotation": -146.0843
+          },
+          "radius": 5.19881
+        },
+        {
+          "position": {
+            "x": -67.7,
+            "y": 89.76498,
+            "z": 0.0,
+            "MagnitudeSquared": 12641.041,
+            "Magnitude": 112.432381,
+            "Rotation": -37.0232925,
+            "SimToDispRotation": -142.9767
+          },
+          "radius": 3.85055876
+        },
+        {
+          "position": {
+            "x": -63.6999969,
+            "y": 107.764977,
+            "z": 0.0,
+            "MagnitudeSquared": 15670.9795,
+            "Magnitude": 125.183784,
+            "Rotation": -30.58738,
+            "SimToDispRotation": -149.412613
+          },
+          "radius": 2.744503
+        }
+      ],
+      "name": "AreaModel_Blocking1",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 28,
+      "polygon": {
+        "points": [
+          {
+            "x": -126.6,
+            "y": 56.77498,
+            "Rotation": -65.8456955
+          },
+          {
+            "x": -103.6,
+            "y": 58.4049759,
+            "Rotation": -60.5876732
+          },
+          {
+            "x": -104.07,
+            "y": 81.10497,
+            "Rotation": -52.06961
+          },
+          {
+            "x": -126.6,
+            "y": 81.87496,
+            "Rotation": -57.1083755
+          },
+          {
+            "x": -135.4,
+            "y": 73.67498,
+            "Rotation": -61.44813
+          },
+          {
+            "x": -134.87,
+            "y": 65.7249756,
+            "Rotation": -64.01906
+          }
+        ]
+      },
+      "height": 100.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": true,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [
+        {
+          "position": {
+            "x": -121.399994,
+            "y": 68.77498,
+            "z": 0.0,
+            "MagnitudeSquared": 19467.957,
+            "Magnitude": 139.527618,
+            "Rotation": -60.4677734,
+            "SimToDispRotation": -119.532234
+          },
+          "radius": 11.60238
+        }
+      ],
+      "name": "AreaModel_Blocking2",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 29,
+      "polygon": {
+        "points": [
+          {
+            "x": 145.1,
+            "y": 12.06498,
+            "Rotation": 85.2468262
+          },
+          {
+            "x": 154.5,
+            "y": 15.06498,
+            "Rotation": 84.43081
+          },
+          {
+            "x": 162.5,
+            "y": 21.664978,
+            "Rotation": 82.40594
+          },
+          {
+            "x": 154.0,
+            "y": 30.864975,
+            "Rotation": 78.6668243
+          },
+          {
+            "x": 142.6,
+            "y": 35.164978,
+            "Rotation": 76.14732
+          },
+          {
+            "x": 110.4,
+            "y": 35.164978,
+            "Rotation": 72.33211
+          },
+          {
+            "x": 109.9,
+            "y": 11.2649765,
+            "Rotation": 84.14751
+          }
+        ]
+      },
+      "height": 100.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": true,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [
+        {
+          "position": {
+            "x": 121.9,
+            "y": 23.2649765,
+            "z": 0.0,
+            "MagnitudeSquared": 15400.8691,
+            "Magnitude": 124.100235,
+            "Rotation": 79.19487,
+            "SimToDispRotation": 100.80513
+          },
+          "radius": 11.7242451
+        },
+        {
+          "position": {
+            "x": 135.9,
+            "y": 23.2649765,
+            "z": 0.0,
+            "MagnitudeSquared": 19010.0684,
+            "Magnitude": 137.877,
+            "Rotation": 80.2856,
+            "SimToDispRotation": 99.7144
+          },
+          "radius": 11.4061451
+        },
+        {
+          "position": {
+            "x": 149.9,
+            "y": 23.2649765,
+            "z": 0.0,
+            "MagnitudeSquared": 23011.2676,
+            "Magnitude": 151.694656,
+            "Rotation": 81.1778946,
+            "SimToDispRotation": 98.8221054
+          },
+          "radius": 8.168895
+        }
+      ],
+      "name": "AreaModel_Blocking3",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 30,
+      "polygon": {
+        "points": [
+          {
+            "x": 108.4,
+            "y": -61.7350235,
+            "Rotation": 119.662
+          },
+          {
+            "x": 143.0,
+            "y": -61.5350227,
+            "Rotation": 113.282928
+          },
+          {
+            "x": 156.1,
+            "y": -57.2350235,
+            "Rotation": 110.135773
+          },
+          {
+            "x": 162.1,
+            "y": -51.4350243,
+            "Rotation": 107.604454
+          },
+          {
+            "x": 153.7,
+            "y": -42.4350243,
+            "Rotation": 105.434296
+          },
+          {
+            "x": 139.7,
+            "y": -38.2350235,
+            "Rotation": 105.306648
+          },
+          {
+            "x": 128.5,
+            "y": -37.135025,
+            "Rotation": 106.11869
+          },
+          {
+            "x": 109.6,
+            "y": -38.135025,
+            "Rotation": 109.1852
+          },
+          {
+            "x": 108.4,
+            "y": -40.4350243,
+            "Rotation": 110.456367
+          }
+        ]
+      },
+      "height": 100.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": true,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [
+        {
+          "position": {
+            "x": 120.4,
+            "y": -49.7350235,
+            "z": 0.0,
+            "MagnitudeSquared": 16969.7324,
+            "Magnitude": 130.267929,
+            "Rotation": 112.444618,
+            "SimToDispRotation": 67.55538
+          },
+          "radius": 11.9304361
+        },
+        {
+          "position": {
+            "x": 134.4,
+            "y": -49.7350235,
+            "z": 0.0,
+            "MagnitudeSquared": 20536.93,
+            "Magnitude": 143.307114,
+            "Rotation": 110.307114,
+            "SimToDispRotation": 69.692894
+          },
+          "radius": 11.849514
+        },
+        {
+          "position": {
+            "x": 148.4,
+            "y": -49.7350235,
+            "z": 0.0,
+            "MagnitudeSquared": 24496.13,
+            "Magnitude": 156.5124,
+            "Rotation": 108.528145,
+            "SimToDispRotation": 71.4718552
+          },
+          "radius": 8.515078
+        }
+      ],
+      "name": "AreaModel_Blocking4",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 31,
+      "polygon": {
+        "points": [
+          {
+            "x": 104.6,
+            "y": -74.73503,
+            "Rotation": 125.545204
+          },
+          {
+            "x": 85.42,
+            "y": -74.33502,
+            "Rotation": 131.030762
+          },
+          {
+            "x": 84.04,
+            "y": -77.16502,
+            "Rotation": 132.557968
+          },
+          {
+            "x": 83.6,
+            "y": -87.85503,
+            "Rotation": 136.421631
+          },
+          {
+            "x": 84.2,
+            "y": -99.93503,
+            "Rotation": 139.884277
+          },
+          {
+            "x": 88.25,
+            "y": -109.635025,
+            "Rotation": 141.1679
+          },
+          {
+            "x": 94.3,
+            "y": -114.905029,
+            "Rotation": 140.625031
+          },
+          {
+            "x": 104.11,
+            "y": -104.735031,
+            "Rotation": 135.171478
+          }
+        ]
+      },
+      "height": 100.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": true,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [
+        {
+          "position": {
+            "x": 93.6,
+            "y": -86.90503,
+            "z": 0.0,
+            "MagnitudeSquared": 16313.4434,
+            "Magnitude": 127.724091,
+            "Rotation": 132.87587,
+            "SimToDispRotation": 47.1241379
+          },
+          "radius": 9.952474
+        },
+        {
+          "position": {
+            "x": 93.6,
+            "y": -98.90503,
+            "z": 0.0,
+            "MagnitudeSquared": 18543.1641,
+            "Magnitude": 136.1733,
+            "Rotation": 136.578552,
+            "SimToDispRotation": 43.4214478
+          },
+          "radius": 9.071125
+        }
+      ],
+      "name": "AreaModel_Blocking5",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 32,
+      "polygon": {
+        "points": [
+          {
+            "x": -2.4,
+            "y": -75.03502,
+            "Rotation": -178.168015
+          },
+          {
+            "x": -2.91000032,
+            "y": -103.035019,
+            "Rotation": -178.382233
+          },
+          {
+            "x": 0.0100002289,
+            "y": -110.76503,
+            "Rotation": 179.994827
+          },
+          {
+            "x": 6.5,
+            "y": -116.175018,
+            "Rotation": 176.797638
+          },
+          {
+            "x": 12.78,
+            "y": -110.535019,
+            "Rotation": 173.40477
+          },
+          {
+            "x": 14.91,
+            "y": -102.635025,
+            "Rotation": 171.734344
+          },
+          {
+            "x": 15.24,
+            "y": -93.73503,
+            "Rotation": 170.76532
+          },
+          {
+            "x": 14.95,
+            "y": -75.30502,
+            "Rotation": 168.7713
+          }
+        ]
+      },
+      "height": 100.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": true,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [
+        {
+          "position": {
+            "x": 7.09,
+            "y": -94.17502,
+            "z": 0.0,
+            "MagnitudeSquared": 8919.202,
+            "Magnitude": 94.44153,
+            "Rotation": 175.6946,
+            "SimToDispRotation": 4.30541134
+          },
+          "radius": 8.1281
+        },
+        {
+          "position": {
+            "x": 7.09,
+            "y": -84.17502,
+            "z": 0.0,
+            "MagnitudeSquared": 7135.70166,
+            "Magnitude": 84.47308,
+            "Rotation": 175.185379,
+            "SimToDispRotation": 4.814617
+          },
+          "radius": 7.998581
+        },
+        {
+          "position": {
+            "x": 7.09,
+            "y": -104.175018,
+            "z": 0.0,
+            "MagnitudeSquared": 10902.7031,
+            "Magnitude": 104.416008,
+            "Rotation": 176.106537,
+            "SimToDispRotation": 3.89346361
+          },
+          "radius": 7.14947844
+        }
+      ],
+      "name": "AreaModel_Blocking6",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 33,
+      "polygon": {
+        "points": [
+          {
+            "x": 51.27,
+            "y": -76.33502,
+            "Rotation": 146.112946
+          },
+          {
+            "x": 35.31,
+            "y": -76.05502,
+            "Rotation": 155.096024
+          },
+          {
+            "x": 34.0,
+            "y": -97.87503,
+            "Rotation": 160.8437
+          },
+          {
+            "x": 36.55,
+            "y": -103.835022,
+            "Rotation": 160.6079
+          },
+          {
+            "x": 43.2,
+            "y": -112.685028,
+            "Rotation": 159.0247
+          },
+          {
+            "x": 49.43,
+            "y": -105.165024,
+            "Rotation": 154.8254
+          },
+          {
+            "x": 52.64,
+            "y": -97.43503,
+            "Rotation": 151.619537
+          }
+        ]
+      },
+      "height": 100.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": true,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [
+        {
+          "position": {
+            "x": 44.0,
+            "y": -94.68503,
+            "z": 0.0,
+            "MagnitudeSquared": 10901.2549,
+            "Magnitude": 104.409073,
+            "Rotation": 155.075775,
+            "SimToDispRotation": 24.9242287
+          },
+          "radius": 8.443665
+        },
+        {
+          "position": {
+            "x": 44.0,
+            "y": -84.68503,
+            "z": 0.0,
+            "MagnitudeSquared": 9107.555,
+            "Magnitude": 95.43351,
+            "Rotation": 152.544861,
+            "SimToDispRotation": 27.4551411
+          },
+          "radius": 7.79574251
+        },
+        {
+          "position": {
+            "x": 44.0,
+            "y": -104.685028,
+            "z": 0.0,
+            "MagnitudeSquared": 12894.9551,
+            "Magnitude": 113.555954,
+            "Rotation": 157.202576,
+            "SimToDispRotation": 22.7974262
+          },
+          "radius": 4.48767471
+        },
+        {
+          "position": {
+            "x": 38.0,
+            "y": -78.68503,
+            "z": 0.0,
+            "MagnitudeSquared": 7635.3335,
+            "Magnitude": 87.380394,
+            "Rotation": 154.222336,
+            "SimToDispRotation": 25.777668
+          },
+          "radius": 2.58240581
+        }
+      ],
+      "name": "AreaModel_Blocking7",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 34,
+      "polygon": {
+        "points": [
+          {
+            "x": -136.8,
+            "y": 4.52265,
+            "Rotation": -88.1064758
+          },
+          {
+            "x": -120.1,
+            "y": 4.62264967,
+            "Rotation": -87.79577
+          },
+          {
+            "x": -120.1,
+            "y": -7.17734957,
+            "Rotation": -93.4200058
+          },
+          {
+            "x": -102.4,
+            "y": -7.17734957,
+            "Rotation": -94.00938
+          },
+          {
+            "x": -102.2,
+            "y": 31.12265,
+            "Rotation": -73.0630951
+          },
+          {
+            "x": -135.4,
+            "y": 31.62265,
+            "Rotation": -76.85421
+          },
+          {
+            "x": -147.2,
+            "y": 26.7226486,
+            "Rotation": -79.7105942
+          },
+          {
+            "x": -156.1,
+            "y": 16.2226486,
+            "Rotation": -84.06685
+          },
+          {
+            "x": -147.0,
+            "y": 8.122649,
+            "Rotation": -86.83728
+          }
+        ]
+      },
+      "height": 1.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_NonPlace",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 35,
+      "polygon": {
+        "points": [
+          {
+            "x": -74.5,
+            "y": 84.42265,
+            "Rotation": -41.42726
+          },
+          {
+            "x": -47.5,
+            "y": 83.12265,
+            "Rotation": -29.74558
+          },
+          {
+            "x": -47.3,
+            "y": 100.822655,
+            "Rotation": -25.13318
+          },
+          {
+            "x": -55.9,
+            "y": 100.822655,
+            "Rotation": -29.00569
+          },
+          {
+            "x": -55.9,
+            "y": 108.022659,
+            "Rotation": -27.3608437
+          },
+          {
+            "x": -64.3,
+            "y": 115.322655,
+            "Rotation": -29.1425571
+          },
+          {
+            "x": -74.5,
+            "y": 106.62265,
+            "Rotation": -34.942997
+          }
+        ]
+      },
+      "height": 1.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_NonPlace",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 36,
+      "polygon": {
+        "points": [
+          {
+            "x": -128.1,
+            "y": 58.12265,
+            "Rotation": -65.59484
+          },
+          {
+            "x": -120.0,
+            "y": 54.82265,
+            "Rotation": -65.44645
+          },
+          {
+            "x": -120.2,
+            "y": 43.0226479,
+            "Rotation": -70.30642
+          },
+          {
+            "x": -99.2000046,
+            "y": 42.5226479,
+            "Rotation": -66.79733
+          },
+          {
+            "x": -99.2000046,
+            "y": 51.42265,
+            "Rotation": -62.59898
+          },
+          {
+            "x": -102.6,
+            "y": 57.42265,
+            "Rotation": -60.7653542
+          },
+          {
+            "x": -103.9,
+            "y": 82.3226547,
+            "Rotation": -51.6093063
+          },
+          {
+            "x": -126.6,
+            "y": 82.52265,
+            "Rotation": -56.9021759
+          },
+          {
+            "x": -135.4,
+            "y": 71.82265,
+            "Rotation": -62.05638
+          },
+          {
+            "x": -134.7,
+            "y": 65.02265,
+            "Rotation": -64.2323761
+          }
+        ]
+      },
+      "height": 1.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_NonPlace",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 37,
+      "polygon": {
+        "points": [
+          {
+            "x": 107.9,
+            "y": 2.52265024,
+            "Rotation": 88.6607
+          },
+          {
+            "x": 125.7,
+            "y": 2.52265024,
+            "Rotation": 88.850296
+          },
+          {
+            "x": 125.7,
+            "y": 9.322649,
+            "Rotation": 85.75838
+          },
+          {
+            "x": 145.1,
+            "y": 9.922649,
+            "Rotation": 86.08792
+          },
+          {
+            "x": 154.5,
+            "y": 13.22265,
+            "Rotation": 85.108345
+          },
+          {
+            "x": 162.5,
+            "y": 20.92265,
+            "Rotation": 82.66326
+          },
+          {
+            "x": 154.0,
+            "y": 31.42265,
+            "Rotation": 78.4675
+          },
+          {
+            "x": 142.6,
+            "y": 35.82265,
+            "Rotation": 75.89849
+          },
+          {
+            "x": 108.1,
+            "y": 35.12265,
+            "Rotation": 72.0005646
+          }
+        ]
+      },
+      "height": 1.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_NonPlace",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 38,
+      "polygon": {
+        "points": [
+          {
+            "x": 107.8,
+            "y": -62.67735,
+            "Rotation": 120.174683
+          },
+          {
+            "x": 143.0,
+            "y": -62.4773521,
+            "Rotation": 113.600739
+          },
+          {
+            "x": 156.1,
+            "y": -58.77735,
+            "Rotation": 110.633194
+          },
+          {
+            "x": 162.9,
+            "y": -51.67735,
+            "Rotation": 107.600777
+          },
+          {
+            "x": 153.7,
+            "y": -41.57735,
+            "Rotation": 105.136795
+          },
+          {
+            "x": 139.7,
+            "y": -36.67735,
+            "Rotation": 104.710648
+          },
+          {
+            "x": 128.5,
+            "y": -35.67735,
+            "Rotation": 105.517029
+          },
+          {
+            "x": 128.1,
+            "y": -26.37735,
+            "Rotation": 101.635269
+          },
+          {
+            "x": 107.7,
+            "y": -25.37735,
+            "Rotation": 103.258751
+          }
+        ]
+      },
+      "height": 1.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_NonPlace",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 39,
+      "polygon": {
+        "points": [
+          {
+            "x": 104.6,
+            "y": -74.37735,
+            "Rotation": 125.415276
+          },
+          {
+            "x": 75.4,
+            "y": -73.97735,
+            "Rotation": 134.454346
+          },
+          {
+            "x": 75.4,
+            "y": -91.6773453,
+            "Rotation": 140.564423
+          },
+          {
+            "x": 81.9,
+            "y": -91.6773453,
+            "Rotation": 138.223969
+          },
+          {
+            "x": 82.2,
+            "y": -99.57735,
+            "Rotation": 140.460709
+          },
+          {
+            "x": 84.7,
+            "y": -109.277344,
+            "Rotation": 142.221024
+          },
+          {
+            "x": 94.3,
+            "y": -117.577347,
+            "Rotation": 141.2695
+          },
+          {
+            "x": 105.5,
+            "y": -104.37735,
+            "Rotation": 134.693527
+          }
+        ]
+      },
+      "height": 1.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_NonPlace",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 40,
+      "polygon": {
+        "points": [
+          {
+            "x": 29.2,
+            "y": -74.57735,
+            "Rotation": 158.617676
+          },
+          {
+            "x": -2.40000057,
+            "y": -74.6773453,
+            "Rotation": -178.159241
+          },
+          {
+            "x": -3.69999981,
+            "y": -103.177345,
+            "Rotation": -177.946228
+          },
+          {
+            "x": -0.199999809,
+            "y": -111.477348,
+            "Rotation": -179.897217
+          },
+          {
+            "x": 6.5,
+            "y": -116.977348,
+            "Rotation": 176.81955
+          },
+          {
+            "x": 13.5,
+            "y": -110.177345,
+            "Rotation": 173.014389
+          },
+          {
+            "x": 15.7,
+            "y": -102.277344,
+            "Rotation": 171.27298
+          },
+          {
+            "x": 16.1,
+            "y": -93.37735,
+            "Rotation": 170.217316
+          },
+          {
+            "x": 29.5,
+            "y": -93.37735,
+            "Rotation": 162.467514
+          }
+        ]
+      },
+      "height": 1.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_NonPlace",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "id": 41,
+      "polygon": {
+        "points": [
+          {
+            "x": 53.0,
+            "y": -75.97735,
+            "Rotation": 145.101288
+          },
+          {
+            "x": 33.0,
+            "y": -76.07735,
+            "Rotation": 156.5503
+          },
+          {
+            "x": 33.5000038,
+            "y": -100.477348,
+            "Rotation": 161.561172
+          },
+          {
+            "x": 36.8,
+            "y": -107.577347,
+            "Rotation": 161.11525
+          },
+          {
+            "x": 43.2,
+            "y": -115.37735,
+            "Rotation": 159.472916
+          },
+          {
+            "x": 49.6,
+            "y": -107.37735,
+            "Rotation": 155.206741
+          },
+          {
+            "x": 53.3,
+            "y": -99.1773453,
+            "Rotation": 151.745483
+          }
+        ]
+      },
+      "height": 1.0,
+      "type": 3,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "Rotation": 0.0
+      },
+      "blockerCircles": [],
+      "name": "AreaModel_NonPlace",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "blockers": [
+    {
+      "parentId": 6,
+      "circle": {
+        "position": {
+          "x": -85.73,
+          "y": -31.77502,
+          "z": 100.0,
+          "MagnitudeSquared": 18359.2852,
+          "Magnitude": 135.496445,
+          "Rotation": -110.336754,
+          "SimToDispRotation": -69.66325
+        },
+        "radius": 9.963561
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_Blocking"
+    },
+    {
+      "parentId": 6,
+      "circle": {
+        "position": {
+          "x": -73.73,
+          "y": -31.77502,
+          "z": 100.0,
+          "MagnitudeSquared": 16445.7656,
+          "Magnitude": 128.241043,
+          "Rotation": -113.314339,
+          "SimToDispRotation": -66.68567
+        },
+        "radius": 8.780006
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_Blocking"
+    },
+    {
+      "parentId": 8,
+      "circle": {
+        "position": {
+          "x": 61.1,
+          "y": 63.3663,
+          "z": 100.5,
+          "MagnitudeSquared": 17848.748,
+          "Magnitude": 133.599213,
+          "Rotation": 43.9568634,
+          "SimToDispRotation": 136.043137
+        },
+        "radius": 9.482465
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_Blocking (1)"
+    },
+    {
+      "parentId": 8,
+      "circle": {
+        "position": {
+          "x": 71.1,
+          "y": 61.3663,
+          "z": 100.5,
+          "MagnitudeSquared": 18921.2813,
+          "Magnitude": 137.554642,
+          "Rotation": 49.20257,
+          "SimToDispRotation": 130.797424
+        },
+        "radius": 7.95744228
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_Blocking (1)"
+    },
+    {
+      "parentId": 8,
+      "circle": {
+        "position": {
+          "x": 73.1,
+          "y": 69.3663,
+          "z": 100.5,
+          "MagnitudeSquared": 20255.543,
+          "Magnitude": 142.321976,
+          "Rotation": 46.50124,
+          "SimToDispRotation": 133.498764
+        },
+        "radius": 4.79949427
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_Blocking (1)"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": -28.5,
+          "y": -33.8150253,
+          "z": 100.0,
+          "MagnitudeSquared": 11955.7061,
+          "Magnitude": 109.342148,
+          "Rotation": -139.875122,
+          "SimToDispRotation": -40.1248779
+        },
+        "radius": 9.429317
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 1.5,
+          "y": -33.8150253,
+          "z": 100.0,
+          "MagnitudeSquared": 11145.7061,
+          "Magnitude": 105.573227,
+          "Rotation": 177.460083,
+          "SimToDispRotation": 2.53991723
+        },
+        "radius": 8.6305
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": -8.5,
+          "y": -33.8150253,
+          "z": 100.0,
+          "MagnitudeSquared": 11215.7061,
+          "Magnitude": 105.904228,
+          "Rotation": -165.890045,
+          "SimToDispRotation": -14.1099653
+        },
+        "radius": 8.45315552
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 11.5,
+          "y": -33.8150253,
+          "z": 100.0,
+          "MagnitudeSquared": 11275.7061,
+          "Magnitude": 106.187126,
+          "Rotation": 161.217575,
+          "SimToDispRotation": 18.7824249
+        },
+        "radius": 8.360038
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 21.5,
+          "y": -33.8150253,
+          "z": 100.0,
+          "MagnitudeSquared": 11605.7061,
+          "Magnitude": 107.729782,
+          "Rotation": 147.551315,
+          "SimToDispRotation": 32.4486923
+        },
+        "radius": 8.089572
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 35.5,
+          "y": -31.8150253,
+          "z": 100.0,
+          "MagnitudeSquared": 12272.4453,
+          "Magnitude": 110.781067,
+          "Rotation": 131.866623,
+          "SimToDispRotation": 48.1333733
+        },
+        "radius": 7.89240265
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": -40.5,
+          "y": -35.8150253,
+          "z": 100.0,
+          "MagnitudeSquared": 12922.9658,
+          "Magnitude": 113.679222,
+          "Rotation": -131.48703,
+          "SimToDispRotation": -48.5129776
+        },
+        "radius": 7.767181
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": -18.5,
+          "y": -35.8150253,
+          "z": 100.0,
+          "MagnitudeSquared": 11624.9658,
+          "Magnitude": 107.819138,
+          "Rotation": -152.6817,
+          "SimToDispRotation": -27.3182983
+        },
+        "radius": 7.17216
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 41.5,
+          "y": -13.8150253,
+          "z": 100.0,
+          "MagnitudeSquared": 11913.1055,
+          "Magnitude": 109.147171,
+          "Rotation": 108.4122,
+          "SimToDispRotation": 71.5878
+        },
+        "radius": 7.08085155
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 41.5,
+          "y": -5.81502533,
+          "z": 100.0,
+          "MagnitudeSquared": 11756.0645,
+          "Magnitude": 108.425385,
+          "Rotation": 97.97642,
+          "SimToDispRotation": 82.02358
+        },
+        "radius": 7.06473827
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 41.5,
+          "y": 2.18497467,
+          "z": 100.0,
+          "MagnitudeSquared": 11727.0244,
+          "Magnitude": 108.291389,
+          "Rotation": 86.98616,
+          "SimToDispRotation": 93.01384
+        },
+        "radius": 7.048625
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 41.5,
+          "y": 10.1849747,
+          "z": 100.0,
+          "MagnitudeSquared": 11825.9834,
+          "Magnitude": 108.747337,
+          "Rotation": 76.2109451,
+          "SimToDispRotation": 103.789063
+        },
+        "radius": 7.03251171
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 41.5,
+          "y": 18.1849747,
+          "z": 100.0,
+          "MagnitudeSquared": 12052.9434,
+          "Magnitude": 109.7859,
+          "Rotation": 66.33735,
+          "SimToDispRotation": 113.662651
+        },
+        "radius": 7.01640224
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 41.5,
+          "y": 26.1849747,
+          "z": 100.0,
+          "MagnitudeSquared": 12407.9023,
+          "Magnitude": 111.390762,
+          "Rotation": 57.7495766,
+          "SimToDispRotation": 122.250412
+        },
+        "radius": 7.000289
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 41.5,
+          "y": 34.1849747,
+          "z": 100.0,
+          "MagnitudeSquared": 12890.8623,
+          "Magnitude": 113.537933,
+          "Rotation": 50.520546,
+          "SimToDispRotation": 129.479462
+        },
+        "radius": 6.98417568
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 41.5,
+          "y": 42.1849747,
+          "z": 100.0,
+          "MagnitudeSquared": 13501.8223,
+          "Magnitude": 116.197342,
+          "Rotation": 44.5310364,
+          "SimToDispRotation": 135.468964
+        },
+        "radius": 6.968062
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 41.5,
+          "y": 50.1849747,
+          "z": 100.0,
+          "MagnitudeSquared": 14240.7813,
+          "Magnitude": 119.334747,
+          "Rotation": 39.5887337,
+          "SimToDispRotation": 140.41127
+        },
+        "radius": 6.951949
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 41.5,
+          "y": 58.1849747,
+          "z": 100.0,
+          "MagnitudeSquared": 15107.7412,
+          "Magnitude": 122.913551,
+          "Rotation": 35.49808,
+          "SimToDispRotation": 144.501923
+        },
+        "radius": 6.93583965
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 41.5,
+          "y": 66.1849747,
+          "z": 100.0,
+          "MagnitudeSquared": 16102.7012,
+          "Magnitude": 126.896416,
+          "Rotation": 32.0889664,
+          "SimToDispRotation": 147.911041
+        },
+        "radius": 6.91972637
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 39.5,
+          "y": -21.8150253,
+          "z": 100.0,
+          "MagnitudeSquared": 12036.1455,
+          "Magnitude": 109.709366,
+          "Rotation": 118.910957,
+          "SimToDispRotation": 61.08905
+        },
+        "radius": 3.90000153
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 29.5,
+          "y": -37.8150253,
+          "z": 100.0,
+          "MagnitudeSquared": 12300.2266,
+          "Magnitude": 110.906387,
+          "Rotation": 142.041733,
+          "SimToDispRotation": 37.9582634
+        },
+        "radius": 3.87466264
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 45.5,
+          "y": 72.1849747,
+          "z": 100.0,
+          "MagnitudeSquared": 17280.92,
+          "Magnitude": 131.456909,
+          "Rotation": 32.22426,
+          "SimToDispRotation": 147.775742
+        },
+        "radius": 3.65813017
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 27.5,
+          "y": -27.8150253,
+          "z": 100.0,
+          "MagnitudeSquared": 11529.9258,
+          "Magnitude": 107.377495,
+          "Rotation": 135.326309,
+          "SimToDispRotation": 44.6737
+        },
+        "radius": 3.19626975
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 37.5,
+          "y": 72.1849747,
+          "z": 100.0,
+          "MagnitudeSquared": 16616.92,
+          "Magnitude": 128.906631,
+          "Rotation": 27.4518185,
+          "SimToDispRotation": 152.548172
+        },
+        "radius": 2.90764832
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 47.5,
+          "y": 62.1849747,
+          "z": 100.0,
+          "MagnitudeSquared": 16123.2207,
+          "Magnitude": 126.977242,
+          "Rotation": 37.3744049,
+          "SimToDispRotation": 142.6256
+        },
+        "radius": 2.3721292
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 47.5,
+          "y": 54.1849747,
+          "z": 100.0,
+          "MagnitudeSquared": 15192.2617,
+          "Magnitude": 123.2569,
+          "Rotation": 41.2386742,
+          "SimToDispRotation": 138.761337
+        },
+        "radius": 2.29697633
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": -16.5,
+          "y": -27.8150253,
+          "z": 100.0,
+          "MagnitudeSquared": 11045.9258,
+          "Magnitude": 105.0996,
+          "Rotation": -149.32338,
+          "SimToDispRotation": -30.6766129
+        },
+        "radius": 2.28957748
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 47.5,
+          "y": 46.1849747,
+          "z": 100.0,
+          "MagnitudeSquared": 14389.3018,
+          "Magnitude": 119.955414,
+          "Rotation": 45.8041878,
+          "SimToDispRotation": 134.195816
+        },
+        "radius": 2.22182345
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": -20.5,
+          "y": -27.8150253,
+          "z": 100.0,
+          "MagnitudeSquared": 11193.9258,
+          "Magnitude": 105.801353,
+          "Rotation": -143.609344,
+          "SimToDispRotation": -36.39065
+        },
+        "radius": 2.207151
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": -36.5,
+          "y": -27.8150253,
+          "z": 100.0,
+          "MagnitudeSquared": 12105.9258,
+          "Magnitude": 110.026932,
+          "Rotation": -127.30941,
+          "SimToDispRotation": -52.69059
+        },
+        "radius": 2.20008874
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 47.5,
+          "y": 38.1849747,
+          "z": 100.0,
+          "MagnitudeSquared": 13714.3418,
+          "Magnitude": 117.108246,
+          "Rotation": 51.2044029,
+          "SimToDispRotation": 128.7956
+        },
+        "radius": 2.14667058
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 12,
+      "circle": {
+        "position": {
+          "x": 47.5,
+          "y": 30.1849747,
+          "z": 100.0,
+          "MagnitudeSquared": 13167.3828,
+          "Magnitude": 114.749214,
+          "Rotation": 57.565136,
+          "SimToDispRotation": 122.43486
+        },
+        "radius": 2.071514
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_CentreTrucksBlocking"
+    },
+    {
+      "parentId": 26,
+      "circle": {
+        "position": {
+          "x": -132.4,
+          "y": 18.4649773,
+          "z": 100.0,
+          "MagnitudeSquared": 27870.7129,
+          "Magnitude": 166.945236,
+          "Rotation": -82.06054,
+          "SimToDispRotation": -97.93946
+        },
+        "radius": 11.8625307
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_Blocking"
+    },
+    {
+      "parentId": 26,
+      "circle": {
+        "position": {
+          "x": -118.399994,
+          "y": 18.4649773,
+          "z": 100.0,
+          "MagnitudeSquared": 24359.5137,
+          "Magnitude": 156.075348,
+          "Rotation": -81.13589,
+          "SimToDispRotation": -98.86411
+        },
+        "radius": 11.6918106
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_Blocking"
+    },
+    {
+      "parentId": 27,
+      "circle": {
+        "position": {
+          "x": -65.7,
+          "y": 99.76498,
+          "z": 100.0,
+          "MagnitudeSquared": 24269.541,
+          "Magnitude": 155.78685,
+          "Rotation": -33.36681,
+          "SimToDispRotation": -146.6332
+        },
+        "radius": 7.932558
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_Blocking1"
+    },
+    {
+      "parentId": 27,
+      "circle": {
+        "position": {
+          "x": -61.6999969,
+          "y": 91.76498,
+          "z": 100.0,
+          "MagnitudeSquared": 22227.7,
+          "Magnitude": 149.089569,
+          "Rotation": -33.9156952,
+          "SimToDispRotation": -146.0843
+        },
+        "radius": 5.19881
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_Blocking1"
+    },
+    {
+      "parentId": 27,
+      "circle": {
+        "position": {
+          "x": -67.7,
+          "y": 89.76498,
+          "z": 100.0,
+          "MagnitudeSquared": 22641.041,
+          "Magnitude": 150.4694,
+          "Rotation": -37.0232925,
+          "SimToDispRotation": -142.9767
+        },
+        "radius": 3.85055876
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_Blocking1"
+    },
+    {
+      "parentId": 27,
+      "circle": {
+        "position": {
+          "x": -63.6999969,
+          "y": 107.764977,
+          "z": 100.0,
+          "MagnitudeSquared": 25670.98,
+          "Magnitude": 160.221664,
+          "Rotation": -30.58738,
+          "SimToDispRotation": -149.412613
+        },
+        "radius": 2.744503
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_Blocking1"
+    },
+    {
+      "parentId": 28,
+      "circle": {
+        "position": {
+          "x": -121.399994,
+          "y": 68.77498,
+          "z": 100.0,
+          "MagnitudeSquared": 29467.957,
+          "Magnitude": 171.662338,
+          "Rotation": -60.4677734,
+          "SimToDispRotation": -119.532234
+        },
+        "radius": 11.60238
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_Blocking2"
+    },
+    {
+      "parentId": 29,
+      "circle": {
+        "position": {
+          "x": 121.9,
+          "y": 23.2649765,
+          "z": 100.0,
+          "MagnitudeSquared": 25400.87,
+          "Magnitude": 159.3765,
+          "Rotation": 79.19487,
+          "SimToDispRotation": 100.80513
+        },
+        "radius": 11.7242451
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_Blocking3"
+    },
+    {
+      "parentId": 29,
+      "circle": {
+        "position": {
+          "x": 135.9,
+          "y": 23.2649765,
+          "z": 100.0,
+          "MagnitudeSquared": 29010.0684,
+          "Magnitude": 170.323425,
+          "Rotation": 80.2856,
+          "SimToDispRotation": 99.7144
+        },
+        "radius": 11.4061451
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_Blocking3"
+    },
+    {
+      "parentId": 29,
+      "circle": {
+        "position": {
+          "x": 149.9,
+          "y": 23.2649765,
+          "z": 100.0,
+          "MagnitudeSquared": 33011.2656,
+          "Magnitude": 181.690033,
+          "Rotation": 81.1778946,
+          "SimToDispRotation": 98.8221054
+        },
+        "radius": 8.168895
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_Blocking3"
+    },
+    {
+      "parentId": 30,
+      "circle": {
+        "position": {
+          "x": 120.4,
+          "y": -49.7350235,
+          "z": 100.0,
+          "MagnitudeSquared": 26969.7324,
+          "Magnitude": 164.22464,
+          "Rotation": 112.444618,
+          "SimToDispRotation": 67.55538
+        },
+        "radius": 11.9304361
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_Blocking4"
+    },
+    {
+      "parentId": 30,
+      "circle": {
+        "position": {
+          "x": 134.4,
+          "y": -49.7350235,
+          "z": 100.0,
+          "MagnitudeSquared": 30536.93,
+          "Magnitude": 174.748184,
+          "Rotation": 110.307114,
+          "SimToDispRotation": 69.692894
+        },
+        "radius": 11.849514
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_Blocking4"
+    },
+    {
+      "parentId": 30,
+      "circle": {
+        "position": {
+          "x": 148.4,
+          "y": -49.7350235,
+          "z": 100.0,
+          "MagnitudeSquared": 34496.1328,
+          "Magnitude": 185.731339,
+          "Rotation": 108.528145,
+          "SimToDispRotation": 71.4718552
+        },
+        "radius": 8.515078
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_Blocking4"
+    },
+    {
+      "parentId": 31,
+      "circle": {
+        "position": {
+          "x": 93.6,
+          "y": -86.90503,
+          "z": 100.0,
+          "MagnitudeSquared": 26313.4434,
+          "Magnitude": 162.214188,
+          "Rotation": 132.87587,
+          "SimToDispRotation": 47.1241379
+        },
+        "radius": 9.952474
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_Blocking5"
+    },
+    {
+      "parentId": 31,
+      "circle": {
+        "position": {
+          "x": 93.6,
+          "y": -98.90503,
+          "z": 100.0,
+          "MagnitudeSquared": 28543.1641,
+          "Magnitude": 168.94722,
+          "Rotation": 136.578552,
+          "SimToDispRotation": 43.4214478
+        },
+        "radius": 9.071125
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_Blocking5"
+    },
+    {
+      "parentId": 32,
+      "circle": {
+        "position": {
+          "x": 7.09,
+          "y": -94.17502,
+          "z": 100.0,
+          "MagnitudeSquared": 18919.2031,
+          "Magnitude": 137.547089,
+          "Rotation": 175.6946,
+          "SimToDispRotation": 4.30541134
+        },
+        "radius": 8.1281
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_Blocking6"
+    },
+    {
+      "parentId": 32,
+      "circle": {
+        "position": {
+          "x": 7.09,
+          "y": -84.17502,
+          "z": 100.0,
+          "MagnitudeSquared": 17135.7012,
+          "Magnitude": 130.9034,
+          "Rotation": 175.185379,
+          "SimToDispRotation": 4.814617
+        },
+        "radius": 7.998581
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_Blocking6"
+    },
+    {
+      "parentId": 32,
+      "circle": {
+        "position": {
+          "x": 7.09,
+          "y": -104.175018,
+          "z": 100.0,
+          "MagnitudeSquared": 20902.7031,
+          "Magnitude": 144.577667,
+          "Rotation": 176.106537,
+          "SimToDispRotation": 3.89346361
+        },
+        "radius": 7.14947844
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_Blocking6"
+    },
+    {
+      "parentId": 33,
+      "circle": {
+        "position": {
+          "x": 44.0,
+          "y": -94.68503,
+          "z": 100.0,
+          "MagnitudeSquared": 20901.2539,
+          "Magnitude": 144.572662,
+          "Rotation": 155.075775,
+          "SimToDispRotation": 24.9242287
+        },
+        "radius": 8.443665
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_Blocking7"
+    },
+    {
+      "parentId": 33,
+      "circle": {
+        "position": {
+          "x": 44.0,
+          "y": -84.68503,
+          "z": 100.0,
+          "MagnitudeSquared": 19107.5547,
+          "Magnitude": 138.230072,
+          "Rotation": 152.544861,
+          "SimToDispRotation": 27.4551411
+        },
+        "radius": 7.79574251
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_Blocking7"
+    },
+    {
+      "parentId": 33,
+      "circle": {
+        "position": {
+          "x": 44.0,
+          "y": -104.685028,
+          "z": 100.0,
+          "MagnitudeSquared": 22894.9551,
+          "Magnitude": 151.310791,
+          "Rotation": 157.202576,
+          "SimToDispRotation": 22.7974262
+        },
+        "radius": 4.48767471
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_Blocking7"
+    },
+    {
+      "parentId": 33,
+      "circle": {
+        "position": {
+          "x": 38.0,
+          "y": -78.68503,
+          "z": 100.0,
+          "MagnitudeSquared": 17635.334,
+          "Magnitude": 132.7981,
+          "Rotation": 154.222336,
+          "SimToDispRotation": 25.777668
+        },
+        "radius": 2.58240581
+      },
+      "isDisabled": false,
+      "name": "BlockerModel_Blocking7"
+    }
+  ],
+  "coopAreaLayouts": [
+    {
+      "areaModels": [
+        {
+          "areaIndex": 0,
+          "marker": {
+            "x": 0.0,
+            "y": 0.0,
+            "Rotation": 180.0
+          },
+          "polygon": {
+            "points": [
+              {
+                "x": -176.0,
+                "y": -135.0,
+                "Rotation": -127.489853
+              },
+              {
+                "x": -176.0,
+                "y": 135.0,
+                "Rotation": -52.5101547
+              },
+              {
+                "x": 176.0,
+                "y": 135.0,
+                "Rotation": 52.5101547
+              },
+              {
+                "x": 176.0,
+                "y": -135.0,
+                "Rotation": 127.489853
+              },
+              {
+                "x": -176.0,
+                "y": -135.0,
+                "Rotation": -127.489853
+              }
+            ]
+          },
+          "name": "CoopAreaModel_"
+        }
+      ],
+      "areaLayoutType": 2,
+      "name": "CoopAreaLayoutModel_"
+    },
+    {
+      "areaModels": [
+        {
+          "areaIndex": 0,
+          "marker": {
+            "x": 0.0,
+            "y": 0.0,
+            "Rotation": 180.0
+          },
+          "polygon": {
+            "points": [
+              {
+                "x": -176.0,
+                "y": -135.0,
+                "Rotation": -127.489853
+              },
+              {
+                "x": -176.0,
+                "y": 135.0,
+                "Rotation": -52.5101547
+              },
+              {
+                "x": 176.0,
+                "y": 135.0,
+                "Rotation": 52.5101547
+              },
+              {
+                "x": 176.0,
+                "y": -135.0,
+                "Rotation": 127.489853
+              },
+              {
+                "x": -176.0,
+                "y": -135.0,
+                "Rotation": -127.489853
+              }
+            ]
+          },
+          "name": "CoopAreaModel_"
+        }
+      ],
+      "areaLayoutType": 2,
+      "name": "CoopAreaLayoutModel_"
+    }
+  ],
+  "removeables": [
+    {
+      "isActive": false,
+      "defaultType": 2,
+      "objecName": "RoundRemoveable",
+      "menuName": "",
+      "textKey": "Removable Cost",
+      "menuDescription": "",
+      "removealCost": 500,
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "MagnitudeSquared": 0.0,
+        "Magnitude": 0.0,
+        "Rotation": 180.0,
+        "SimToDispRotation": 0.0
+      },
+      "denySellIfStackedTowers": false,
+      "destroyArea": true,
+      "modPathId": "",
+      "ids": [
+        6,
+        7
+      ],
+      "name": "RemoveableModel_RoundRemoveable",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Removeable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "isActive": false,
+      "defaultType": 2,
+      "objecName": "RoundRemoveable2",
+      "menuName": "",
+      "textKey": "Removable Cost",
+      "menuDescription": "",
+      "removealCost": 500,
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "MagnitudeSquared": 0.0,
+        "Magnitude": 0.0,
+        "Rotation": 180.0,
+        "SimToDispRotation": 0.0
+      },
+      "denySellIfStackedTowers": false,
+      "destroyArea": true,
+      "modPathId": "",
+      "ids": [
+        8,
+        9
+      ],
+      "name": "RemoveableModel_RoundRemoveable2",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Removeable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "regenRemovables": [],
+  "paths": [
+    {
+      "pathId": "PathStandard",
+      "points": [
+        {
+          "point": {
+            "x": -234.7,
+            "y": -51.11051,
+            "z": 6.6,
+            "MagnitudeSquared": 57739.9336,
+            "Magnitude": 240.291351,
+            "Rotation": -102.285461,
+            "SimToDispRotation": -77.71454
+          },
+          "rotation": 0.0,
+          "distance": 0.0,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 88.2,
+            "y": -50.8105125,
+            "z": 6.6,
+            "MagnitudeSquared": 10404.5068,
+            "Magnitude": 102.002487,
+            "Rotation": 119.945511,
+            "SimToDispRotation": 60.054493
+          },
+          "rotation": 0.0,
+          "distance": 322.900146,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 89.1,
+            "y": 67.88949,
+            "z": 6.6,
+            "MagnitudeSquared": 12591.3516,
+            "Magnitude": 112.211189,
+            "Rotation": 52.69452,
+            "SimToDispRotation": 127.305481
+          },
+          "rotation": 0.0,
+          "distance": 441.603546,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 236.9,
+            "y": 68.0894852,
+            "z": 6.6,
+            "MagnitudeSquared": 60801.3438,
+            "Magnitude": 246.579285,
+            "Rotation": 73.9643555,
+            "SimToDispRotation": 106.035645
+          },
+          "rotation": 0.0,
+          "distance": 589.4037,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        }
+      ],
+      "isActive": true,
+      "isHidden": false,
+      "spawnPoint": {
+        "x": -1000.0,
+        "y": -1000.0,
+        "z": -1000.0,
+        "MagnitudeSquared": 3000000.0,
+        "Magnitude": 1732.05078,
+        "Rotation": -135.0,
+        "SimToDispRotation": -45.0
+      },
+      "leakPoint": {
+        "x": -1000.0,
+        "y": -1000.0,
+        "z": -1000.0,
+        "MagnitudeSquared": 3000000.0,
+        "Magnitude": 1732.05078,
+        "Rotation": -135.0,
+        "SimToDispRotation": -45.0
+      },
+      "name": "PathModel_PathStandard"
+    },
+    {
+      "pathId": "PathSpecial",
+      "points": [
+        {
+          "point": {
+            "x": 40.3,
+            "y": 248.489487,
+            "z": 6.6,
+            "MagnitudeSquared": 63414.67,
+            "Magnitude": 251.8227,
+            "Rotation": 9.212017,
+            "SimToDispRotation": 170.787979
+          },
+          "rotation": 0.0,
+          "distance": 0.0,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": 40.5,
+            "y": -33.11051,
+            "z": 6.6,
+            "MagnitudeSquared": 2780.11621,
+            "Magnitude": 52.7268066,
+            "Rotation": 129.267487,
+            "SimToDispRotation": 50.73251
+          },
+          "rotation": 0.0,
+          "distance": 281.600067,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": -43.1,
+            "y": -33.21051,
+            "z": 6.6,
+            "MagnitudeSquared": 3004.108,
+            "Magnitude": 54.809742,
+            "Rotation": -127.615883,
+            "SimToDispRotation": -52.3841133
+          },
+          "rotation": 0.0,
+          "distance": 365.200134,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "point": {
+            "x": -43.1,
+            "y": -267.7105,
+            "z": 6.6,
+            "MagnitudeSquared": 73570.0859,
+            "Magnitude": 271.238068,
+            "Rotation": -170.854172,
+            "SimToDispRotation": -9.145843
+          },
+          "rotation": 0.0,
+          "distance": 599.700134,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        }
+      ],
+      "isActive": false,
+      "isHidden": true,
+      "spawnPoint": {
+        "x": -1000.0,
+        "y": -1000.0,
+        "z": -1000.0,
+        "MagnitudeSquared": 3000000.0,
+        "Magnitude": 1732.05078,
+        "Rotation": -135.0,
+        "SimToDispRotation": -45.0
+      },
+      "leakPoint": {
+        "x": -1000.0,
+        "y": -1000.0,
+        "z": -1000.0,
+        "MagnitudeSquared": 3000000.0,
+        "Magnitude": 1732.05078,
+        "Rotation": -135.0,
+        "SimToDispRotation": -45.0
+      },
+      "name": "PathModel_PathSpecial"
+    }
+  ],
+  "spawner": {
+    "forwardSplitter": {
+      "moabOnlyPath": [
+        false,
+        true
+      ],
+      "paths": [
+        "PathStandard",
+        "PathSpecial"
+      ],
+      "name": "MoabOnlySplitterModel_PathSpawner"
+    },
+    "reverseSplitter": {
+      "moabOnlyPath": [
+        false,
+        true
+      ],
+      "paths": [
+        "PathStandard",
+        "PathSpecial"
+      ],
+      "name": "MoabOnlySplitterModel_PathSpawner"
+    },
+    "name": "PathSpawnerModel_PathSpawner"
+  },
+  "mapDifficulty": 2,
+  "mapName": "Cargo",
+  "mapEvents": [
+    {
+      "saveId": "Data",
+      "oneTimeEvent": true,
+      "allTriggersRequired": false,
+      "inactiveByDefault": false,
+      "triggers": [
+        {
+          "round": 38,
+          "everyNthRound": 0,
+          "usePrimeNumbers": false,
+          "triggerOnceIfRoundMissed": false,
+          "saveId": "AfterRoundTriggerModel1",
+          "name": "AfterRoundTriggerModel_Data",
+          "ImplementationType": "Assets.Scripts.Simulation.Map.Triggers.AfterRoundTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "bloonTag": "Moabs",
+          "saveId": "PreBloonSpawnTriggerModel1",
+          "name": "PreBloonSpawnTriggerModel_Data",
+          "ImplementationType": "Assets.Scripts.Simulation.Map.Triggers.PreBloonSpawnTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "actions": [
+        {
+          "setActiveToo": true,
+          "pathName": "PathSpecial",
+          "saveId": "PathActiveActionModel1",
+          "name": "PathActiveActionModel_PathSpecial",
+          "ImplementationType": "Assets.Scripts.Simulation.Map.Actions.PathActiveAction, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "setActiveToo": true,
+          "removeableName": "RemoveableModel_RoundRemoveable",
+          "saveId": "RemovableActiveActionModel1",
+          "name": "RemovableActiveActionModel_RoundRemovable",
+          "ImplementationType": "Assets.Scripts.Simulation.Map.Actions.RemovableActiveAction, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "setActiveToo": true,
+          "removeableName": "RemoveableModel_RoundRemoveable2",
+          "saveId": "RemovableActiveActionModel2",
+          "name": "RemovableActiveActionModel_RoundRemovable2",
+          "ImplementationType": "Assets.Scripts.Simulation.Map.Actions.RemovableActiveAction, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "areaName": "AreaModel_CentreTrucksBlocking",
+          "saveId": "DestroyAreaActionModel1",
+          "name": "DestroyAreaActionModel_CentreTrucksBlocking",
+          "ImplementationType": "Assets.Scripts.Simulation.Map.Actions.DestroyAreaAction, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        {
+          "areaName": "AreaModel_CentreTrucksNonPlace",
+          "saveId": "DestroyAreaActionModel2",
+          "name": "DestroyAreaActionModel_CentreTrucksNonPlace",
+          "ImplementationType": "Assets.Scripts.Simulation.Map.Actions.DestroyAreaAction, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "unityActions": [
+        {
+          "anim": {
+            "isOptimizable": false,
+            "isHuman": false,
+            "hasRootMotion": false,
+            "humanScale": 1.0,
+            "isInitialized": true,
+            "deltaPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "deltaRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0,
+              "eulerAngles": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "velocity": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "angularVelocity": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rootPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rootRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0,
+              "eulerAngles": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "applyRootMotion": false,
+            "linearVelocityBlending": false,
+            "animatePhysics": false,
+            "updateMode": 0,
+            "hasTransformHierarchy": true,
+            "gravityWeight": 0.0,
+            "bodyPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "bodyRotation": {
+              "x": -0.002180118,
+              "y": 2.746545E-43,
+              "z": -1.09155818E+12,
+              "w": 9.935206E-43,
+              "eulerAngles": {
+                "x": 0.0,
+                "y": 2.28868384E-13,
+                "z": 180.0
+              }
+            },
+            "stabilizeFeet": false,
+            "layerCount": 1,
+            "parameters": [
+              {
+                "name": "Round39",
+                "nameHash": -553649372,
+                "defaultFloat": 0.0
+              },
+              {
+                "name": "Reset",
+                "nameHash": -1856204727,
+                "defaultFloat": 0.0
+              },
+              {
+                "name": "PostRound39",
+                "nameHash": -1854769387,
+                "defaultFloat": 0.0
+              }
+            ],
+            "parameterCount": 3,
+            "feetPivotActive": 1.0,
+            "pivotWeight": 0.5,
+            "pivotPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "isMatchingTarget": false,
+            "speed": 1.0,
+            "targetPosition": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "targetRotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0,
+              "eulerAngles": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "cullingMode": 0,
+            "playbackTime": -1.0,
+            "recorderStartTime": -1.0,
+            "recorderStopTime": -1.0,
+            "recorderMode": 0,
+            "runtimeAnimatorController": {
+              "animationClips": [
+                {
+                  "length": 2.5,
+                  "frameRate": 60.0,
+                  "wrapMode": 0,
+                  "localBounds": {
+                    "center": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "size": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "extents": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "min": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "max": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    }
+                  },
+                  "legacy": false,
+                  "humanMotion": false,
+                  "empty": false,
+                  "hasGenericRootTransform": false,
+                  "hasMotionFloatCurves": false,
+                  "hasMotionCurves": false,
+                  "hasRootCurves": false,
+                  "events": [
+                    {
+                      "functionName": "PlayAudioTrack",
+                      "time": 0.0
+                    }
+                  ],
+                  "name": "CargoTruckLineRemoveAnim",
+                  "hideFlags": 0
+                },
+                {
+                  "length": 0.0833333358,
+                  "frameRate": 60.0,
+                  "wrapMode": 0,
+                  "localBounds": {
+                    "center": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "size": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "extents": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "min": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "max": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    }
+                  },
+                  "legacy": false,
+                  "humanMotion": false,
+                  "empty": false,
+                  "hasGenericRootTransform": true,
+                  "hasMotionFloatCurves": false,
+                  "hasMotionCurves": false,
+                  "hasRootCurves": false,
+                  "events": [],
+                  "name": "CargoTruckLineIdleAnim",
+                  "hideFlags": 0
+                },
+                {
+                  "length": 0.0833333358,
+                  "frameRate": 60.0,
+                  "wrapMode": 0,
+                  "localBounds": {
+                    "center": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "size": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "extents": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "min": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    },
+                    "max": {
+                      "x": 0.0,
+                      "y": 0.0,
+                      "z": 0.0
+                    }
+                  },
+                  "legacy": false,
+                  "humanMotion": false,
+                  "empty": false,
+                  "hasGenericRootTransform": false,
+                  "hasMotionFloatCurves": false,
+                  "hasMotionCurves": false,
+                  "hasRootCurves": false,
+                  "events": [],
+                  "name": "CargoTruckLineRemovedAnim",
+                  "hideFlags": 0
+                }
+              ],
+              "name": "Trucks",
+              "hideFlags": 0
+            },
+            "hasBoundPlayables": true,
+            "playableGraph": {},
+            "layersAffectMassCenter": false,
+            "leftFeetBottomHeight": 0.0,
+            "rightFeetBottomHeight": 0.0,
+            "logWarnings": true,
+            "fireEvents": true,
+            "keepAnimatorControllerStateOnDisable": false,
+            "keepAnimatorStateOnDisable": false,
+            "enabled": true,
+            "isActiveAndEnabled": true,
+            "transform": [
+              [
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              [
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            ],
+            "gameObject": {
+              "transform": [
+                [
+                  [],
+                  [],
+                  [],
+                  [],
+                  []
+                ],
+                [
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  []
+                ],
+                [
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  []
+                ],
+                [
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  []
+                ],
+                [
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  []
+                ],
+                [
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  []
+                ],
+                [
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  []
+                ],
+                [
+                  [],
+                  [],
+                  [],
+                  [],
+                  []
+                ]
+              ],
+              "layer": 0,
+              "active": true,
+              "activeSelf": true,
+              "activeInHierarchy": true,
+              "isStatic": false,
+              "tag": "Untagged",
+              "scene": {
+                "handle": -756094,
+                "name": "Cargo",
+                "isLoaded": true,
+                "rootCount": 1,
+                "m_Handle": -756094
+              },
+              "sceneCullingMask": 16140901064495857664,
+              "name": "Trucks",
+              "hideFlags": 0
+            },
+            "tag": "Untagged",
+            "name": "Trucks",
+            "hideFlags": 0
+          },
+          "resetLabel": "Reset",
+          "triggerLabel": "Round39",
+          "postTriggerLabel": "PostRound39",
+          "useGUILayout": true,
+          "enabled": true,
+          "isActiveAndEnabled": true,
+          "transform": [
+            [
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            [
+              [],
+              [],
+              [],
+              [],
+              []
+            ]
+          ],
+          "gameObject": {
+            "transform": [
+              [
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              [
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            ],
+            "layer": 0,
+            "active": true,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -756094,
+              "name": "Cargo",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -756094
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "Trucks",
+            "hideFlags": 0
+          },
+          "tag": "Untagged",
+          "name": "Trucks",
+          "hideFlags": 0
+        }
+      ],
+      "name": "MapEventModel_Data",
+      "ImplementationType": "Assets.Scripts.Simulation.Map.Triggers.MapEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "saveId": "RoundRemoveable",
+      "oneTimeEvent": true,
+      "allTriggersRequired": false,
+      "inactiveByDefault": false,
+      "triggers": [
+        {
+          "removableName": "RemoveableModel_RoundRemoveable",
+          "saveId": "RemoveableSoldTriggerModel1",
+          "name": "RemoveableSoldTriggerModel_RoundRemoveableTrigger",
+          "ImplementationType": "Assets.Scripts.Simulation.Map.Triggers.RemoveableSoldTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "unityActions": [
+        {
+          "triggerId": "",
+          "animationPrefab": {
+            "transform": [
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "layer": 0,
+            "active": false,
+            "activeSelf": false,
+            "activeInHierarchy": false,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -756094,
+              "name": "Cargo",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -756094
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "BlueTruck (1)",
+            "hideFlags": 0
+          },
+          "useGameObjectPosition": true,
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "clipLength": 2.0,
+          "useGUILayout": true,
+          "enabled": true,
+          "isActiveAndEnabled": true,
+          "transform": [
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ]
+          ],
+          "gameObject": {
+            "transform": [
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            ],
+            "layer": 0,
+            "active": true,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -756094,
+              "name": "Cargo",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -756094
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "RoundRemoveable",
+            "hideFlags": 0
+          },
+          "tag": "Untagged",
+          "name": "RoundRemoveable",
+          "hideFlags": 0
+        },
+        {
+          "effectPrefab": {
+            "transform": [],
+            "layer": 0,
+            "active": false,
+            "activeSelf": true,
+            "activeInHierarchy": false,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": 0,
+              "isLoaded": false,
+              "rootCount": 0,
+              "m_Handle": 0
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "Smoke",
+            "hideFlags": 0
+          },
+          "useGameObjectPosition": false,
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "delay": 0.0,
+          "duration": 0.0,
+          "useGUILayout": true,
+          "enabled": false,
+          "isActiveAndEnabled": false,
+          "transform": [
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ]
+          ],
+          "gameObject": {
+            "transform": [
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            ],
+            "layer": 0,
+            "active": true,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -756094,
+              "name": "Cargo",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -756094
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "RoundRemoveable",
+            "hideFlags": 0
+          },
+          "tag": "Untagged",
+          "name": "RoundRemoveable",
+          "hideFlags": 0
+        },
+        {
+          "playInteractableAudio": {
+            "audioClips": [
+              {
+                "length": 2.0,
+                "samples": 88200,
+                "channels": 2,
+                "frequency": 44100,
+                "isReadyToPlay": true,
+                "loadType": 1,
+                "preloadAudioData": true,
+                "ambisonic": false,
+                "loadInBackground": false,
+                "loadState": 2,
+                "name": "RemovableTruck",
+                "hideFlags": 0
+              }
+            ],
+            "audioDelays": [
+              0.0
+            ],
+            "groupLimit": 1,
+            "playOnStart": false,
+            "ignoreFastForward": false,
+            "useGUILayout": true,
+            "enabled": true,
+            "isActiveAndEnabled": true,
+            "transform": [
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            ],
+            "gameObject": {
+              "transform": [
+                [
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  []
+                ]
+              ],
+              "layer": 0,
+              "active": true,
+              "activeSelf": true,
+              "activeInHierarchy": true,
+              "isStatic": false,
+              "tag": "Untagged",
+              "scene": {
+                "handle": -756094,
+                "name": "Cargo",
+                "isLoaded": true,
+                "rootCount": 1,
+                "m_Handle": -756094
+              },
+              "sceneCullingMask": 16140901064495857664,
+              "name": "RoundRemoveable",
+              "hideFlags": 0
+            },
+            "tag": "Untagged",
+            "name": "RoundRemoveable",
+            "hideFlags": 0
+          },
+          "useGUILayout": true,
+          "enabled": true,
+          "isActiveAndEnabled": true,
+          "transform": [
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ]
+          ],
+          "gameObject": {
+            "transform": [
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            ],
+            "layer": 0,
+            "active": true,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -756094,
+              "name": "Cargo",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -756094
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "RoundRemoveable",
+            "hideFlags": 0
+          },
+          "tag": "Untagged",
+          "name": "RoundRemoveable",
+          "hideFlags": 0
+        },
+        {
+          "delay": 0.0,
+          "obj": {
+            "transform": [
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "layer": 0,
+            "active": true,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -756094,
+              "name": "Cargo",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -756094
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "BlueTruck (2)",
+            "hideFlags": 0
+          },
+          "useGUILayout": true,
+          "enabled": true,
+          "isActiveAndEnabled": true,
+          "transform": [
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ]
+          ],
+          "gameObject": {
+            "transform": [
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            ],
+            "layer": 0,
+            "active": true,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -756094,
+              "name": "Cargo",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -756094
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "RoundRemoveable",
+            "hideFlags": 0
+          },
+          "tag": "Untagged",
+          "name": "RoundRemoveable",
+          "hideFlags": 0
+        }
+      ],
+      "name": "MapEventModel_RoundRemoveable",
+      "ImplementationType": "Assets.Scripts.Simulation.Map.Triggers.MapEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "saveId": "RoundRemoveable2",
+      "oneTimeEvent": true,
+      "allTriggersRequired": false,
+      "inactiveByDefault": false,
+      "triggers": [
+        {
+          "removableName": "RemoveableModel_RoundRemoveable2",
+          "saveId": "RemoveableSoldTriggerModel1",
+          "name": "RemoveableSoldTriggerModel_RoundRemoveable2Trigger",
+          "ImplementationType": "Assets.Scripts.Simulation.Map.Triggers.RemoveableSoldTrigger, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ],
+      "unityActions": [
+        {
+          "triggerId": "",
+          "animationPrefab": {
+            "transform": [
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "layer": 0,
+            "active": false,
+            "activeSelf": false,
+            "activeInHierarchy": false,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -756094,
+              "name": "Cargo",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -756094
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "YellowTruck (1)",
+            "hideFlags": 0
+          },
+          "useGameObjectPosition": false,
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "clipLength": 2.0,
+          "useGUILayout": true,
+          "enabled": true,
+          "isActiveAndEnabled": true,
+          "transform": [
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ]
+          ],
+          "gameObject": {
+            "transform": [
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            ],
+            "layer": 0,
+            "active": true,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -756094,
+              "name": "Cargo",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -756094
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "RoundRemoveable2",
+            "hideFlags": 0
+          },
+          "tag": "Untagged",
+          "name": "RoundRemoveable2",
+          "hideFlags": 0
+        },
+        {
+          "effectPrefab": {
+            "transform": [],
+            "layer": 0,
+            "active": false,
+            "activeSelf": true,
+            "activeInHierarchy": false,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": 0,
+              "isLoaded": false,
+              "rootCount": 0,
+              "m_Handle": 0
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "Smoke",
+            "hideFlags": 0
+          },
+          "useGameObjectPosition": false,
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "delay": 0.0,
+          "duration": 0.0,
+          "useGUILayout": true,
+          "enabled": false,
+          "isActiveAndEnabled": false,
+          "transform": [
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ]
+          ],
+          "gameObject": {
+            "transform": [
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            ],
+            "layer": 0,
+            "active": true,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -756094,
+              "name": "Cargo",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -756094
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "RoundRemoveable2",
+            "hideFlags": 0
+          },
+          "tag": "Untagged",
+          "name": "RoundRemoveable2",
+          "hideFlags": 0
+        },
+        {
+          "playInteractableAudio": {
+            "audioClips": [
+              {
+                "length": 2.0,
+                "samples": 88200,
+                "channels": 2,
+                "frequency": 44100,
+                "isReadyToPlay": true,
+                "loadType": 1,
+                "preloadAudioData": true,
+                "ambisonic": false,
+                "loadInBackground": false,
+                "loadState": 2,
+                "name": "RemovableTruck",
+                "hideFlags": 0
+              }
+            ],
+            "audioDelays": [
+              0.0
+            ],
+            "groupLimit": 1,
+            "playOnStart": false,
+            "ignoreFastForward": false,
+            "useGUILayout": true,
+            "enabled": true,
+            "isActiveAndEnabled": true,
+            "transform": [
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            ],
+            "gameObject": {
+              "transform": [
+                [
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  []
+                ]
+              ],
+              "layer": 0,
+              "active": true,
+              "activeSelf": true,
+              "activeInHierarchy": true,
+              "isStatic": false,
+              "tag": "Untagged",
+              "scene": {
+                "handle": -756094,
+                "name": "Cargo",
+                "isLoaded": true,
+                "rootCount": 1,
+                "m_Handle": -756094
+              },
+              "sceneCullingMask": 16140901064495857664,
+              "name": "RoundRemoveable2",
+              "hideFlags": 0
+            },
+            "tag": "Untagged",
+            "name": "RoundRemoveable2",
+            "hideFlags": 0
+          },
+          "useGUILayout": true,
+          "enabled": true,
+          "isActiveAndEnabled": true,
+          "transform": [
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ]
+          ],
+          "gameObject": {
+            "transform": [
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            ],
+            "layer": 0,
+            "active": true,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -756094,
+              "name": "Cargo",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -756094
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "RoundRemoveable2",
+            "hideFlags": 0
+          },
+          "tag": "Untagged",
+          "name": "RoundRemoveable2",
+          "hideFlags": 0
+        },
+        {
+          "delay": 0.0,
+          "obj": {
+            "transform": [
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ],
+            "layer": 0,
+            "active": true,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -756094,
+              "name": "Cargo",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -756094
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "YellowTruck (2)",
+            "hideFlags": 0
+          },
+          "useGUILayout": true,
+          "enabled": true,
+          "isActiveAndEnabled": true,
+          "transform": [
+            [
+              [],
+              [],
+              [],
+              [],
+              [],
+              []
+            ]
+          ],
+          "gameObject": {
+            "transform": [
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            ],
+            "layer": 0,
+            "active": true,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "isStatic": false,
+            "tag": "Untagged",
+            "scene": {
+              "handle": -756094,
+              "name": "Cargo",
+              "isLoaded": true,
+              "rootCount": 1,
+              "m_Handle": -756094
+            },
+            "sceneCullingMask": 16140901064495857664,
+            "name": "RoundRemoveable2",
+            "hideFlags": 0
+          },
+          "tag": "Untagged",
+          "name": "RoundRemoveable2",
+          "hideFlags": 0
+        }
+      ],
+      "name": "MapEventModel_RoundRemoveable2",
+      "ImplementationType": "Assets.Scripts.Simulation.Map.Triggers.MapEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "mapWideBloonSpeed": 1.0,
+  "name": "MapModel_Map",
+  "ImplementationType": "Assets.Scripts.Simulation.Track.Map, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+}
