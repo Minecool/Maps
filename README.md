@@ -1,4 +1,4 @@
-# Updated as of 36.0
+# Updated as of 36.0 (plus Erosion)
 
 Missing due to errors
 - Frozen Over
