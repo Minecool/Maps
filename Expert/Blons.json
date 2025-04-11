@@ -1,0 +1,2437 @@
+{
+  "$type": "Assets.Scripts.Models.Map.MapModel, Assembly-CSharp",
+  "areas": [
+    {
+      "$type": "Assets.Scripts.Models.Map.AreaModel, Assembly-CSharp",
+      "id": 1,
+      "polygon": {
+        "$type": "Assets.Scripts.Simulation.SMath.Polygon, Assembly-CSharp",
+        "points": [
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": -150.0,
+            "y": 116.0
+          },
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": 150.0,
+            "y": 116.0
+          },
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": 150.0,
+            "y": -116.0
+          },
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": -150.0,
+            "y": -116.0
+          }
+        ]
+      },
+      "holes": null,
+      "height": 0.0,
+      "type": 2,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+        "x": 0.0,
+        "y": 0.0
+      },
+      "buffs": null,
+      "blockerCircles": null,
+      "customAreaCategoryLayerId": -1,
+      "name": "AreaModel_BaseArea",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "$type": "Assets.Scripts.Models.Map.AreaModel, Assembly-CSharp",
+      "id": 2,
+      "polygon": {
+        "$type": "Assets.Scripts.Simulation.SMath.Polygon, Assembly-CSharp",
+        "points": [
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": -191.209991,
+            "y": -56.15
+          },
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": -190.209991,
+            "y": -72.1499939
+          },
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": -114.3,
+            "y": -69.5
+          },
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": -110.709991,
+            "y": -71.69
+          },
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": -108.509995,
+            "y": -77.78999
+          },
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": -108.599991,
+            "y": -124.25
+          },
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": -92.89999,
+            "y": -124.75
+          },
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": -92.49999,
+            "y": -75.1499939
+          },
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": -95.99999,
+            "y": -63.65
+          },
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": -103.599983,
+            "y": -58.55
+          },
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": -118.399979,
+            "y": -54.35
+          }
+        ]
+      },
+      "holes": null,
+      "height": 0.0,
+      "type": 0,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+        "x": 0.0,
+        "y": 0.0
+      },
+      "buffs": null,
+      "blockerCircles": [],
+      "customAreaCategoryLayerId": -1,
+      "name": "AreaModel_PathEdge",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "$type": "Assets.Scripts.Models.Map.AreaModel, Assembly-CSharp",
+      "id": 3,
+      "polygon": {
+        "$type": "Assets.Scripts.Simulation.SMath.Polygon, Assembly-CSharp",
+        "points": [
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": 87.5,
+            "y": 62.6422653
+          },
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": 92.4,
+            "y": 54.7422638
+          },
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": 100.4,
+            "y": 51.9422646
+          },
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": 122.700005,
+            "y": 53.042263
+          },
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": 128.5,
+            "y": 62.3422661
+          },
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": 135.400009,
+            "y": 67.24227
+          },
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": 135.400009,
+            "y": 79.94227
+          },
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": 128.1,
+            "y": 91.44227
+          },
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": 116.0,
+            "y": 102.742271
+          },
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": 95.6000061,
+            "y": 102.742271
+          },
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": 80.4,
+            "y": 96.94227
+          },
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": 76.0,
+            "y": 85.04227
+          },
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": 76.2000046,
+            "y": 73.94227
+          },
+          {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": 78.7000046,
+            "y": 66.04227
+          }
+        ]
+      },
+      "holes": null,
+      "height": 0.1,
+      "type": 1,
+      "renderHeightOffset": 0.0,
+      "filterInTowerSizes": [],
+      "filterInTowerSets": [],
+      "filterOutSpecificTowers": [],
+      "isBlocker": false,
+      "isDisabled": false,
+      "isInputBlocking": false,
+      "ignoreZAxisTowerCollision": false,
+      "pivotPoint": {
+        "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+        "x": 0.0,
+        "y": 0.0
+      },
+      "buffs": null,
+      "blockerCircles": [],
+      "customAreaCategoryLayerId": -1,
+      "name": "AreaModel_Water",
+      "ImplementationType": "Assets.Scripts.Simulation.Track.Area, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ],
+  "blockers": [],
+  "coopAreaLayouts": [
+    {
+      "$type": "Assets.Scripts.Models.Map.CoopAreaLayoutModel, Assembly-CSharp",
+      "areaModels": [
+        {
+          "$type": "Assets.Scripts.Models.Map.CoopAreaModel, Assembly-CSharp",
+          "areaIndex": 0,
+          "marker": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": 0.0,
+            "y": 0.0
+          },
+          "polygon": {
+            "$type": "Assets.Scripts.Simulation.SMath.Polygon, Assembly-CSharp",
+            "points": [
+              {
+                "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+                "x": -176.0,
+                "y": -135.0
+              },
+              {
+                "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+                "x": 176.0,
+                "y": -135.0
+              },
+              {
+                "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+                "x": 176.0,
+                "y": 135.0
+              },
+              {
+                "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+                "x": -176.0,
+                "y": 135.0
+              }
+            ]
+          },
+          "holes": null,
+          "name": "CoopAreaModel_",
+          "ImplementationType": null
+        }
+      ],
+      "areaLayoutType": 2,
+      "name": "CoopAreaLayoutModel_",
+      "ImplementationType": null
+    },
+    {
+      "$type": "Assets.Scripts.Models.Map.CoopAreaLayoutModel, Assembly-CSharp",
+      "areaModels": [
+        {
+          "$type": "Assets.Scripts.Models.Map.CoopAreaModel, Assembly-CSharp",
+          "areaIndex": 0,
+          "marker": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+            "x": 0.0,
+            "y": 0.0
+          },
+          "polygon": {
+            "$type": "Assets.Scripts.Simulation.SMath.Polygon, Assembly-CSharp",
+            "points": [
+              {
+                "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+                "x": -176.0,
+                "y": -135.0
+              },
+              {
+                "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+                "x": 176.0,
+                "y": -135.0
+              },
+              {
+                "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+                "x": 176.0,
+                "y": 135.0
+              },
+              {
+                "$type": "Assets.Scripts.Simulation.SMath.Vector2, Assembly-CSharp",
+                "x": -176.0,
+                "y": 135.0
+              }
+            ]
+          },
+          "holes": null,
+          "name": "CoopAreaModel_",
+          "ImplementationType": null
+        }
+      ],
+      "areaLayoutType": 2,
+      "name": "CoopAreaLayoutModel_",
+      "ImplementationType": null
+    }
+  ],
+  "removeables": [],
+  "gizmos": null,
+  "regenRemovables": [],
+  "simBehaviors": [],
+  "paths": [
+    {
+      "$type": "Assets.Scripts.Models.Map.PathModel, Assembly-CSharp",
+      "pathId": "Path",
+      "points": [
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -229.3,
+            "y": -65.7,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 0.0,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -224.0951,
+            "y": -65.60882,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 5.205709,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -219.025085,
+            "y": -65.49905,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 10.2769051,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -214.088242,
+            "y": -65.37221,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 15.2153778,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -209.283051,
+            "y": -65.22992,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 20.0226746,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -204.607742,
+            "y": -65.07369,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 24.700592,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -200.060715,
+            "y": -64.90513,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 29.2507439,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -195.64035,
+            "y": -64.72578,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 33.6747437,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -191.344986,
+            "y": -64.5371857,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 37.974247,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -187.173,
+            "y": -64.34095,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 42.15084,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -183.122681,
+            "y": -64.1385956,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 46.2062149,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -179.192444,
+            "y": -63.9317131,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 50.14189,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -175.38063,
+            "y": -63.7218628,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 53.9594765,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -171.6856,
+            "y": -63.5105972,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 57.66055,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -168.105713,
+            "y": -63.2994843,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 61.2466469,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -164.639267,
+            "y": -63.09008,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 64.71941,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -161.284653,
+            "y": -62.8839531,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 68.08035,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -158.0403,
+            "y": -62.68268,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 71.33095,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -154.904449,
+            "y": -62.4878044,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 74.47285,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -151.875534,
+            "y": -62.3008957,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 77.50752,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -148.951843,
+            "y": -62.1235046,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 80.43659,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -146.13179,
+            "y": -61.95721,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 83.26154,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -143.413727,
+            "y": -61.80358,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 85.98395,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -140.79599,
+            "y": -61.6641731,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 88.60539,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -138.2769,
+            "y": -61.54054,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 91.12751,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -135.854889,
+            "y": -61.4342537,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 93.55186,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -133.528214,
+            "y": -61.3468666,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 95.88017,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -131.295364,
+            "y": -61.27996,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 98.11402,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -129.1546,
+            "y": -61.2350922,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 100.255257,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -127.104263,
+            "y": -61.2138062,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 102.3057,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -125.142738,
+            "y": -61.21768,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 104.267227,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -123.2684,
+            "y": -61.24828,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 106.141815,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -121.479584,
+            "y": -61.3071671,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 107.9316,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -119.774651,
+            "y": -61.3959045,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 109.63884,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -118.151955,
+            "y": -61.5160446,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 111.265976,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -116.60984,
+            "y": -61.6691666,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 112.815674,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -115.146683,
+            "y": -61.856823,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 114.290817,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -113.760818,
+            "y": -62.08058,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 115.694626,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -112.450607,
+            "y": -62.3420029,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 117.030663,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -111.214417,
+            "y": -62.6426468,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 118.302887,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -110.0506,
+            "y": -62.9840851,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 119.515755,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -108.957489,
+            "y": -63.3678665,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 120.674278,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -107.933456,
+            "y": -63.79557,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 121.784042,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -106.97686,
+            "y": -64.26875,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 122.851273,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -106.08606,
+            "y": -64.78897,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 123.882851,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -105.259384,
+            "y": -65.3577957,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 124.886322,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -104.495224,
+            "y": -65.97679,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 125.869736,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -103.791916,
+            "y": -66.64751,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 126.841591,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -103.147812,
+            "y": -67.37152,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 127.810646,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -102.561264,
+            "y": -68.15039,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 128.785675,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -102.03064,
+            "y": -68.98568,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 129.775253,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -101.554291,
+            "y": -69.87895,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 130.7876,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -101.130569,
+            "y": -70.8317642,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 131.830383,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -100.757843,
+            "y": -71.84568,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 132.910645,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -100.434441,
+            "y": -72.92227,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 134.03476,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -100.158745,
+            "y": -74.0630951,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 135.20842,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.9291,
+            "y": -75.26972,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 136.4367,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.74386,
+            "y": -76.54371,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 137.724091,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.60138,
+            "y": -77.88661,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 139.074524,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.50001,
+            "y": -79.2999954,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 140.491531,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.50001,
+            "y": -79.2999954,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 140.491531,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.44842,
+            "y": -81.7602539,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 142.952332,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.40533,
+            "y": -84.14966,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 145.342117,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.37043,
+            "y": -86.47089,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 147.6636,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.34343,
+            "y": -88.7267151,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 149.9196,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.32402,
+            "y": -90.91984,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 152.112808,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.3119049,
+            "y": -93.0529861,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 154.245987,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.30682,
+            "y": -95.1289,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 156.3219,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.30841,
+            "y": -97.15028,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 158.343292,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.31643,
+            "y": -99.11988,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 160.312912,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.3305359,
+            "y": -101.0404,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 162.233475,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.35047,
+            "y": -102.914574,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 164.107758,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.37592,
+            "y": -104.745148,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 165.9385,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.40658,
+            "y": -106.534821,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 167.728439,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.44215,
+            "y": -108.286331,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 169.480316,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.48234,
+            "y": -110.002396,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 171.196854,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.52685,
+            "y": -111.685745,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 172.8808,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.57539,
+            "y": -113.339119,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 174.534882,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.627655,
+            "y": -114.965233,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 176.161835,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.68336,
+            "y": -116.566795,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 177.764359,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.74216,
+            "y": -118.146545,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 179.3452,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.80381,
+            "y": -119.707207,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 180.907074,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.86799,
+            "y": -121.251526,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 182.452728,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -99.93442,
+            "y": -122.7822,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 183.984848,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -100.002754,
+            "y": -124.301971,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 185.506149,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -100.072754,
+            "y": -125.813553,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 187.019348,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -100.144073,
+            "y": -127.319664,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 188.527145,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -100.216454,
+            "y": -128.823059,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 190.032288,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -100.289589,
+            "y": -130.326477,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 191.537491,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -100.363152,
+            "y": -131.832565,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 193.04538,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -100.436874,
+            "y": -133.344131,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 194.558746,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -100.510429,
+            "y": -134.863831,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 196.080231,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -100.583557,
+            "y": -136.39447,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 197.61261,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -100.65593,
+            "y": -137.938721,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 199.158554,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -100.727264,
+            "y": -139.4993,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 200.720764,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -100.797249,
+            "y": -141.078979,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 202.302,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -100.8656,
+            "y": -142.68045,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 203.904938,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -100.932007,
+            "y": -144.306427,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 205.532272,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -100.9962,
+            "y": -145.959686,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 207.186783,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -101.057846,
+            "y": -147.6429,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 208.871124,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -101.116669,
+            "y": -149.358826,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 210.588058,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -101.172363,
+            "y": -151.110168,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 212.340286,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -101.224625,
+            "y": -152.899673,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 214.130554,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -101.273155,
+            "y": -154.730057,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 215.961578,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -101.317673,
+            "y": -156.604034,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 217.83609,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -101.357864,
+            "y": -158.524368,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 219.756851,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -101.39344,
+            "y": -160.493759,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 221.726563,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -101.424095,
+            "y": -162.514923,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 223.747955,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -101.449539,
+            "y": -164.590576,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 225.823761,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -101.469467,
+            "y": -166.72348,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 227.956757,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -101.483582,
+            "y": -168.916336,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 230.149658,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -101.491592,
+            "y": -171.171875,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 232.405212,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -101.4932,
+            "y": -173.492859,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 234.7262,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -101.4881,
+            "y": -175.881927,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 237.115265,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -101.476,
+            "y": -178.3419,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 239.575272,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -101.456589,
+            "y": -180.875443,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 242.108887,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -101.429588,
+            "y": -183.485291,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 244.718872,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -101.3947,
+            "y": -186.17421,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 247.40802,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -101.3516,
+            "y": -188.944855,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 250.179,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        },
+        {
+          "$type": "Assets.Scripts.Models.Map.PointInfo, Assembly-CSharp",
+          "id": null,
+          "point": {
+            "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+            "x": -101.300011,
+            "y": -191.8,
+            "z": 0.0
+          },
+          "rotation": 0.0,
+          "distance": 253.034622,
+          "bloonScale": 1.0,
+          "moabScale": 1.0,
+          "bloonsInvulnerable": false,
+          "moabsInvulnerable": false,
+          "bloonSpeedMultiplier": 1.0
+        }
+      ],
+      "isActive": true,
+      "isHidden": false,
+      "entryModel": null,
+      "exitModel": null,
+      "spawnPoint": {
+        "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+        "x": -1000.0,
+        "y": -1000.0,
+        "z": -1000.0
+      },
+      "leakPoint": {
+        "$type": "Assets.Scripts.Simulation.SMath.Vector3, Assembly-CSharp",
+        "x": -1000.0,
+        "y": -1000.0,
+        "z": -1000.0
+      },
+      "isCustomPath": false,
+      "customPathWidth": 0.0,
+      "name": "PathModel_Path",
+      "ImplementationType": null
+    }
+  ],
+  "spawner": {
+    "$type": "Assets.Scripts.Models.Map.Spawners.PathSpawnerModel, Assembly-CSharp",
+    "forwardSplitter": {
+      "$type": "Assets.Scripts.Models.Map.Spawners.AlternateBloonsSplitterModel, Assembly-CSharp",
+      "paths": [
+        "Path"
+      ],
+      "overriddenBossPath": "",
+      "name": "AlternateBloonsSplitterModel_forwardDefault",
+      "ImplementationType": null
+    },
+    "reverseSplitter": {
+      "$type": "Assets.Scripts.Models.Map.Spawners.AlternateBloonsSplitterModel, Assembly-CSharp",
+      "paths": [
+        "Path"
+      ],
+      "overriddenBossPath": "",
+      "name": "AlternateBloonsSplitterModel_reverseDefault",
+      "ImplementationType": null
+    },
+    "name": "PathSpawnerModel_spawnerDefault",
+    "ImplementationType": null
+  },
+  "mapDifficulty": 3,
+  "mapName": "Blons",
+  "mapEvents": {
+    "$type": "System.Object, mscorlib"
+  },
+  "mapWideBloonSpeed": 1.0,
+  "bossSpawnDistanceOverride": 0.0,
+  "name": "MapModel_Map",
+  "ImplementationType": "Assets.Scripts.Simulation.Track.Map, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+}
